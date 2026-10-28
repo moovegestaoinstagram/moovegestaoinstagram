@@ -1,0 +1,60 @@
+{
+  "slug": "2026-10-29-moove-em-15s",
+  "formato": "reel",
+  "data": "2026-10-29T10:00:00",
+  "pilar": "Moove em ação",
+  "segundos_por_cena": 3.0,
+  "alt": "Reels de apresentação do Moove Gestão",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "Moove em 15 segundos",
+      "titulo": "Tudo da sua empresa em um só sistema",
+      "destaque": "um só sistema"
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "Vendas",
+      "titulo": "CRM, funil e WhatsApp",
+      "destaque": "WhatsApp",
+      "lista": [
+        "Leads distribuídos sozinhos",
+        "Cotações e propostas",
+        "Conversas com clientes"
+      ],
+      "tema": "light"
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "Operação",
+      "titulo": "Tarefas, projetos e assinatura",
+      "destaque": "assinatura",
+      "lista": [
+        "Quadros de tarefas",
+        "Procedimentos documentados",
+        "Contratos assinados online"
+      ]
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "Pessoas",
+      "titulo": "Admissão, ponto e avaliação",
+      "destaque": "ponto",
+      "lista": [
+        "Admissão digital",
+        "Ponto eletrônico",
+        "Avaliações e pesquisas"
+      ],
+      "tema": "light"
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Teste grátis",
+      "titulo": "7 dias para conhecer, sem cartão",
+      "destaque": "sem cartão",
+      "botao": "moovesales.com.br",
+      "rodape": "Siga @moovegestao"
+    }
+  ],
+  "legenda": "Sistema de gestão completo em 15 segundos: vendas, operação e pessoas no mesmo lugar.\n\nCRM com funil e WhatsApp, tarefas e projetos, assinatura eletrônica, admissão digital e ponto eletrônico, tudo integrado no Moove.\n\nTeste grátis por 7 dias, sem cartão: moovesales.com.br\n\n#sistemadegestao #crm #gestaoempresarial #pequenasempresas #rh"
+}

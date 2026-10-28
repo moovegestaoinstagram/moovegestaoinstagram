@@ -1,0 +1,76 @@
+{
+  "slug": "2026-10-28-prazer-moove",
+  "formato": "carrossel",
+  "data": "2026-10-28T19:30:00",
+  "pilar": "Prova e bastidores",
+  "alt": "Apresentação do Moove Gestão, sistema de gestão para pequenas e médias empresas com CRM, projetos e RH",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "Prazer, somos a Moove",
+      "titulo": "Vendas, atendimento, projetos e RH em um só sistema",
+      "destaque": "um só sistema",
+      "texto": "Feito para pequenas e médias empresas brasileiras."
+    },
+    {
+      "tipo": "gancho",
+      "kicker": "Por que existimos",
+      "titulo": "Empresa organizada não precisa de dez ferramentas",
+      "destaque": "dez ferramentas",
+      "texto": "Precisa de um lugar onde a equipe inteira olhe para os mesmos dados."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Vendas e atendimento",
+      "numero": 1,
+      "titulo": "CRM, cotações e WhatsApp juntos",
+      "destaque": "juntos",
+      "texto": "Funil de vendas, distribuição automática de leads, propostas e conversas com clientes no mesmo lugar."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Operação",
+      "numero": 2,
+      "titulo": "Tarefas, projetos e documentos",
+      "destaque": "documentos",
+      "texto": "Quadros de tarefas, procedimentos (POPs), base de conhecimento, drive e assinatura eletrônica."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Pessoas",
+      "numero": 3,
+      "titulo": "RH sem papel",
+      "destaque": "sem papel",
+      "texto": "Admissão digital, colaboradores e férias, avaliações, pesquisas e ponto eletrônico."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Gestão",
+      "numero": 4,
+      "titulo": "Estratégia e números na mesma tela",
+      "destaque": "mesma tela",
+      "texto": "Planejamento estratégico, metas, dashboard e conexão com assistentes de IA."
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "O que você ganha",
+      "titulo": "Menos ferramentas, menos retrabalho",
+      "destaque": "menos retrabalho",
+      "lista": [
+        "Uma assinatura no lugar de várias",
+        "Informação sem cópia entre sistemas",
+        "Gestor enxergando tudo em tempo real"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Siga @moovegestao",
+      "titulo": "Toda semana: gestão na prática para sua empresa",
+      "destaque": "gestão na prática",
+      "texto": "E teste o Moove por 7 dias grátis, sem cartão.",
+      "botao": "moovesales.com.br",
+      "rodape": "Envie para seu sócio"
+    }
+  ],
+  "legenda": "Prazer, somos a Moove Gestão: vendas, atendimento, projetos e RH em um só sistema.\n\nCriamos o Moove para pequenas e médias empresas que cansaram de pagar várias ferramentas que não conversam. CRM, WhatsApp, tarefas, assinatura eletrônica, admissão, ponto, metas e dashboard, tudo integrado.\n\nSiga @moovegestao: toda semana tem gestão na prática para aplicar na sua empresa.\n\nTeste grátis por 7 dias: moovesales.com.br\n\n#sistemadegestao #gestaoempresarial #crm #pequenasempresas #empreendedorismo"
+}

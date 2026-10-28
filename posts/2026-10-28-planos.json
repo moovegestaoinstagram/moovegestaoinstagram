@@ -1,0 +1,81 @@
+{
+  "slug": "2026-10-28-planos",
+  "formato": "carrossel",
+  "data": "2026-10-28T19:00:00",
+  "pilar": "Oferta",
+  "alt": "Planos do Moove Gestão, sistema de gestão para pequenas empresas: Starter, Growth, Business e Enterprise com preços mensais e anuais",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "Planos e preços",
+      "titulo": "Planos do Moove: preço claro, sem surpresa",
+      "destaque": "sem surpresa",
+      "texto": "Teste 7 dias grátis, sem cartão de crédito."
+    },
+    {
+      "tipo": "gancho",
+      "kicker": "Como funciona",
+      "titulo": "Você escolhe o plano pelo tamanho da equipe",
+      "destaque": "tamanho da equipe",
+      "texto": "Os planos mudam em número de usuários, armazenamento e cotas de IA, assinaturas e WhatsApp. Mensal ou anual, você decide."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Plano",
+      "numero": "S",
+      "titulo": "Starter · até 5 usuários",
+      "destaque": "Starter",
+      "texto": "R$ 199/mês no mensal ou R$ 159/mês no plano anual (R$ 1.909/ano).",
+      "card": "<b>15 GB</b> de armazenamento · <b>50</b> interações de IA/mês · <b>15</b> assinaturas eletrônicas/mês"
+    },
+    {
+      "tipo": "item",
+      "kicker": "Plano mais escolhido",
+      "numero": "G",
+      "titulo": "Growth · até 15 usuários",
+      "destaque": "Growth",
+      "texto": "R$ 429/mês no mensal ou R$ 349/mês no plano anual (R$ 4.199/ano).",
+      "card": "<b>50 GB</b> · <b>300</b> interações de IA/mês · <b>1 número de WhatsApp</b> com 200 créditos de IA/mês"
+    },
+    {
+      "tipo": "item",
+      "kicker": "Plano",
+      "numero": "B",
+      "titulo": "Business · até 40 usuários",
+      "destaque": "Business",
+      "texto": "R$ 749/mês no mensal ou R$ 599/mês no plano anual (R$ 7.199/ano).",
+      "card": "<b>250 GB</b> · <b>800</b> interações de IA/mês · <b>2 números de WhatsApp</b> com 750 créditos de IA/mês"
+    },
+    {
+      "tipo": "item",
+      "kicker": "Plano",
+      "numero": "E",
+      "titulo": "Enterprise · até 100 usuários",
+      "destaque": "Enterprise",
+      "texto": "R$ 1.499/mês no mensal ou R$ 1.199/mês no plano anual (R$ 14.399/ano).",
+      "card": "<b>1 TB</b> · IA, assinaturas e formulários <b>ilimitados</b> · <b>3 números de WhatsApp</b>"
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "Em todos os planos",
+      "titulo": "Sem fidelidade e com teste grátis",
+      "destaque": "teste grátis",
+      "lista": [
+        "7 dias grátis, sem cartão",
+        "Sem fidelidade",
+        "Troca de plano quando quiser",
+        "Anual até 20% mais barato"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Próximo passo",
+      "titulo": "Salve este post e compare com o que você paga hoje",
+      "destaque": "o que você paga hoje",
+      "texto": "Dúvidas sobre o plano ideal? Fale com a gente pelo WhatsApp no site.",
+      "botao": "moovesales.com.br",
+      "rodape": "Teste 7 dias grátis"
+    }
+  ],
+  "legenda": "Planos do Moove Gestão: preço claro, sem surpresa.\n\nStarter (até 5 usuários): R$ 199/mês no mensal ou R$ 159/mês no plano anual (R$ 1.909/ano).\nGrowth (até 15): R$ 429/mês no mensal ou R$ 349/mês no anual (R$ 4.199/ano).\nBusiness (até 40): R$ 749/mês no mensal ou R$ 599/mês no anual (R$ 7.199/ano).\nEnterprise (até 100): R$ 1.499/mês no mensal ou R$ 1.199/mês no anual (R$ 14.399/ano).\n\nTodos com 7 dias grátis, sem cartão e sem fidelidade. Salve e compare com o que sua empresa paga hoje em ferramentas separadas.\n\nmoovesales.com.br\n\n#sistemadegestao #crm #pequenasempresas #gestaoempresarial #saas"
+}

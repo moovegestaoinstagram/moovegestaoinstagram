@@ -1,0 +1,76 @@
+{
+  "slug": "2026-10-28-como-comecar",
+  "formato": "carrossel",
+  "data": "2026-10-28T19:15:00",
+  "pilar": "Moove em ação",
+  "alt": "Como começar a usar o Moove Gestão, sistema de gestão empresarial, em 4 passos",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "Primeiros passos",
+      "titulo": "Do cadastro ao primeiro negócio no funil em 4 passos",
+      "destaque": "4 passos"
+    },
+    {
+      "tipo": "gancho",
+      "kicker": "Sem implantação demorada",
+      "titulo": "Você começa a usar assim que termina o cadastro",
+      "destaque": "assim que termina o cadastro",
+      "texto": "E pode trazer os dados que já tem em planilha."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Passo",
+      "numero": 1,
+      "titulo": "Crie sua conta grátis",
+      "destaque": "grátis",
+      "texto": "7 dias de teste em qualquer plano, sem cartão de crédito."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Passo",
+      "numero": 2,
+      "titulo": "Configure os dados da empresa",
+      "destaque": "dados da empresa",
+      "texto": "Nome, segmento e logo ficam em Configurações → Empresa."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Passo",
+      "numero": 3,
+      "titulo": "Traga o que você já tem",
+      "destaque": "já tem",
+      "texto": "Importe clientes, negócios, tarefas e projetos em Gerenciar Dados → Importar.",
+      "card": "Dica: revise os <b>duplicados</b> no retorno da importação antes de começar."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Passo",
+      "numero": 4,
+      "titulo": "Chame a equipe e monte o funil",
+      "destaque": "monte o funil",
+      "texto": "Convide os usuários e organize as etapas de venda do jeito da sua empresa."
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "Você não fica sozinho",
+      "titulo": "Ajuda em cada etapa",
+      "destaque": "cada etapa",
+      "lista": [
+        "Manual com passo a passo de cada módulo",
+        "Suporte pelo WhatsApp",
+        "Troca de plano quando a equipe crescer"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Comece hoje",
+      "titulo": "Seu primeiro funil pode estar pronto ainda esta semana",
+      "destaque": "ainda esta semana",
+      "texto": "Teste 7 dias grátis, sem cartão.",
+      "botao": "moovesales.com.br",
+      "rodape": "Salve para fazer junto com o time"
+    }
+  ],
+  "legenda": "Como começar a usar um sistema de gestão sem implantação demorada? No Moove são 4 passos.\n\n1. Crie a conta grátis (7 dias, sem cartão)\n2. Configure os dados da empresa\n3. Importe clientes, negócios e tarefas da planilha\n4. Chame a equipe e monte o funil de vendas\n\nVocê começa a usar assim que termina o cadastro. Salve e faça junto com o time.\n\nmoovesales.com.br\n\n#sistemadegestao #crm #gestaoempresarial #pequenasempresas #produtividade"
+}
