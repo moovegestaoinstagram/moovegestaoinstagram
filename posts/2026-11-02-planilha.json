@@ -1,0 +1,86 @@
+{
+  "slug": "2026-11-02-planilha",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "Gestão na prática",
+      "titulo": "5 sinais de que sua empresa já passou da fase da planilha",
+      "destaque": "fase da planilha",
+      "texto": "Se você reconhecer 2 ou mais, este post é para você."
+    },
+    {
+      "tipo": "gancho",
+      "kicker": "Antes de começar",
+      "titulo": "Planilha não é o problema. O problema é quando ela vira o sistema.",
+      "destaque": "vira o sistema",
+      "texto": "Ela funciona muito bem até a empresa crescer. Depois, começa a custar caro sem aparecer na conta."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Sinal",
+      "numero": 1,
+      "titulo": "Ninguém sabe onde está cada negócio",
+      "destaque": "cada negócio",
+      "texto": "O funil vive na cabeça do vendedor. Se ele sai de férias, a venda esfria junto.",
+      "card": "Pergunte ao time: <b>quantas propostas estão abertas hoje?</b> Se a resposta demora, é sinal."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Sinal",
+      "numero": 2,
+      "titulo": "A mesma informação é digitada em 3 lugares",
+      "destaque": "3 lugares",
+      "texto": "Cadastro na planilha, conversa no WhatsApp, proposta no e-mail. Cada cópia é uma chance de erro."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Sinal",
+      "numero": 3,
+      "titulo": "Você paga várias ferramentas que não conversam",
+      "destaque": "não conversam",
+      "texto": "Uma para vendas, outra para tarefas, outra para assinar documentos, outra para RH. E ninguém olha para os mesmos dados."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Sinal",
+      "numero": 4,
+      "titulo": "Documento importante some no meio do caminho",
+      "destaque": "some",
+      "texto": "Contrato no e-mail de alguém, procedimento só na memória do funcionário mais antigo."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Sinal",
+      "numero": 5,
+      "titulo": "Reunião de resultado vira caça ao número",
+      "destaque": "caça ao número",
+      "texto": "Metade da reunião é gasta juntando dados. A outra metade discute se o dado está certo."
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "Como resolver",
+      "titulo": "Vendas, atendimento, projetos e RH em um só sistema",
+      "destaque": "um só sistema",
+      "texto": "É para isso que existe o Moove:",
+      "lista": [
+        "CRM com funil e distribuição de leads",
+        "WhatsApp e e-mail integrados",
+        "Tarefas, projetos e assinatura eletrônica",
+        "Admissão, ponto e avaliação de RH"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Próximo passo",
+      "titulo": "Envie para o sócio que ainda defende a planilha",
+      "destaque": "ainda defende a planilha",
+      "texto": "E teste o Moove por 7 dias grátis, sem cartão de crédito.",
+      "botao": "moovesales.com.br",
+      "rodape": "Salve este post para a próxima reunião"
+    }
+  ],
+  "formato": "carrossel",
+  "data": "2026-11-02T10:00:00",
+  "pilar": "Gestão na prática",
+  "legenda": "Planilha não é o problema. O problema é quando ela vira o sistema da empresa.\n\nSe você se reconheceu em 2 ou mais desses sinais, sua operação já cresceu além dela: informação duplicada, ferramentas que não conversam e reunião gasta caçando número.\n\nNo Moove, vendas, atendimento, projetos e RH ficam em um só lugar, com a equipe inteira olhando para os mesmos dados.\n\nEnvie para o sócio que ainda defende a planilha e teste o Moove por 7 dias grátis, sem cartão: moovesales.com.br\n\n#gestaoempresarial #pequenasempresas #crm #produtividade #empreendedorismo"
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "2026-11-06-ia-na-gestao",
+  "formato": "reel",
+  "data": "2026-11-06T10:00:00",
+  "pilar": "Tendências e conversa",
+  "segundos_por_cena": 3.2,
+  "slides": [
+    {"tipo": "capa", "kicker": "Tendência", "titulo": "E se você pudesse perguntar à IA como está sua empresa?", "destaque": "perguntar à IA"},
+    {"tipo": "gancho", "kicker": "Hoje", "titulo": "\"Quantas propostas estão abertas?\" vira uma reunião", "destaque": "vira uma reunião", "texto": "Alguém precisa abrir planilha, juntar dados e montar o número."},
+    {"tipo": "gancho", "kicker": "Com IA conectada", "titulo": "Você pergunta e a resposta vem dos seus dados", "destaque": "dos seus dados", "texto": "O Moove pode ser conectado a assistentes de IA, com as permissões de cada usuário."},
+    {"tipo": "solucao", "kicker": "Na prática", "titulo": "Peça em português, como pediria a alguém do time", "destaque": "em português", "lista": ["Resumo do funil da semana", "Tarefas atrasadas por projeto", "Clientes sem contato há 30 dias"]},
+    {"tipo": "cta", "kicker": "Teste grátis", "titulo": "Gestão com IA, sem trocar de sistema", "destaque": "sem trocar de sistema", "botao": "moovesales.com.br", "rodape": "Envie para quem vive caçando número"}
+  ],
+  "legenda": "E se a pergunta \"como estão as vendas?\" fosse respondida em segundos, direto dos dados da sua empresa?\n\nO Moove pode ser conectado a assistentes de IA, respeitando as permissões de cada usuário. Você pede em português o resumo do funil, as tarefas atrasadas ou os clientes sem contato, e a resposta vem do sistema.\n\nTeste o Moove por 7 dias grátis, sem cartão: moovesales.com.br\n\n#inteligenciaartificial #gestaoempresarial #pequenasempresas #produtividade #crm"
+}

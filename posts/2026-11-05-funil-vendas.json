@@ -1,0 +1,17 @@
+{
+  "slug": "2026-11-05-funil-vendas",
+  "formato": "carrossel",
+  "data": "2026-11-05T10:00:00",
+  "pilar": "Gestão na prática",
+  "slides": [
+    {"tipo": "capa", "kicker": "Gestão na prática", "titulo": "4 perguntas que seu funil de vendas precisa responder", "destaque": "seu funil de vendas", "texto": "Se você não consegue responder em 1 minuto, o funil não está ajudando."},
+    {"tipo": "gancho", "kicker": "Antes de tudo", "titulo": "Funil não é desenho bonito. É ferramenta de decisão.", "destaque": "ferramenta de decisão", "texto": "Ele existe para mostrar onde a venda trava e onde agir primeiro."},
+    {"tipo": "item", "kicker": "Pergunta", "numero": 1, "titulo": "Quantos negócios estão abertos agora?", "destaque": "abertos agora", "texto": "E em qual etapa cada um está. Sem isso, a previsão de faturamento é chute."},
+    {"tipo": "item", "kicker": "Pergunta", "numero": 2, "titulo": "Em que etapa os negócios mais param?", "destaque": "mais param", "texto": "É ali que está o gargalo: proposta demorada, falta de retorno ou objeção de preço."},
+    {"tipo": "item", "kicker": "Pergunta", "numero": 3, "titulo": "De onde vêm os clientes que fecham?", "destaque": "clientes que fecham", "texto": "Origem do lead mostra onde investir tempo e dinheiro de marketing."},
+    {"tipo": "item", "kicker": "Pergunta", "numero": 4, "titulo": "Quanto tempo leva do primeiro contato ao fechamento?", "destaque": "ao fechamento", "texto": "Ciclo de venda longo pede acompanhamento ativo, não espera.", "card": "Dica: registre o <b>motivo de perda</b> de cada negócio. Em poucas semanas o padrão aparece."},
+    {"tipo": "solucao", "kicker": "No Moove", "titulo": "O CRM responde as 4 na mesma tela", "destaque": "na mesma tela", "lista": ["Funil por etapas e por vendedor", "Origem de cada lead registrada", "Motivos de perda padronizados", "Painel com os números do mês"]},
+    {"tipo": "cta", "kicker": "Próximo passo", "titulo": "Salve este post e responda com seu time", "destaque": "com seu time", "texto": "E teste o Moove por 7 dias grátis, sem cartão.", "botao": "moovesales.com.br", "rodape": "Envie para quem cuida do comercial"}
+  ],
+  "legenda": "Seu funil de vendas responde estas 4 perguntas em 1 minuto?\n\n1. Quantos negócios estão abertos agora\n2. Em que etapa eles mais param\n3. De onde vêm os clientes que fecham\n4. Quanto tempo leva para fechar\n\nSe não responde, ele virou desenho, não ferramenta de decisão. No CRM do Moove as 4 respostas ficam na mesma tela.\n\nSalve e responda com seu time. Teste grátis por 7 dias: moovesales.com.br\n\n#vendas #crm #gestaocomercial #funildevendas #pequenasempresas"
+}

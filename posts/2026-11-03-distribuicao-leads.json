@@ -1,0 +1,15 @@
+{
+  "slug": "2026-11-03-distribuicao-leads",
+  "formato": "reel",
+  "data": "2026-11-03T10:00:00",
+  "pilar": "Moove em ação",
+  "segundos_por_cena": 3.2,
+  "slides": [
+    {"tipo": "capa", "kicker": "Moove em ação", "titulo": "Lead novo esperando resposta é venda esfriando", "destaque": "venda esfriando"},
+    {"tipo": "gancho", "kicker": "O problema", "titulo": "Quem atende o lead que chegou às 18h?", "destaque": "às 18h", "texto": "Sem regra clara, ele fica no grupo esperando alguém pegar."},
+    {"tipo": "solucao", "kicker": "No Moove", "titulo": "O lead cai sozinho no vendedor certo", "destaque": "no vendedor certo", "lista": ["Distribuição automática entre a equipe", "Respeita horário de trabalho", "Prazo de primeiro contato com alerta", "Repassa se ninguém responder"]},
+    {"tipo": "gancho", "kicker": "Resultado", "titulo": "Nenhum lead esquecido, e você vê tudo no funil", "destaque": "nenhum lead esquecido"},
+    {"tipo": "cta", "kicker": "Teste grátis", "titulo": "7 dias para testar, sem cartão", "destaque": "sem cartão", "botao": "moovesales.com.br", "rodape": "Envie para quem cuida do comercial"}
+  ],
+  "legenda": "Lead novo esperando resposta é venda esfriando.\n\nNo Moove, a distribuição de leads manda cada contato novo direto para o vendedor certo, respeita o horário da equipe, cobra o prazo de primeiro contato e repassa o lead se ninguém responder.\n\nVocê acompanha tudo no funil, sem depender do grupo do WhatsApp.\n\nTeste 7 dias grátis, sem cartão: moovesales.com.br\n\n#crm #vendas #gestaocomercial #pequenasempresas #automacao"
+}

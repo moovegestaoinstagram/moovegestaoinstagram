@@ -1,0 +1,17 @@
+{
+  "slug": "2026-11-04-quantos-sistemas",
+  "formato": "carrossel",
+  "data": "2026-11-04T10:00:00",
+  "pilar": "Prova e bastidores",
+  "slides": [
+    {"tipo": "capa", "kicker": "Bastidores do Moove", "titulo": "Quantos sistemas sua empresa paga hoje?", "destaque": "paga hoje?", "texto": "Foi dessa pergunta que o Moove nasceu."},
+    {"tipo": "gancho", "kicker": "Faça a conta", "titulo": "Liste as ferramentas que sua equipe usa por mês", "destaque": "por mês", "texto": "Inclua as que só uma pessoa usa. Elas também custam, em dinheiro e em informação espalhada."},
+    {"tipo": "item", "kicker": "Comercial", "numero": 1, "titulo": "CRM, propostas e WhatsApp", "destaque": "WhatsApp", "texto": "Funil de vendas, cotações e conversas com clientes costumam estar em três lugares diferentes."},
+    {"tipo": "item", "kicker": "Operação", "numero": 2, "titulo": "Tarefas, projetos e procedimentos", "destaque": "procedimentos", "texto": "Quadro de tarefas num app, processo documentado em outro, arquivos num terceiro."},
+    {"tipo": "item", "kicker": "Pessoas", "numero": 3, "titulo": "Admissão, ponto e avaliação", "destaque": "ponto", "texto": "RH costuma ser o último a sair do papel e da planilha."},
+    {"tipo": "item", "kicker": "Gestão", "numero": 4, "titulo": "Metas, indicadores e planejamento", "destaque": "indicadores", "texto": "Quando os dados estão espalhados, o painel da diretoria vira trabalho manual toda semana."},
+    {"tipo": "solucao", "kicker": "Por isso criamos o Moove", "titulo": "Vendas, atendimento, projetos e RH em um só sistema", "destaque": "um só sistema", "lista": ["Menos ferramentas para pagar", "Menos retrabalho", "Todo mundo olhando para os mesmos dados"]},
+    {"tipo": "cta", "kicker": "Teste grátis", "titulo": "Compare com a sua lista: 7 dias grátis, sem cartão", "destaque": "sem cartão", "botao": "moovesales.com.br", "rodape": "Salve para fazer a conta com seu sócio"}
+  ],
+  "legenda": "Quantos sistemas sua empresa paga hoje?\n\nFoi dessa pergunta que o Moove nasceu. Comercial, operação, pessoas e gestão costumam viver em ferramentas separadas, cada uma com sua mensalidade e seus dados.\n\nFaça a lista com seu time e compare. O Moove reúne vendas, atendimento, projetos e RH em um só sistema.\n\n7 dias grátis, sem cartão: moovesales.com.br\n\n#gestaoempresarial #saas #pequenasempresas #produtividade #empreendedorismo"
+}
