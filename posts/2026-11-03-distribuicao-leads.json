@@ -22,8 +22,8 @@
     {
       "tipo": "tela",
       "kicker": "Sem perder prazo",
-      "titulo": "Meta de primeira resposta com alerta",
-      "destaque": "com alerta",
+      "titulo": "Prazo de primeira resposta definido por canal",
+      "destaque": "por canal",
       "tela": "whatsapp-sla.webp",
       "recorte": [
         0.3,
