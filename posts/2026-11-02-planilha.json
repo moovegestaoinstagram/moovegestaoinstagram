@@ -57,17 +57,12 @@
       "texto": "Metade da reunião é gasta juntando dados. A outra metade discute se o dado está certo."
     },
     {
-      "tipo": "solucao",
+      "tipo": "tela",
       "kicker": "Como resolver",
       "titulo": "Vendas, atendimento, projetos e RH em um só sistema",
       "destaque": "um só sistema",
-      "texto": "É para isso que existe o Moove:",
-      "lista": [
-        "CRM com funil e distribuição de leads",
-        "WhatsApp e e-mail integrados",
-        "Tarefas, projetos e assinatura eletrônica",
-        "Admissão, ponto e avaliação de RH"
-      ]
+      "texto": "CRM, WhatsApp, tarefas e planejamento conversando entre si.",
+      "tela": "plataforma.webp"
     },
     {
       "tipo": "cta",

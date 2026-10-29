@@ -58,7 +58,32 @@ p{font-size:40px;line-height:1.38;font-weight:400;margin-top:36px;color:var(--mu
 .list div:before{content:'✓';position:absolute;left:0;color:var(--lime);font-weight:800}
 .light .list div:before{color:var(--ok)} .tealbg .list div:before{color:#fff}
 .swipe{font-size:30px;font-weight:700;color:var(--lime)}
+.tela-wrap{flex:1;display:flex;flex-direction:column}
+.tela-wrap h2{font-size:62px;margin-top:22px}
+.tela-wrap p{font-size:36px;margin-top:22px}
+.device{flex:1;display:flex;align-items:center;justify-content:center;margin-top:40px}
+.notebook{width:100%}
+.notebook .screen{background:#0F172A;border-radius:22px;padding:14px;box-shadow:0 30px 60px rgba(2,8,23,.18)}
+.notebook .screen img{display:block;width:100%;border-radius:10px}
+.notebook .base{height:18px;margin:0 -28px;background:#CBD5E1;border-radius:0 0 18px 18px}
+.dark .notebook .base,.tealbg .notebook .base{background:#475569}
+.phone{background:#0F172A;border-radius:56px;padding:16px;box-shadow:0 30px 60px rgba(2,8,23,.22)}
+.phone img{display:block;border-radius:42px}
+.zoom{width:100%;background:#fff;border-radius:24px;padding:10px;box-shadow:0 30px 60px rgba(2,8,23,.18);border:3px solid var(--teal)}
+.zoom img{display:block;width:100%;border-radius:16px}
 """
+
+def tela_src(nome, recorte=None):
+    """Data URI da tela; recorte = [x0, y0, x1, y1] em frações amplia um trecho."""
+    from PIL import Image
+    import io
+    im = Image.open(KIT / "telas" / nome).convert("RGB")
+    if recorte:
+        w, h = im.size
+        x0, y0, x1, y1 = recorte
+        im = im.crop((int(x0 * w), int(y0 * h), int(x1 * w), int(y1 * h)))
+    buf = io.BytesIO(); im.save(buf, "PNG")
+    return "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode(), im.size
 
 def esc(x):
     return html.escape(str(x))
@@ -85,6 +110,19 @@ def slide_html(s, i, n, reel):
     elif tipo in ("gancho", "solucao"):
         lst = "".join(f"<div>{esc(x)}</div>" for x in s.get("lista", []))
         inner = f"{k}<h2 style='margin-top:28px'>{hl(s['titulo'], s.get('destaque'))}</h2>{texto}" + (f"<div class='list'>{lst}</div>" if lst else "")
+        rod = "" if reel else f"<span class='pager'>{i}/{n}</span>"
+    elif tipo == "tela":
+        src, (tw, th) = tela_src(s["tela"], s.get("recorte"))
+        movel = s["tela"].endswith("-m.webp") and not s.get("recorte")
+        if s.get("recorte"):
+            dev = f"<div class='zoom'><img src='{src}'></div>"
+        elif movel:
+            ph = 1180 if reel else 760
+            dev = f"<div class='phone'><img src='{src}' style='height:{ph}px'></div>"
+        else:
+            dev = f"<div class='notebook'><div class='screen'><img src='{src}'></div><div class='base'></div></div>"
+        inner = (f"<div class='tela-wrap'>{k}<h2>{hl(s['titulo'], s.get('destaque'))}</h2>{texto}"
+                 f"<div class='device'>{dev}</div></div>")
         rod = "" if reel else f"<span class='pager'>{i}/{n}</span>"
     elif tipo == "cta":
         botao = f"<div><span class='pill'>{esc(s['botao'])}</span></div>" if s.get("botao") else ""

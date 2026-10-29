@@ -10,6 +10,7 @@ A estratégia completa está na **Diretriz do Agente de Instagram — Moove Gest
 | `kit/render.py` | Gera carrosséis (1080×1350, JPG) e Reels (1080×1920, MP4) a partir de um JSON |
 | `kit/fonts/` | Open Sans 400/600/700/800 (licença OFL) |
 | `kit/logo/` | Logo colorida e branca, fundo transparente |
+| `kit/telas/` | 57 capturas reais do Moove com dados de demonstração; ver `kit/telas/CATALOGO.md` antes de usar |
 | `posts/` | Um JSON por post: slides, legenda, data, pilar |
 | `midia/<slug>/` | Arquivos publicados; o Metricool busca as imagens por link público |
 | `registro/posts.csv` | Histórico de cada post agendado (data, slug, formato, pilar, gancho) |
@@ -30,4 +31,4 @@ No Metricool (marca 7716114, fuso America/Sao_Paulo): carrossel = `instagramData
 ## Identidade
 
 Teal #33A6BC (primária), lime #9DC129 (destaque, até 10% da área), marinho #020817 (texto e fundo escuro),
-cinza #4B5768 (texto secundário), fundos #FFFFFF e #F1F5F9. Tipos de slide: capa, gancho, item, solucao, cta.
+cinza #4B5768 (texto secundário), fundos #FFFFFF e #F1F5F9. Tipos de slide: capa, gancho, item, solucao, cta e tela (captura real do sistema em moldura de notebook ou celular; `"recorte": [x0,y0,x1,y1]` amplia um trecho — use recorte nos Reels para a tela ficar legível).

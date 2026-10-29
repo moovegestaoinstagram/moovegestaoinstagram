@@ -20,44 +20,44 @@
       "texto": "Pedido, aprovação e documento importante viram mensagem perdida entre áudios e figurinhas."
     },
     {
-      "tipo": "item",
-      "kicker": "Processo",
-      "numero": 1,
-      "titulo": "Pedido de orçamento",
-      "destaque": "orçamento",
-      "texto": "Vire cotação com itens, validade e status. Dá para saber quais estão abertas e quais fecharam."
+      "tipo": "tela",
+      "kicker": "Processo 1",
+      "titulo": "Pedido de orçamento vira cotação",
+      "destaque": "vira cotação",
+      "texto": "Com status, valor e validade. Você sabe quais estão abertas.",
+      "tela": "cotacoes.webp"
     },
     {
-      "tipo": "item",
-      "kicker": "Processo",
-      "numero": 2,
-      "titulo": "Tarefas da equipe",
-      "destaque": "Tarefas",
-      "texto": "Saem do \"alguém viu?\" para um quadro com responsável, prazo e comentário."
+      "tipo": "tela",
+      "kicker": "Processo 2",
+      "titulo": "Tarefas com responsável e prazo",
+      "destaque": "responsável e prazo",
+      "texto": "Nada de \"alguém viu?\" no grupo.",
+      "tela": "tarefas.webp"
     },
     {
-      "tipo": "item",
-      "kicker": "Processo",
-      "numero": 3,
-      "titulo": "Assinatura de contratos",
-      "destaque": "Assinatura",
-      "texto": "Nada de imprimir, assinar e mandar foto. Envie para assinatura eletrônica e acompanhe quem já assinou."
+      "tipo": "tela",
+      "kicker": "Processo 3",
+      "titulo": "Contrato com assinatura eletrônica",
+      "destaque": "assinatura eletrônica",
+      "texto": "Sem imprimir, assinar e mandar foto.",
+      "tela": "signature.webp"
     },
     {
-      "tipo": "item",
-      "kicker": "Processo",
-      "numero": 4,
-      "titulo": "Documentos de admissão",
-      "destaque": "admissão",
-      "texto": "O candidato envia tudo por um link, com checklist. Sem documento perdido no celular de alguém."
+      "tipo": "tela",
+      "kicker": "Processo 4",
+      "titulo": "Admissão com documentos por link",
+      "destaque": "por link",
+      "texto": "O candidato envia tudo e você acompanha cada etapa.",
+      "tela": "admissoes.webp"
     },
     {
-      "tipo": "item",
-      "kicker": "Processo",
-      "numero": 5,
-      "titulo": "Avisos internos",
-      "destaque": "Avisos internos",
-      "texto": "Comunicado importante vai para um feed da empresa, não para o meio do grupo."
+      "tipo": "tela",
+      "kicker": "Processo 5",
+      "titulo": "Avisos internos num feed da empresa",
+      "destaque": "feed da empresa",
+      "texto": "Comunicado importante não some no meio do grupo.",
+      "tela": "feed.webp"
     },
     {
       "tipo": "cta",
