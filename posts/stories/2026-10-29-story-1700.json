@@ -1,0 +1,16 @@
+{
+  "slug": "stories/2026-10-29-1700",
+  "formato": "reel",
+  "data": "2026-10-29T17:00:00",
+  "tipo_publicacao": "story",
+  "slides": [
+    {
+      "tipo": "gancho",
+      "kicker": "Pergunta do dia",
+      "titulo": "Quantos sistemas sua empresa usa hoje?",
+      "destaque": "sistemas",
+      "texto": "CRM, planilha de tarefas, app de ponto, assinatura de contratos... Conte nas DMs quantos são aí.",
+      "tema": "light"
+    }
+  ]
+}
