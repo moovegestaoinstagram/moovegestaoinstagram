@@ -10,7 +10,7 @@ A estratégia completa está na **Diretriz do Agente de Instagram — Moove Gest
 | `kit/render.py` | Gera carrosséis (1080×1350, JPG) e Reels (1080×1920, MP4) a partir de um JSON |
 | `kit/fonts/` | Open Sans 400/600/700/800 (licença OFL) |
 | `kit/logo/` | Logo colorida e branca, fundo transparente |
-| `kit/telas/` | 57 capturas reais do Moove com dados de demonstração; ver `kit/telas/CATALOGO.md` antes de usar |
+| `kit/telas/` | 57 capturas reais do Moove com dados de demonstração; uso opcional, a critério da estratégia do post; ver `kit/telas/CATALOGO.md` antes de usar |
 | `posts/` | Um JSON por post: slides, legenda, data, pilar |
 | `midia/<slug>/` | Arquivos publicados; o Metricool busca as imagens por link público |
 | `registro/posts.csv` | Histórico de cada post agendado (data, slug, formato, pilar, gancho) |

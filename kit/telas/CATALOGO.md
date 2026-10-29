@@ -2,9 +2,11 @@
 
 57 capturas reais do sistema com dados de demonstração (Aurora Serviços, Horizonte Comercial, Vértice Consultoria, Construtora Crescer, X Financeira, Consultoria Fleury). Recebidas em 29/10/2026 e **conferidas uma a uma em resolução real em 29/10/2026**.
 
+**Uso opcional:** as telas ficam à disposição; o agente usa quando, pela estratégia do post, mostrar o sistema reforçar a mensagem. Posts que funcionam melhor só com texto e design seguem sem tela.
+
 Uso no kit: slide `"tipo": "tela"` com `"tela": "<arquivo>"`. Arquivos terminados em `-m` são de celular. `"recorte": [x0, y0, x1, y1]` (frações 0–1) amplia um trecho.
 
-## Regras de contexto (obrigatórias)
+## Regras de contexto (obrigatórias sempre que uma tela for usada)
 
 1. O texto do slide só pode afirmar o que a tela mostra (coluna "Comprova"). Recurso que não aparece na tela precisa de outra tela ou de outra fonte (manual do Moove via conector).
 2. Use o nome do módulo como aparece no menu do sistema (coluna "Módulo / caminho").
