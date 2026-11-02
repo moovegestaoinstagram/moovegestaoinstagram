@@ -56,14 +56,26 @@
       "kicker": "No Moove",
       "titulo": "Negócios abertos e etapas na mesma tela",
       "destaque": "na mesma tela",
-      "tela": "crm-pipeline.webp"
+      "tela": "crm-pipeline.webp",
+      "recorte": [
+        0.045,
+        0.1,
+        0.74,
+        0.95
+      ]
     },
     {
       "tipo": "tela",
       "kicker": "E os números",
       "titulo": "Valor em negociação e funil por etapa",
       "destaque": "funil por etapa",
-      "tela": "dashboard.webp"
+      "tela": "dashboard.webp",
+      "recorte": [
+        0.16,
+        0.3,
+        0.71,
+        0.88
+      ]
     },
     {
       "tipo": "cta",
@@ -75,5 +87,5 @@
       "rodape": "Envie para quem cuida do comercial"
     }
   ],
-  "legenda": "Seu funil de vendas responde estas 4 perguntas em 1 minuto?\n\n1. Quantos negócios estão abertos agora\n2. Em que etapa eles mais param\n3. De onde vêm os clientes que fecham\n4. Quanto tempo leva para fechar\n\nSe não responde, ele virou desenho, não ferramenta de decisão. No CRM do Moove as 4 respostas ficam na mesma tela.\n\nSalve e responda com seu time. Teste grátis por 7 dias: moovesales.com.br\n\n#vendas #crm #gestaocomercial #funildevendas #pequenasempresas"
+  "legenda": "Seu funil de vendas responde estas 4 perguntas em 1 minuto?\n\n1. Quantos negócios estão abertos agora\n2. Em que etapa eles mais param\n3. De onde vêm os clientes que fecham\n4. Quanto tempo leva para fechar\n\nSe não responde, ele virou desenho, não ferramenta de decisão. No Moove, o funil por etapa, o valor em negociação e a origem de cada negócio ficam no CRM e no painel.\n\nSalve e responda com seu time. Teste grátis por 7 dias: moovesales.com.br\n\n#vendas #crm #gestaocomercial #funildevendas #pequenasempresas"
 }

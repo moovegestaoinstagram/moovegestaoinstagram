@@ -32,23 +32,23 @@ LOGO_COR = b64(KIT / "logo" / "logo-cor.png")
 LOGO_BRANCA = b64(KIT / "logo" / "logo-branca.png")
 
 CSS = """
-:root{--teal:#33A6BC;--lime:#9DC129;--ink:#020817;--muted:#4B5768;--bg:#FFFFFF;--soft:#F1F5F9;--ok:#22C55E}
+:root{--teal:#33A6BC;--tealtxt:#16798C;--lime:#9DC129;--ink:#020817;--muted:#4B5768;--bg:#FFFFFF;--soft:#F1F5F9;--ok:#22C55E}
 *{margin:0;padding:0;box-sizing:border-box}
 body{width:1080px;height:var(--h);font-family:'Open Sans',sans-serif;overflow:hidden}
 .s{width:1080px;height:var(--h);padding:var(--pad) 88px;position:relative;display:flex;flex-direction:column}
 .dark{background:var(--ink);color:#fff}
 .light{background:var(--bg);color:var(--ink)}
 .tealbg{background:var(--teal);color:#fff}
-.kicker{font-size:30px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--teal)}
+.kicker{font-size:30px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--tealtxt)}
 .dark .kicker{color:var(--lime)} .tealbg .kicker{color:#fff;opacity:.85}
 h1{font-size:92px;line-height:1.04;font-weight:800;letter-spacing:-.02em;margin-top:28px}
 h2{font-size:72px;line-height:1.08;font-weight:800;letter-spacing:-.015em}
 p{font-size:40px;line-height:1.38;font-weight:400;margin-top:36px;color:var(--muted)}
 .dark p,.tealbg p{color:#E2E8F0}
-.hl{color:var(--lime)} .light .hl{color:var(--teal)} .tealbg .hl{color:var(--ink)}
-.num{width:132px;height:132px;border-radius:32px;background:var(--teal);color:#fff;font-size:72px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-bottom:56px}
+.hl{color:var(--lime)} .light .hl{color:var(--tealtxt)} .tealbg .hl{color:var(--ink)}
+.num{width:132px;height:132px;border-radius:32px;background:var(--tealtxt);color:#fff;font-size:72px;font-weight:800;display:flex;align-items:center;justify-content:center;margin-bottom:56px}
 .card{background:var(--soft);border-radius:28px;padding:44px 48px;margin-top:48px;font-size:36px;line-height:1.4;color:var(--ink)}
-.card b{color:var(--teal)}
+.card b{color:var(--tealtxt)}
 .grow{flex:1;display:flex;flex-direction:column;justify-content:center}
 .foot{display:flex;justify-content:space-between;align-items:flex-end}
 .foot img{height:44px}
@@ -73,14 +73,18 @@ p{font-size:40px;line-height:1.38;font-weight:400;margin-top:36px;color:var(--mu
 .phone img{display:block;border-radius:42px}
 .zoom{width:100%;background:#fff;border-radius:24px;padding:10px;box-shadow:0 30px 60px rgba(2,8,23,.18);border:3px solid var(--teal)}
 .zoom img{display:block;width:100%;border-radius:16px}
+.fwrap{position:relative;overflow:hidden;border-radius:16px}
+.foco{position:absolute;border:7px solid var(--lime);border-radius:18px;box-shadow:0 0 0 9999px rgba(2,8,23,.28)}
+.dark .zoom{border-color:var(--lime)}
+.b0 .grow p,.b0 .device,.b0 .list,.b0 .card,.b0 .pill,.b0 .preco,.b0 .anual,.b1 .device,.b1 .list,.b1 .card,.b1 .pill{opacity:0}
 .story-top{position:absolute;top:150px;left:88px;right:88px;display:flex;justify-content:space-between;font-size:28px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .dark .story-top,.tealbg .story-top{color:#CBD5E1}
-.tap{font-size:30px;font-weight:700;color:var(--teal)} .dark .tap{color:var(--lime)} .tealbg .tap{color:#fff}
+.tap{font-size:30px;font-weight:700;color:var(--tealtxt)} .dark .tap{color:var(--lime)} .tealbg .tap{color:#fff}
 .selo{display:inline-block;background:var(--lime);color:var(--ink);font-size:28px;font-weight:800;border-radius:999px;padding:10px 28px;margin-top:28px;text-transform:uppercase;letter-spacing:.05em}
 .preco{font-size:110px;font-weight:800;letter-spacing:-.03em;margin-top:44px;line-height:1}
 .preco small{font-size:40px;font-weight:700;letter-spacing:0}
 .anual{background:var(--soft);border-radius:28px;padding:36px 44px;margin-top:40px;font-size:36px;line-height:1.4;color:var(--ink)}
-.anual b{color:var(--teal)}
+.anual b{color:var(--tealtxt)}
 """
 
 def tela_src(nome, recorte=None):
@@ -104,7 +108,7 @@ def hl(text, word):
         t = t.replace(esc(word), f"<span class='hl'>{esc(word)}</span>", 1)
     return t
 
-def slide_html(s, i, n, reel, story=None):
+def slide_html(s, i, n, reel, story=None, build=''):
     tipo = s["tipo"]
     theme = s.get("tema") or {"capa": "dark", "cta": "dark", "solucao": "tealbg"}.get(tipo, "light")
     logo = LOGO_COR if theme == "light" else LOGO_BRANCA
@@ -124,8 +128,12 @@ def slide_html(s, i, n, reel, story=None):
     elif tipo == "tela":
         src, (tw, th) = tela_src(s["tela"], s.get("recorte"))
         movel = s["tela"].endswith("-m.webp") and not s.get("recorte")
+        foco = ""
+        if s.get("foco"):
+            x0, y0, x1, y1 = s["foco"]
+            foco = f"<div class='foco' style='left:{x0*100}%;top:{y0*100}%;width:{(x1-x0)*100}%;height:{(y1-y0)*100}%'></div>"
         if s.get("recorte"):
-            dev = f"<div class='zoom'><img src='{src}'></div>"
+            dev = f"<div class='zoom'><div class='fwrap'><img src='{src}'>{foco}</div></div>"
         elif movel:
             ph = (1000 if story is not None else 1180) if reel else 760
             dev = f"<div class='phone'><img src='{src}' style='height:{ph}px'></div>"
@@ -154,7 +162,7 @@ def slide_html(s, i, n, reel, story=None):
         pass
     h, pad = (1920, 260) if reel else (1350, 96)
     return (f"<!doctype html><html><head><meta charset='utf-8'><style>{FONT_CSS}{CSS}"
-            f":root{{--h:{h}px;--pad:{pad}px}}</style></head><body><div class='s {theme}'>"
+            f":root{{--h:{h}px;--pad:{pad}px}}</style></head><body><div class='s {theme} {build}'>"
             f"<div class='grow'>{inner}</div><div class='foot'>{rod}<img src='data:image/png;base64,{logo}'></div></div></body></html>"), h
 
 def render(spec_path):
@@ -169,11 +177,16 @@ def render(spec_path):
     with sync_playwright() as p:
         b = p.chromium.launch()
         pg = b.new_page(viewport={"width": 1080, "height": 1920 if reel else 1350})
+        anim = reel and story is None
+        dur = float(spec.get("segundos_por_cena", 3.5))
         for i, s in enumerate(slides, 1):
-            doc, h = slide_html(s, i, n, reel, story)
-            pg.set_viewport_size({"width": 1080, "height": h})
-            pg.set_content(doc); pg.wait_for_timeout(150)
-            f = out / f"{i:02d}.png"; pg.screenshot(path=str(f)); files.append(f)
+            estados = [("b0", .30), ("b1", .25), ("", .45)] if anim else [("", 1)]
+            for bi, (bc, frac) in enumerate(estados):
+                doc, h = slide_html(s, i, n, reel, story, bc)
+                pg.set_viewport_size({"width": 1080, "height": h})
+                pg.set_content(doc); pg.wait_for_timeout(150)
+                f = out / f"{i:02d}{'abc'[bi] if anim else ''}.png"; pg.screenshot(path=str(f))
+                files.append((f, dur * frac) if anim else f)
         b.close()
     if story is not None or not reel:
         # JPEG reduz o peso para o Instagram sem perda visível
@@ -182,27 +195,39 @@ def render(spec_path):
         for f in files:
             j = f.with_suffix(".jpg"); Image.open(f).convert("RGB").save(j, "JPEG", quality=92); f.unlink(); jpgs.append(j)
         return jpgs
-    return [make_reel(files, out, float(spec.get("segundos_por_cena", 3.5)))]
+    return [make_reel(files, out)]
 
-def make_reel(frames, out, dur, fade=0.4):
-    """Cenas com leve aproximação (zoom) e transição suave entre elas."""
+def make_reel(segs, out, fade=0.22):
+    """Cada cena entra em etapas (título, texto, tela/lista) com transições suaves.
+    segs = [(png, segundos), ...]."""
+    import hashlib
+    # remove etapas idênticas à anterior (cena sem texto ou sem tela)
+    clean = []
+    for f, d in segs:
+        hsh = hashlib.md5(f.read_bytes()).hexdigest()
+        if clean and clean[-1][2] == hsh:
+            clean[-1] = (clean[-1][0], clean[-1][1] + d, hsh); f.unlink()
+        else:
+            clean.append((f, d, hsh))
     fps = 30; inputs = []; filters = []
-    for i, f in enumerate(frames):
-        inputs += ["-loop", "1", "-t", f"{dur}", "-i", str(f)]
-        frames_n = int(dur * fps)
-        filters.append(f"[{i}:v]scale=1188:2112,zoompan=z='min(1+0.0009*on,1.08)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={frames_n}:s=1080x1920:fps={fps},setsar=1,format=yuv420p[v{i}]")
-    last = "v0"; offset = dur - fade
-    for i in range(1, len(frames)):
+    for i, (f, d, _) in enumerate(clean):
+        d = max(d, fade * 2 + 0.1)
+        inputs += ["-loop", "1", "-t", f"{d:.2f}", "-i", str(f)]
+        filters.append(f"[{i}:v]fps={fps},scale=1080:1920,setsar=1,format=yuv420p[v{i}]")
+    last = "v0"; offset = max(clean[0][1], fade * 2 + 0.1) - fade
+    for i in range(1, len(clean)):
         filters.append(f"[{last}][v{i}]xfade=transition=fade:duration={fade}:offset={offset:.2f}[x{i}]")
-        last = f"x{i}"; offset += dur - fade
+        last = f"x{i}"; offset += max(clean[i][1], fade * 2 + 0.1) - fade
     mp4 = out / "reel.mp4"
     cmd = ["ffmpeg", "-y", *inputs, "-f", "lavfi", "-t", f"{offset + fade:.2f}", "-i", "anullsrc=r=44100:cl=stereo",
-           "-filter_complex", ";".join(filters), "-map", f"[{last}]", "-map", f"{len(frames)}:a",
+           "-filter_complex", ";".join(filters), "-map", f"[{last}]", "-map", f"{len(clean)}:a",
            "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-c:a", "aac", "-shortest", "-movflags", "+faststart", str(mp4)]
     subprocess.run(cmd, check=True, capture_output=True)
     from PIL import Image
-    Image.open(frames[0]).convert("RGB").save(out / "capa.jpg", "JPEG", quality=92)
-    for f in frames: f.unlink()
+    capa = next((f for f, _, _ in clean if f.name.startswith("01") and f.stem.endswith("c")), clean[0][0])
+    first_full = [f for f, _, _ in clean if f.name.startswith("01")][-1]
+    Image.open(first_full).convert("RGB").save(out / "capa.jpg", "JPEG", quality=92)
+    for f, _, _ in clean: f.unlink()
     return mp4
 
 if __name__ == "__main__":

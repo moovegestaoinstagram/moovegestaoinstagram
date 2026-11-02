@@ -8,7 +8,7 @@
       "kicker": "Planos",
       "titulo": "Quanto custa o Moove?",
       "destaque": "custa",
-      "texto": "Mensal ou anual, sem fidelidade, com 7 dias grátis e sem cartão."
+      "texto": "A partir de R$ 159/mês no plano anual (R$ 1.909/ano). Sem fidelidade, com 7 dias grátis e sem cartão."
     },
     {
       "tipo": "plano",
@@ -36,7 +36,7 @@
         "300 interações de IA por mês",
         "WhatsApp: 1 número + 200 créditos"
       ],
-      "tema": "light"
+      "tema": "dark"
     },
     {
       "tipo": "plano",
