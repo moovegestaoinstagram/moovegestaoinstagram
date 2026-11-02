@@ -1,0 +1,76 @@
+{
+  "slug": "destaque-5-gestao",
+  "formato": "stories",
+  "serie": "Gestão",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "Gestão",
+      "titulo": "O que foi combinado na reunião some no dia seguinte?",
+      "destaque": "some",
+      "texto": "Tarefa sem dono e sem prazo não acontece."
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Tarefas e Projetos",
+      "titulo": "Cada tarefa com prazo, prioridade e responsável",
+      "destaque": "responsável",
+      "texto": "E o aviso de quais estão em risco.",
+      "tela": "tarefas.webp",
+      "recorte": [
+        0.0,
+        0.69,
+        0.62,
+        1.0
+      ]
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Projetos",
+      "titulo": "Projetos por etapa, do planejamento ao risco",
+      "destaque": "por etapa",
+      "tela": "projetos-kanban.webp",
+      "recorte": [
+        0.17,
+        0.7,
+        0.65,
+        1.0
+      ]
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Balanced Scorecard",
+      "titulo": "Objetivos por perspectiva, com progresso e desdobramento",
+      "destaque": "desdobramento",
+      "tela": "bsc-desdobramento.webp",
+      "recorte": [
+        0.15,
+        0.5,
+        0.73,
+        1.0
+      ]
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "Para empresas maiores",
+      "titulo": "Governança para quem tem muitas áreas",
+      "destaque": "muitas áreas",
+      "lista": [
+        "Permissões por perfil e por funil",
+        "Aprovação de pedidos por etapas",
+        "POPs e base de conhecimento com versões",
+        "Ações estratégicas com Gantt",
+        "Até 100 usuários no plano Enterprise"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Teste grátis",
+      "titulo": "Organize a gestão em 7 dias de teste",
+      "destaque": "7 dias",
+      "texto": "Sem cartão e sem fidelidade.",
+      "botao": "Teste grátis: link na bio",
+      "rodape": "Veja também: IA"
+    }
+  ]
+}

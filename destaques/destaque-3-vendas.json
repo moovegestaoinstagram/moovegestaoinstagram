@@ -1,0 +1,71 @@
+{
+  "slug": "destaque-3-vendas",
+  "formato": "stories",
+  "serie": "Vendas",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "Vendas",
+      "titulo": "Quanto você tem em negociação agora?",
+      "destaque": "agora?",
+      "texto": "Sem funil, a previsão de vendas vira chute."
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Funil de vendas",
+      "titulo": "Cada negócio na sua etapa, até pelo celular",
+      "destaque": "até pelo celular",
+      "tela": "crm-m.webp",
+      "tema": "dark"
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Ficha do negócio",
+      "titulo": "Histórico, atividades, cotações e conversas no mesmo lugar",
+      "destaque": "mesmo lugar",
+      "texto": "Etapa, valor, atividades, cotações e Omnichannel.",
+      "tela": "crm-negocio.webp",
+      "recorte": [
+        0.06,
+        0.04,
+        0.64,
+        0.62
+      ]
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Painel",
+      "titulo": "Valor em negociação e funil por etapa, sem planilha",
+      "destaque": "sem planilha",
+      "tela": "dashboard.webp",
+      "recorte": [
+        0.16,
+        0.3,
+        0.71,
+        0.88
+      ]
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "Também no comercial",
+      "titulo": "O que mais o time de vendas ganha",
+      "destaque": "time de vendas",
+      "lista": [
+        "Distribuição de leads por regras",
+        "Cotações e orçamentos ligados ao CRM",
+        "Catálogo de produtos e precificação",
+        "Campanhas de e-mail e WhatsApp",
+        "Motivos de perda registrados"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Teste grátis",
+      "titulo": "Teste com o seu time comercial por 7 dias",
+      "destaque": "seu time comercial",
+      "texto": "Sem cartão e sem fidelidade.",
+      "botao": "Teste grátis: link na bio",
+      "rodape": "Veja também: RH"
+    }
+  ]
+}

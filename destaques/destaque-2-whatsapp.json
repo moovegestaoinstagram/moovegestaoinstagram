@@ -1,0 +1,59 @@
+{
+  "slug": "destaque-2-whatsapp",
+  "formato": "stories",
+  "serie": "WhatsApp",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "WhatsApp",
+      "titulo": "O WhatsApp da sua empresa está no celular de quem?",
+      "destaque": "de quem?",
+      "texto": "Se o vendedor sai, as conversas com os clientes vão junto."
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Atendimento em equipe",
+      "titulo": "Todos atendem pelo mesmo canal, no computador ou no celular",
+      "destaque": "mesmo canal",
+      "tela": "whatsapp-m.webp",
+      "tema": "dark"
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Prazo de resposta",
+      "titulo": "O cronômetro avisa quando o cliente está esperando demais",
+      "destaque": "esperando demais",
+      "texto": "Metas de primeira resposta por canal, com alerta de SLA estourado.",
+      "tela": "whatsapp.webp",
+      "recorte": [
+        0.32,
+        0.0,
+        1.0,
+        0.62
+      ]
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Chatbot",
+      "titulo": "O robô faz a triagem e passa para a pessoa certa",
+      "destaque": "pessoa certa",
+      "texto": "Fluxos por palavra-chave, como boas-vindas, triagem e agendamento de demonstração.",
+      "tela": "whatsapp-chatbot.webp",
+      "recorte": [
+        0.14,
+        0.1,
+        0.55,
+        0.4
+      ]
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Teste grátis",
+      "titulo": "WhatsApp incluso a partir do plano Growth",
+      "destaque": "incluso",
+      "texto": "Teste 7 dias com a sua equipe, sem cartão.",
+      "botao": "Teste grátis: link na bio",
+      "rodape": "Veja também: Vendas"
+    }
+  ]
+}

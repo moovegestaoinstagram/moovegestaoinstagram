@@ -1,0 +1,63 @@
+{
+  "slug": "destaque-6-ia",
+  "formato": "stories",
+  "serie": "IA",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "Inteligência artificial",
+      "titulo": "E se você perguntasse à IA como está a sua empresa?",
+      "destaque": "perguntasse à IA",
+      "texto": "Com o Moove, a resposta vem dos dados do seu sistema."
+    },
+    {
+      "tipo": "tela",
+      "kicker": "IA conectada",
+      "titulo": "O Moove conecta ao Claude e ao ChatGPT",
+      "destaque": "Claude e ao ChatGPT",
+      "texto": "Você pede por conversa: CRM, tarefas, agenda, cotações e mais.",
+      "tela": "ia-integracao.webp",
+      "recorte": [
+        0.14,
+        0.2,
+        0.62,
+        0.6
+      ]
+    },
+    {
+      "tipo": "tela",
+      "kicker": "IA dentro do sistema",
+      "titulo": "Gere uma matriz SWOT com IA em um clique",
+      "destaque": "com IA",
+      "texto": "Também há IA para objetivos do BSC, metas e análise de tarefas.",
+      "tela": "swot.webp",
+      "recorte": [
+        0.0,
+        0.0,
+        1.0,
+        0.65
+      ]
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "Com segurança",
+      "titulo": "A IA trabalha dentro das regras da empresa",
+      "destaque": "regras da empresa",
+      "lista": [
+        "Vê só o que o usuário pode ver",
+        "O administrador libera por pessoa",
+        "Alterações pedem a sua confirmação",
+        "Dá para revogar a qualquer momento"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Teste grátis",
+      "titulo": "IA inclusa em todos os planos",
+      "destaque": "todos os planos",
+      "texto": "Teste 7 dias, sem cartão.",
+      "botao": "Teste grátis: link na bio",
+      "rodape": "Veja também: Planos"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "destaque-1-comece-aqui",
+  "formato": "stories",
+  "serie": "Comece aqui",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "Comece aqui",
+      "titulo": "Vendas, atendimento, RH e gestão num só sistema",
+      "destaque": "num só sistema",
+      "texto": "Em 6 telas você entende o que é o Moove e se ele serve para a sua empresa."
+    },
+    {
+      "tipo": "gancho",
+      "kicker": "O problema",
+      "titulo": "Quantos sistemas sua empresa usa para funcionar?",
+      "destaque": "quantos sistemas",
+      "texto": "Planilha para vendas, WhatsApp no celular de cada um, RH no papel, tarefas em outro app. A informação se perde no meio do caminho."
+    },
+    {
+      "tipo": "tela",
+      "kicker": "A solução",
+      "titulo": "Tudo no mesmo lugar, com os mesmos dados",
+      "destaque": "mesmo lugar",
+      "texto": "CRM, WhatsApp, Tarefas e Projetos e Balanced Scorecard na mesma plataforma.",
+      "tela": "plataforma.webp"
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "Para quem é",
+      "titulo": "Para quem faz a empresa andar",
+      "destaque": "faz a empresa andar",
+      "lista": [
+        "Donos e sócios",
+        "Times comerciais e de atendimento",
+        "RH e departamento pessoal",
+        "Gestores de projetos e operações",
+        "Diretoria de empresas de grande porte"
+      ]
+    },
+    {
+      "tipo": "gancho",
+      "kicker": "Como começar",
+      "titulo": "7 dias grátis, sem cartão de crédito",
+      "destaque": "sem cartão",
+      "texto": "Sem fidelidade e com troca de plano quando quiser. Você testa com a sua equipe antes de decidir."
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Próximo passo",
+      "titulo": "Veja a sua área nos destaques ao lado",
+      "destaque": "sua área",
+      "texto": "WhatsApp, Vendas, RH, Gestão, IA e Planos.",
+      "botao": "Teste grátis: link na bio",
+      "rodape": "moovesales.com.br"
+    }
+  ]
+}

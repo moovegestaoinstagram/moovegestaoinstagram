@@ -1,0 +1,72 @@
+{
+  "slug": "destaque-4-rh",
+  "formato": "stories",
+  "serie": "RH",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "RH",
+      "titulo": "Admissão ainda é papel, e-mail e cópia de documento?",
+      "destaque": "papel",
+      "texto": "Dá para fazer tudo pelo sistema, do convite ao primeiro dia."
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Admissão digital",
+      "titulo": "O candidato preenche tudo por um link",
+      "destaque": "por um link",
+      "texto": "Ficha, documentos, aprovação e assinatura no mesmo processo.",
+      "tela": "admissao.webp",
+      "recorte": [
+        0.19,
+        0.13,
+        0.6,
+        0.62
+      ]
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Ponto eletrônico",
+      "titulo": "Ponto com localização e reconhecimento facial",
+      "destaque": "reconhecimento facial",
+      "texto": "Com espelho, banco de horas, escalas e jornadas.",
+      "tela": "ponto.webp",
+      "recorte": [
+        0.21,
+        0.29,
+        0.53,
+        0.82
+      ]
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Férias",
+      "titulo": "Períodos aquisitivos e férias da equipe sob controle",
+      "destaque": "sob controle",
+      "tela": "ferias-m.webp",
+      "tema": "dark"
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "Também no RH",
+      "titulo": "Gestão de pessoas completa",
+      "destaque": "completa",
+      "lista": [
+        "Avaliação de desempenho e feedbacks",
+        "Pesquisa de clima com eNPS",
+        "Organograma e departamentos",
+        "Políticas com aceite dos colaboradores",
+        "Canal de ética"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Teste grátis",
+      "titulo": "Leve o RH para o digital em 7 dias de teste",
+      "destaque": "para o digital",
+      "texto": "Sem cartão e sem fidelidade.",
+      "botao": "Teste grátis: link na bio",
+      "rodape": "Veja também: Gestão"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "destaque-7-planos",
+  "formato": "stories",
+  "serie": "Planos",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "Planos",
+      "titulo": "Quanto custa o Moove?",
+      "destaque": "custa",
+      "texto": "Mensal ou anual, sem fidelidade, com 7 dias grátis e sem cartão."
+    },
+    {
+      "tipo": "plano",
+      "kicker": "Para começar",
+      "titulo": "Starter",
+      "mensal": "R$ 199",
+      "anual": "R$ 159",
+      "anual_total": "R$ 1.909",
+      "lista": [
+        "Até 5 usuários",
+        "50 interações de IA por mês"
+      ],
+      "tema": "light"
+    },
+    {
+      "tipo": "plano",
+      "kicker": "Para crescer",
+      "titulo": "Growth",
+      "selo": "Mais popular",
+      "mensal": "R$ 429",
+      "anual": "R$ 349",
+      "anual_total": "R$ 4.199",
+      "lista": [
+        "Até 15 usuários",
+        "300 interações de IA por mês",
+        "WhatsApp: 1 número + 200 créditos"
+      ],
+      "tema": "light"
+    },
+    {
+      "tipo": "plano",
+      "kicker": "Para operações maiores",
+      "titulo": "Business",
+      "mensal": "R$ 749",
+      "anual": "R$ 599",
+      "anual_total": "R$ 7.199",
+      "lista": [
+        "Até 40 usuários",
+        "800 interações de IA por mês",
+        "WhatsApp: 2 números + 750 créditos"
+      ],
+      "tema": "light"
+    },
+    {
+      "tipo": "plano",
+      "kicker": "Para grandes empresas",
+      "titulo": "Enterprise",
+      "mensal": "R$ 1.499",
+      "anual": "R$ 1.199",
+      "anual_total": "R$ 14.399",
+      "lista": [
+        "Até 100 usuários",
+        "IA ilimitada",
+        "WhatsApp: 3 números + 2.500 créditos"
+      ],
+      "tema": "light"
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Comece pelo teste",
+      "titulo": "7 dias grátis, sem cartão e sem fidelidade",
+      "destaque": "sem cartão",
+      "texto": "No plano anual você economiza até 20%.",
+      "botao": "Teste grátis: link na bio",
+      "rodape": "moovesales.com.br"
+    }
+  ]
+}

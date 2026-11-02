@@ -1,7 +1,8 @@
 """Gera as artes do Instagram da Moove a partir de um JSON de post.
 
 Uso:  python3 kit/render.py posts/AAAA-MM-DD-slug.json
-Saída: midia/<slug>/NN.png (carrossel 1080x1350) ou midia/<slug>/reel.mp4 + capa.jpg (Reels 1080x1920).
+Saída: midia/<slug>/NN.jpg (carrossel 1080x1350), midia/<slug>/reel.mp4 + capa.jpg (Reels 1080x1920)
+       ou midia/<slug>/NN.jpg (stories 1080x1920, "formato": "stories", "serie": "Nome do destaque").
 
 JSON:
 {
@@ -10,7 +11,8 @@ JSON:
   "segundos_por_cena": 3.5,          # só reel
   "slides": [ {tipo, kicker, titulo, destaque, texto, numero, card, lista, botao, rodape}, ... ]
 }
-Tipos de slide: capa, gancho, item, solucao, cta.
+Tipos de slide: capa, gancho, item, solucao, cta, tela, plano.
+plano: {tipo, kicker, titulo (nome do plano), selo, mensal, anual, anual_total, lista}.
 "destaque" = trecho do título pintado na cor de destaque. "card" aceita <b>.
 Requer: playwright (chromium) e ffmpeg.
 """
@@ -71,6 +73,14 @@ p{font-size:40px;line-height:1.38;font-weight:400;margin-top:36px;color:var(--mu
 .phone img{display:block;border-radius:42px}
 .zoom{width:100%;background:#fff;border-radius:24px;padding:10px;box-shadow:0 30px 60px rgba(2,8,23,.18);border:3px solid var(--teal)}
 .zoom img{display:block;width:100%;border-radius:16px}
+.story-top{position:absolute;top:150px;left:88px;right:88px;display:flex;justify-content:space-between;font-size:28px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.dark .story-top,.tealbg .story-top{color:#CBD5E1}
+.tap{font-size:30px;font-weight:700;color:var(--teal)} .dark .tap{color:var(--lime)} .tealbg .tap{color:#fff}
+.selo{display:inline-block;background:var(--lime);color:var(--ink);font-size:28px;font-weight:800;border-radius:999px;padding:10px 28px;margin-top:28px;text-transform:uppercase;letter-spacing:.05em}
+.preco{font-size:110px;font-weight:800;letter-spacing:-.03em;margin-top:44px;line-height:1}
+.preco small{font-size:40px;font-weight:700;letter-spacing:0}
+.anual{background:var(--soft);border-radius:28px;padding:36px 44px;margin-top:40px;font-size:36px;line-height:1.4;color:var(--ink)}
+.anual b{color:var(--teal)}
 """
 
 def tela_src(nome, recorte=None):
@@ -94,7 +104,7 @@ def hl(text, word):
         t = t.replace(esc(word), f"<span class='hl'>{esc(word)}</span>", 1)
     return t
 
-def slide_html(s, i, n, reel):
+def slide_html(s, i, n, reel, story=None):
     tipo = s["tipo"]
     theme = s.get("tema") or {"capa": "dark", "cta": "dark", "solucao": "tealbg"}.get(tipo, "light")
     logo = LOGO_COR if theme == "light" else LOGO_BRANCA
@@ -117,7 +127,7 @@ def slide_html(s, i, n, reel):
         if s.get("recorte"):
             dev = f"<div class='zoom'><img src='{src}'></div>"
         elif movel:
-            ph = 1180 if reel else 760
+            ph = (1000 if story is not None else 1180) if reel else 760
             dev = f"<div class='phone'><img src='{src}' style='height:{ph}px'></div>"
         else:
             dev = f"<div class='notebook'><div class='screen'><img src='{src}'></div><div class='base'></div></div>"
@@ -128,8 +138,20 @@ def slide_html(s, i, n, reel):
         botao = f"<div><span class='pill'>{esc(s['botao'])}</span></div>" if s.get("botao") else ""
         inner = f"{k}<h2 style='margin-top:28px'>{hl(s['titulo'], s.get('destaque'))}</h2>{texto}{botao}"
         rod = f"<span class='pager'>{esc(s.get('rodape', 'moovesales.com.br'))}</span>"
+    elif tipo == "plano":
+        selo = f"<div><span class='selo'>{esc(s['selo'])}</span></div>" if s.get("selo") else ""
+        lst = "".join(f"<div>{esc(x)}</div>" for x in s.get("lista", []))
+        inner = (f"{k}<h2 style='margin-top:28px;font-size:96px'>{esc(s['titulo'])}</h2>{selo}"
+                 f"<div class='preco'>{esc(s['mensal'])}<small>/mês no mensal</small></div>"
+                 f"<div class='anual'>ou <b>{esc(s['anual'])}/mês no plano anual</b><br>({esc(s['anual_total'])}/ano, cobrança anual)</div>"
+                 f"<div class='list'>{lst}</div>")
+        rod = ""
     else:
         raise ValueError(f"tipo desconhecido: {tipo}")
+    if story is not None:
+        if tipo != "cta":
+            rod = "<span class='tap'>Toque para continuar →</span>"
+        pass
     h, pad = (1920, 260) if reel else (1350, 96)
     return (f"<!doctype html><html><head><meta charset='utf-8'><style>{FONT_CSS}{CSS}"
             f":root{{--h:{h}px;--pad:{pad}px}}</style></head><body><div class='s {theme}'>"
@@ -138,7 +160,9 @@ def slide_html(s, i, n, reel):
 def render(spec_path):
     from playwright.sync_api import sync_playwright
     spec = json.loads(pathlib.Path(spec_path).read_text())
-    reel = spec.get("formato") == "reel"
+    fmt = spec.get("formato")
+    story = spec.get("serie", "") if fmt == "stories" else None
+    reel = fmt in ("reel", "stories")
     out = ROOT / "midia" / spec["slug"]
     out.mkdir(parents=True, exist_ok=True)
     slides = spec["slides"]; n = len(slides); files = []
@@ -146,12 +170,12 @@ def render(spec_path):
         b = p.chromium.launch()
         pg = b.new_page(viewport={"width": 1080, "height": 1920 if reel else 1350})
         for i, s in enumerate(slides, 1):
-            doc, h = slide_html(s, i, n, reel)
+            doc, h = slide_html(s, i, n, reel, story)
             pg.set_viewport_size({"width": 1080, "height": h})
             pg.set_content(doc); pg.wait_for_timeout(150)
             f = out / f"{i:02d}.png"; pg.screenshot(path=str(f)); files.append(f)
         b.close()
-    if not reel:
+    if story is not None or not reel:
         # JPEG reduz o peso para o Instagram sem perda visível
         from PIL import Image
         jpgs = []
