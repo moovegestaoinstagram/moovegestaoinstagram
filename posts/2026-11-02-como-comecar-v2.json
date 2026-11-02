@@ -1,0 +1,90 @@
+{
+  "slug": "2026-11-02-como-comecar-v2",
+  "formato": "carrossel",
+  "data": "2026-11-02T18:50:00",
+  "pilar": "Moove em ação",
+  "alt": "Como começar no Moove Gestão: base em 3 passos e trilhas Comercial, Pessoas, Operação e Estratégia",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "Primeiros passos",
+      "titulo": "Como começar no Moove, seja qual for a sua área",
+      "destaque": "seja qual for a sua área",
+      "texto": "Base em 3 passos e 4 trilhas: Comercial, Pessoas, Operação e Estratégia."
+    },
+    {
+      "tipo": "gancho",
+      "kicker": "Antes de tudo",
+      "titulo": "Você não precisa ligar tudo no primeiro dia",
+      "destaque": "no primeiro dia",
+      "texto": "Comece pela área que mais precisa e conecte as outras no seu ritmo, com os dados no mesmo lugar."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Base",
+      "numero": 1,
+      "titulo": "Cadastre a empresa, os departamentos e os cargos",
+      "destaque": "departamentos e os cargos",
+      "texto": "Em Configurações, crie as áreas que existem de verdade na sua empresa."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Base",
+      "numero": 2,
+      "titulo": "Convide a equipe com o acesso certo",
+      "destaque": "acesso certo",
+      "texto": "Cada pessoa entra no seu departamento e vê só o que precisa. Dá para convidar em massa.",
+      "card": "Dica: reserve o perfil <b>Admin</b> para quem administra o sistema."
+    },
+    {
+      "tipo": "item",
+      "kicker": "Base",
+      "numero": 3,
+      "titulo": "Traga o que já está na planilha",
+      "destaque": "planilha",
+      "texto": "Importe clientes, negócios, tarefas e projetos em Gerenciar Dados → Importar."
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "Agora escolha sua trilha",
+      "titulo": "Comece pela área que mais precisa",
+      "destaque": "mais precisa",
+      "lista": [
+        "Comercial: clientes, funil, cotações, WhatsApp e e-mail",
+        "Pessoas: admissão, ponto, férias e avaliações",
+        "Operação: tarefas, projetos, POPs e aprovações",
+        "Estratégia: SWOT, BSC, metas e painéis"
+      ]
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Tudo conectado",
+      "titulo": "Cada trilha no mesmo sistema",
+      "destaque": "mesmo sistema",
+      "texto": "CRM, WhatsApp, Tarefas e Projetos e Balanced Scorecard na mesma plataforma.",
+      "tela": "plataforma.webp"
+    },
+    {
+      "tipo": "solucao",
+      "tema": "light",
+      "kicker": "Você não fica sozinho",
+      "titulo": "Ajuda em cada etapa",
+      "destaque": "cada etapa",
+      "lista": [
+        "Manual com trilhas e passo a passo por módulo",
+        "Suporte pelo WhatsApp",
+        "Troca de plano quando a equipe crescer"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Comece hoje",
+      "titulo": "Escolha sua trilha e teste 7 dias grátis",
+      "destaque": "7 dias grátis",
+      "texto": "Sem cartão e sem fidelidade.",
+      "botao": "Teste grátis: link na bio",
+      "rodape": "Salve para fazer junto com o time"
+    }
+  ],
+  "legenda": "Como começar a usar um sistema de gestão sem parar a empresa?\n\nNo Moove você monta a base em 3 passos:\n\n1. Cadastre empresa, departamentos e cargos\n2. Convide a equipe com o acesso certo\n3. Importe o que já está na planilha\n\nDepois escolhe a trilha da área que mais precisa: Comercial, Pessoas, Operação ou Estratégia. Não precisa ligar tudo no primeiro dia. Cada área entra no seu ritmo, com os dados no mesmo lugar.\n\nSalve e faça junto com o time. Teste 7 dias grátis, sem cartão: link na bio.\n\n#sistemadegestao #gestaoempresarial #pequenasempresas #produtividade #gestaodeprocessos"
+}
