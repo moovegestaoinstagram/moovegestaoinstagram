@@ -71,8 +71,8 @@ p{font-size:40px;line-height:1.38;font-weight:400;margin-top:36px;color:var(--mu
 .dark .notebook .base,.tealbg .notebook .base{background:#475569}
 .phone{background:#0F172A;border-radius:56px;padding:16px;box-shadow:0 30px 60px rgba(2,8,23,.22)}
 .phone img{display:block;border-radius:42px}
-.zoom{width:100%;background:#fff;border-radius:24px;padding:10px;box-shadow:0 30px 60px rgba(2,8,23,.18);border:3px solid var(--teal)}
-.zoom img{display:block;width:100%;border-radius:16px}
+.zoom{display:inline-block;max-width:100%;background:#fff;border-radius:24px;padding:10px;box-shadow:0 30px 60px rgba(2,8,23,.18);border:3px solid var(--teal)}
+.zoom img{display:block;max-width:100%;max-height:var(--imgmax);width:auto;height:auto;border-radius:16px}
 .fwrap{position:relative;overflow:hidden;border-radius:16px}
 .foco{position:absolute;border:7px solid var(--lime);border-radius:18px;box-shadow:0 0 0 9999px rgba(2,8,23,.28)}
 .dark .zoom{border-color:var(--lime)}
@@ -162,7 +162,7 @@ def slide_html(s, i, n, reel, story=None, build=''):
         pass
     h, pad = (1920, 260) if reel else (1350, 96)
     return (f"<!doctype html><html><head><meta charset='utf-8'><style>{FONT_CSS}{CSS}"
-            f":root{{--h:{h}px;--pad:{pad}px}}</style></head><body><div class='s {theme} {build}'>"
+            f":root{{--h:{h}px;--pad:{pad}px;--imgmax:{1000 if reel else 560}px}}</style></head><body><div class='s {theme} {build}'>"
             f"<div class='grow'>{inner}</div><div class='foot'>{rod}<img src='data:image/png;base64,{logo}'></div></div></body></html>"), h
 
 def render(spec_path):

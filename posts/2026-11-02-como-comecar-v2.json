@@ -3,7 +3,7 @@
   "formato": "carrossel",
   "data": "2026-11-02T18:50:00",
   "pilar": "Moove em ação",
-  "alt": "Como começar no Moove Gestão: base em 3 passos e trilhas Comercial, Pessoas, Operação e Estratégia",
+  "alt": "Como começar no Moove Gestão: base em 3 passos e trilhas Comercial, Pessoas, Operação e Estratégia, com telas do sistema",
   "slides": [
     {
       "tipo": "capa",
@@ -20,12 +20,18 @@
       "texto": "Comece pela área que mais precisa e conecte as outras no seu ritmo, com os dados no mesmo lugar."
     },
     {
-      "tipo": "item",
-      "kicker": "Base",
-      "numero": 1,
+      "tipo": "tela",
+      "kicker": "Base · Passo 1",
       "titulo": "Cadastre a empresa, os departamentos e os cargos",
-      "destaque": "departamentos e os cargos",
-      "texto": "Em Configurações, crie as áreas que existem de verdade na sua empresa."
+      "destaque": "departamentos",
+      "texto": "Tudo em Configurações, com as áreas que existem de verdade.",
+      "tela": "perfis.webp",
+      "recorte": [
+        0.0,
+        0.08,
+        0.62,
+        0.83
+      ]
     },
     {
       "tipo": "item",
@@ -45,35 +51,59 @@
       "texto": "Importe clientes, negócios, tarefas e projetos em Gerenciar Dados → Importar."
     },
     {
-      "tipo": "solucao",
-      "kicker": "Agora escolha sua trilha",
-      "titulo": "Comece pela área que mais precisa",
-      "destaque": "mais precisa",
-      "lista": [
-        "Comercial: clientes, funil, cotações, WhatsApp e e-mail",
-        "Pessoas: admissão, ponto, férias e avaliações",
-        "Operação: tarefas, projetos, POPs e aprovações",
-        "Estratégia: SWOT, BSC, metas e painéis"
+      "tipo": "tela",
+      "kicker": "Trilha Comercial",
+      "titulo": "Clientes, funil e cotações no mesmo lugar",
+      "destaque": "funil",
+      "texto": "Depois conecte WhatsApp e e-mail da equipe.",
+      "tela": "crm-pipeline.webp",
+      "recorte": [
+        0.045,
+        0.1,
+        0.74,
+        0.95
       ]
     },
     {
       "tipo": "tela",
-      "kicker": "Tudo conectado",
-      "titulo": "Cada trilha no mesmo sistema",
-      "destaque": "mesmo sistema",
-      "texto": "CRM, WhatsApp, Tarefas e Projetos e Balanced Scorecard na mesma plataforma.",
-      "tela": "plataforma.webp"
+      "kicker": "Trilha Pessoas",
+      "titulo": "Admissão, ponto, férias e avaliações",
+      "destaque": "ponto",
+      "texto": "Ponto com localização e reconhecimento facial.",
+      "tela": "ponto.webp",
+      "recorte": [
+        0.21,
+        0.29,
+        0.53,
+        0.82
+      ]
     },
     {
-      "tipo": "solucao",
-      "tema": "light",
-      "kicker": "Você não fica sozinho",
-      "titulo": "Ajuda em cada etapa",
-      "destaque": "cada etapa",
-      "lista": [
-        "Manual com trilhas e passo a passo por módulo",
-        "Suporte pelo WhatsApp",
-        "Troca de plano quando a equipe crescer"
+      "tipo": "tela",
+      "kicker": "Trilha Operação",
+      "titulo": "Tarefas, projetos, POPs e aprovações",
+      "destaque": "Tarefas",
+      "texto": "Cada tarefa com prazo, prioridade e responsável.",
+      "tela": "tarefas.webp",
+      "recorte": [
+        0.0,
+        0.69,
+        0.62,
+        1.0
+      ]
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Trilha Estratégia",
+      "titulo": "SWOT, BSC, metas e painéis",
+      "destaque": "SWOT",
+      "texto": "Com IA para gerar a matriz SWOT e os objetivos.",
+      "tela": "swot.webp",
+      "recorte": [
+        0.0,
+        0.0,
+        1.0,
+        0.65
       ]
     },
     {
@@ -81,7 +111,7 @@
       "kicker": "Comece hoje",
       "titulo": "Escolha sua trilha e teste 7 dias grátis",
       "destaque": "7 dias grátis",
-      "texto": "Sem cartão e sem fidelidade.",
+      "texto": "Com manual em trilhas e suporte pelo WhatsApp. Sem cartão e sem fidelidade.",
       "botao": "Teste grátis: link na bio",
       "rodape": "Salve para fazer junto com o time"
     }
