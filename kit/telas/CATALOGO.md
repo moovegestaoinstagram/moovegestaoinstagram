@@ -11,7 +11,7 @@ Uso no kit: slide `"tipo": "tela"` com `"tela": "<arquivo>"`. Arquivos terminado
 1. O texto do slide só pode afirmar o que a tela mostra (coluna "Comprova"). Recurso que não aparece na tela precisa de outra tela ou de outra fonte (manual do Moove via conector).
 2. Use o nome do módulo como aparece no menu do sistema (coluna "Módulo / caminho").
 3. Números das telas são de demonstração: nunca apresentar como resultado de cliente nem da Moove.
-4. Respeite a coluna "Cuidados". **Não usar:** `usuarios.webp`, `permissoes.webp` (e-mails da equipe), `identidade.webp` (avisos de "sem permissão" na tela).
+4. Respeite a coluna "Cuidados". **Não usar:** `identidade.webp` (avisos de "sem permissão" na tela). `usuarios.webp` e `permissoes.webp` estão liberadas: os e-mails são fictícios (confirmado por Guilherme em 02/11/2026).
 
 ## Comercial e atendimento
 
@@ -75,6 +75,13 @@ Uso no kit: slide `"tipo": "tela"` com `"tela": "<arquivo>"`. Arquivos terminado
 | perfis.webp | Configurações › Departamentos | Departamentos cadastrados | Cadastro de departamentos com descrição | O nome do arquivo não corresponde: é a tela de **Departamentos** |
 | etica.webp / etica-m.webp | Canal de Ética | Denúncia DEN-2026 (fictícia) | Gestão de caso com severidade, investigador, linha do tempo e conversa anônima | Só em post sobre canal de ética, deixando claro que o caso é fictício |
 
+## Configurações
+
+| Arquivo | Módulo / caminho | Tela exata | Comprova | Cuidados |
+| --- | --- | --- | --- | --- |
+| usuarios.webp | Configurações › Gerenciar Usuários | Usuários Ativos | Usuários com perfil (Diretoria, Vendedor, Operações, Admin), cargo, status, prestador de serviço; abas Criar Usuário e Permissões | E-mails fictícios |
+| permissoes.webp | Configurações › Permissões | Permissões por usuário | Acesso às abas de Configurações definido por pessoa | E-mails fictícios |
+
 ## Planejamento estratégico
 
 | Arquivo | Módulo / caminho | Tela exata | Comprova | Cuidados |
@@ -89,6 +96,4 @@ Uso no kit: slide `"tipo": "tela"` com `"tela": "<arquivo>"`. Arquivos terminado
 
 | Arquivo | Motivo |
 | --- | --- |
-| usuarios.webp | Configurações › Gerenciar Usuários com e-mails reais da equipe |
-| permissoes.webp | Configurações › Permissões com e-mails reais da equipe |
 | identidade.webp | Avisos de "sem permissão" na tela |

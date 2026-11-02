@@ -34,17 +34,28 @@
       ]
     },
     {
-      "tipo": "item",
-      "kicker": "Base",
-      "numero": 2,
+      "tipo": "tela",
+      "kicker": "Base · Passo 2",
       "titulo": "Convide a equipe com o acesso certo",
       "destaque": "acesso certo",
-      "texto": "Cada pessoa entra no seu departamento e vê só o que precisa. Dá para convidar em massa.",
-      "card": "Dica: reserve o perfil <b>Admin</b> para quem administra o sistema."
+      "texto": "Cada pessoa com seu perfil: Diretoria, Vendas, Operações. Dá para convidar em massa.",
+      "tela": "usuarios.webp",
+      "recorte": [
+        0.0,
+        0.15,
+        0.75,
+        0.77
+      ],
+      "foco": [
+        0.54,
+        0.4,
+        0.66,
+        0.93
+      ]
     },
     {
       "tipo": "item",
-      "kicker": "Base",
+      "kicker": "Base · Passo 3",
       "numero": 3,
       "titulo": "Traga o que já está na planilha",
       "destaque": "planilha",
