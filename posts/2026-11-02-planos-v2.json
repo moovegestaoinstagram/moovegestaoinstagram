@@ -1,0 +1,106 @@
+{
+  "slug": "2026-11-02-planos-v2",
+  "formato": "carrossel",
+  "data": "2026-11-02T19:05:00",
+  "pilar": "Oferta",
+  "alt": "Planos e preços do Moove Gestão, mensal e anual",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "Planos e preços",
+      "titulo": "Quanto custa o Moove?",
+      "destaque": "custa",
+      "texto": "A partir de R$ 159/mês no plano anual (R$ 1.909/ano). 7 dias grátis, sem cartão."
+    },
+    {
+      "tipo": "gancho",
+      "kicker": "Como escolher",
+      "titulo": "Você escolhe o plano pelo tamanho da equipe",
+      "destaque": "tamanho da equipe",
+      "texto": "Os planos mudam em número de usuários, armazenamento e cotas de IA, assinaturas e WhatsApp. Mensal ou anual, você decide."
+    },
+    {
+      "tipo": "plano",
+      "kicker": "Para começar",
+      "titulo": "Starter",
+      "mensal": "R$ 199",
+      "anual": "R$ 159",
+      "anual_total": "R$ 1.909",
+      "lista": [
+        "Até 5 usuários",
+        "15 GB de armazenamento",
+        "50 interações de IA por mês",
+        "15 assinaturas eletrônicas por mês"
+      ],
+      "tema": "light"
+    },
+    {
+      "tipo": "plano",
+      "kicker": "Para crescer",
+      "titulo": "Growth",
+      "selo": "Mais popular",
+      "mensal": "R$ 429",
+      "anual": "R$ 349",
+      "anual_total": "R$ 4.199",
+      "lista": [
+        "Até 15 usuários",
+        "50 GB de armazenamento",
+        "300 interações de IA por mês",
+        "WhatsApp: 1 número + 200 créditos de IA"
+      ],
+      "tema": "dark"
+    },
+    {
+      "tipo": "plano",
+      "kicker": "Para operações maiores",
+      "titulo": "Business",
+      "mensal": "R$ 749",
+      "anual": "R$ 599",
+      "anual_total": "R$ 7.199",
+      "lista": [
+        "Até 40 usuários",
+        "250 GB de armazenamento",
+        "800 interações de IA por mês",
+        "WhatsApp: 2 números + 750 créditos de IA"
+      ],
+      "tema": "light"
+    },
+    {
+      "tipo": "plano",
+      "kicker": "Para grandes empresas",
+      "titulo": "Enterprise",
+      "mensal": "R$ 1.499",
+      "anual": "R$ 1.199",
+      "anual_total": "R$ 14.399",
+      "lista": [
+        "Até 100 usuários",
+        "1 TB de armazenamento",
+        "IA, assinaturas e formulários ilimitados",
+        "WhatsApp: 3 números"
+      ],
+      "tema": "light"
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "Em todos os planos",
+      "titulo": "Sem fidelidade e com teste grátis",
+      "destaque": "teste grátis",
+      "lista": [
+        "7 dias grátis, sem cartão",
+        "Sem fidelidade",
+        "Troca de plano quando quiser",
+        "Anual até 20% mais barato"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Próximo passo",
+      "titulo": "Teste o plano certo para sua equipe",
+      "destaque": "plano certo",
+      "texto": "Dúvidas ou empresa grande? Fale com o comercial: WhatsApp (61) 98144-3333.",
+      "botao": "Teste grátis: link na bio",
+      "rodape": "Salve para comparar com o que você paga hoje"
+    }
+  ],
+  "legenda": "Quanto custa o Moove? Preço claro, sem surpresa.\n\nStarter (até 5 usuários): R$ 199/mês no mensal ou R$ 159/mês no plano anual (R$ 1.909/ano).\nGrowth (até 15), o mais popular: R$ 429/mês no mensal ou R$ 349/mês no anual (R$ 4.199/ano).\nBusiness (até 40): R$ 749/mês no mensal ou R$ 599/mês no anual (R$ 7.199/ano).\nEnterprise (até 100): R$ 1.499/mês no mensal ou R$ 1.199/mês no anual (R$ 14.399/ano).\n\nTodos com 7 dias grátis, sem cartão e sem fidelidade. Dúvidas ou empresa grande? Fale com o comercial pelo WhatsApp (61) 98144-3333.\n\nTeste grátis: link na bio.\n\n#sistemadegestao #gestaoempresarial #crm #pequenasempresas #saas"
+}
