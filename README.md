@@ -7,6 +7,8 @@ A estratégia completa está na **Diretriz do Agente de Instagram — Moove Gest
 
 | Pasta | Conteúdo |
 | --- | --- |
+| `kit/SISTEMA-VISUAL.md` | **Leia antes de criar qualquer arte:** layouts, rodízio de fundos, regras de salvável/mandável |
+| `kit/slides.py` + `kit/estilo.css` | Layouts e estilos do sistema visual v2 |
 | `kit/render.py` | Gera carrosséis (1080×1350, JPG) e Reels (1080×1920, MP4) a partir de um JSON |
 | `kit/fonts/` | Open Sans 400/600/700/800 (licença OFL) |
 | `kit/logo/` | Logo colorida e branca, fundo transparente |

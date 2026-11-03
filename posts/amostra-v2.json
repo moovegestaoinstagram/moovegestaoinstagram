@@ -1,0 +1,194 @@
+{
+ "slug": "amostra-v2",
+ "formato": "carrossel",
+ "pilar": "Amostra do sistema visual v2 (não publicar)",
+ "slides": [
+  {
+   "tipo": "capa",
+   "kicker": "Atendimento",
+   "titulo": "O cliente mandou mensagem às 9h. Quem respondeu?",
+   "destaque": "Quem respondeu?",
+   "texto": "Se a resposta é \"acho que alguém\", este post é para você."
+  },
+  {
+   "tipo": "conversa",
+   "kicker": "Soa familiar?",
+   "titulo": "Toda segunda, no grupo da equipe",
+   "grupo": "Comercial",
+   "sub": "Ana, Bruno, Carla, você",
+   "mensagens": [
+    {
+     "de": "Ana",
+     "texto": "Alguém respondeu a construtora que pediu orçamento sexta?",
+     "hora": "09:02"
+    },
+    {
+     "de": "Bruno",
+     "cor": "#B45309",
+     "texto": "Achei que a Carla tinha pegado",
+     "hora": "09:05"
+    },
+    {
+     "de": "Carla",
+     "cor": "#7C3AED",
+     "texto": "Tava no meu celular pessoal, vou procurar",
+     "hora": "09:31"
+    },
+    {
+     "eu": true,
+     "texto": "Eles fecharam com outra empresa ontem.",
+     "hora": "10:14"
+    }
+   ]
+  },
+  {
+   "tipo": "enquete",
+   "kicker": "Responda nos comentários",
+   "titulo": "Quanto tempo um cliente espera resposta aí?",
+   "opcoes": [
+    "Menos de 5 minutos",
+    "Até 1 hora",
+    "Só no dia seguinte",
+    "Ninguém sabe dizer"
+   ],
+   "texto": "Se marcou D, você não está sozinho. Continue."
+  },
+  {
+   "tipo": "versus",
+   "kicker": "O que muda",
+   "titulo": "Atendimento no celular de cada um x num só lugar",
+   "antes_titulo": "Hoje",
+   "antes": [
+    "Conversa no celular pessoal do vendedor",
+    "Ninguém sabe quem está atendendo",
+    "Histórico some quando a pessoa sai"
+   ],
+   "depois_titulo": "Com o Moove",
+   "depois": [
+    "Todas as conversas na mesma caixa",
+    "Filtro de conversas sem responsável",
+    "Cronômetro mostra quem está esperando"
+   ]
+  },
+  {
+   "tipo": "tela",
+   "kicker": "Na tela",
+   "titulo": "Como isso aparece no Moove",
+   "tela": "whatsapp.webp",
+   "recorte": [
+    0.55,
+    0.04,
+    1.0,
+    0.45
+   ],
+   "pinos": [
+    [
+     0.07,
+     0.17,
+     "Cronômetro e selo de SLA estourado: quem está esperando"
+    ],
+    [
+     0.07,
+     0.66,
+     "Nome de quem respondeu em cada mensagem"
+    ]
+   ]
+  },
+  {
+   "tipo": "numero",
+   "kicker": "Além do WhatsApp",
+   "numero": "4",
+   "unidade": "áreas",
+   "titulo": "num só sistema e num só login",
+   "chips": [
+    "Comercial",
+    "Pessoas",
+    "Operação",
+    "Estratégia"
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "kicker": "Teste rápido",
+   "titulo": "Seu atendimento passa neste teste?",
+   "itens": [
+    "Todo cliente tem um responsável",
+    "Dá para ver o histórico sem perguntar a ninguém",
+    "Ninguém atende pelo celular pessoal",
+    "Você sabe quantas conversas estão sem resposta agora"
+   ]
+  },
+  {
+   "tipo": "tabela",
+   "kicker": "Comparativo",
+   "titulo": "Planilha e WhatsApp pessoal x Moove",
+   "colunas": [
+    "",
+    "Planilha + celular",
+    "Moove"
+   ],
+   "linhas": [
+    [
+     "Histórico por cliente",
+     "nao",
+     "sim"
+    ],
+    [
+     "Responsável visível",
+     "nao",
+     "sim"
+    ],
+    [
+     "Tempo de espera do cliente",
+     "nao",
+     "sim"
+    ],
+    [
+     "Funil de vendas",
+     "Manual",
+     "sim"
+    ]
+   ]
+  },
+  {
+   "tipo": "passos",
+   "kicker": "Por onde começar",
+   "titulo": "Organize o atendimento em 3 passos",
+   "passos": [
+    {
+     "t": "Conecte o WhatsApp da empresa",
+     "d": "As conversas passam a chegar numa caixa só."
+    },
+    {
+     "t": "Convide sua equipe",
+     "d": "Cada pessoa entra com o próprio acesso."
+    },
+    {
+     "t": "Defina quem atende o quê",
+     "d": "Atribua as conversas e acompanhe o tempo de resposta."
+    }
+   ]
+  },
+  {
+   "tipo": "nota",
+   "kicker": "Bastidor",
+   "titulo": "A nota que todo gestor já escreveu",
+   "nota_titulo": "Segunda",
+   "nota_texto": "– perguntar onde está a proposta da construtora\n– descobrir quem atendeu o cliente de sexta\n– pedir pra ninguém usar o celular pessoal (de novo)"
+  },
+  {
+   "tipo": "frase",
+   "frase": "Se depende de alguém lembrar, ainda não é processo.",
+   "destaque": "não é processo",
+   "assinatura": "Moove Gestão"
+  },
+  {
+   "tipo": "cta",
+   "tema": "lime",
+   "kicker": "Teste grátis",
+   "titulo": "Veja suas conversas num só lugar em 7 dias",
+   "botao": "Link na bio",
+   "enviar": "Mande para quem cuida do seu comercial"
+  }
+ ]
+}
