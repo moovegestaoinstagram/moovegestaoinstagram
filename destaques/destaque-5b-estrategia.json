@@ -1,0 +1,76 @@
+{
+  "slug": "destaque-5b-estrategia",
+  "formato": "stories",
+  "serie": "Estratégia",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "Estratégia",
+      "titulo": "Seu planejamento sai do papel ou fica na apresentação?",
+      "destaque": "sai do papel",
+      "texto": "Estratégia só funciona quando vira ação com dono e prazo."
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Balanced Scorecard",
+      "titulo": "Objetivos por perspectiva, com progresso",
+      "destaque": "com progresso",
+      "texto": "Cada objetivo com indicador, meta e responsável.",
+      "tela": "bsc-desdobramento.webp",
+      "recorte": [
+        0.15,
+        0.5,
+        0.73,
+        1.0
+      ]
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Ações estratégicas",
+      "titulo": "Do objetivo à ação, com status e atrasos à vista",
+      "destaque": "atrasos à vista",
+      "texto": "Em Kanban, Lista, Gantt ou Calendário.",
+      "tela": "acoes.webp",
+      "recorte": [
+        0.0,
+        0.0,
+        0.62,
+        1.0
+      ]
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Painéis",
+      "titulo": "Indicadores da empresa num painel só",
+      "destaque": "num painel só",
+      "tela": "dashboard.webp",
+      "recorte": [
+        0.16,
+        0.3,
+        0.71,
+        0.88
+      ]
+    },
+    {
+      "tipo": "solucao",
+      "kicker": "Para diretoria e empresas maiores",
+      "titulo": "Governança para quem tem muitas áreas",
+      "destaque": "muitas áreas",
+      "lista": [
+        "Permissões por perfil e por funil",
+        "Aprovação de pedidos por etapas",
+        "IA liberada por pessoa, com as permissões de cada um",
+        "Até 100 usuários no plano Enterprise"
+      ]
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Fale com a gente",
+      "titulo": "Leve a estratégia para o dia a dia",
+      "destaque": "dia a dia",
+      "texto": "Empresa grande? Fale com o comercial no WhatsApp (61) 98144-3333.",
+      "botao": "Teste grátis: link na bio",
+      "rodape": "Veja também: IA"
+    }
+  ]
+}

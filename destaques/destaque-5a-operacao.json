@@ -1,0 +1,72 @@
+{
+  "slug": "destaque-5a-operacao",
+  "formato": "stories",
+  "serie": "Operação",
+  "slides": [
+    {
+      "tipo": "capa",
+      "kicker": "Operação",
+      "titulo": "O que foi combinado na reunião some no dia seguinte?",
+      "destaque": "some",
+      "texto": "Tarefa sem dono e sem prazo não acontece."
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Tarefas",
+      "titulo": "Cada tarefa com prazo, prioridade e responsável",
+      "destaque": "responsável",
+      "texto": "E o aviso de quais estão em risco.",
+      "tela": "tarefas.webp",
+      "recorte": [
+        0.0,
+        0.69,
+        0.62,
+        1.0
+      ]
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Projetos",
+      "titulo": "Projetos por etapa, do planejamento ao risco",
+      "destaque": "por etapa",
+      "tela": "projetos-kanban.webp",
+      "recorte": [
+        0.17,
+        0.7,
+        0.65,
+        1.0
+      ]
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Procedimentos",
+      "titulo": "POPs com versão, status e busca com IA",
+      "destaque": "busca com IA",
+      "texto": "O jeito certo de fazer fica escrito e fácil de achar.",
+      "tela": "pops.webp",
+      "recorte": [
+        0.0,
+        0.08,
+        0.78,
+        1.0
+      ]
+    },
+    {
+      "tipo": "tela",
+      "kicker": "Aprovações",
+      "titulo": "Pedidos de compra aprovados pelo celular",
+      "destaque": "pelo celular",
+      "tela": "pedidos-m.webp",
+      "tema": "dark"
+    },
+    {
+      "tipo": "cta",
+      "kicker": "Teste grátis",
+      "titulo": "Organize a operação em 7 dias de teste",
+      "destaque": "7 dias",
+      "texto": "Sem cartão e sem fidelidade.",
+      "botao": "Teste grátis: link na bio",
+      "rodape": "Veja também: Estratégia"
+    }
+  ]
+}
