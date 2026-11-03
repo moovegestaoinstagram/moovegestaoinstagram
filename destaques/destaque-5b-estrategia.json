@@ -12,6 +12,20 @@
     },
     {
       "tipo": "tela",
+      "kicker": "Matriz SWOT",
+      "titulo": "Comece pelo diagnóstico, com ajuda da IA",
+      "destaque": "com ajuda da IA",
+      "texto": "Forças, fraquezas, oportunidades e ameaças, com geração por IA.",
+      "tela": "swot.webp",
+      "recorte": [
+        0.0,
+        0.0,
+        1.0,
+        0.65
+      ]
+    },
+    {
+      "tipo": "tela",
       "kicker": "Balanced Scorecard",
       "titulo": "Objetivos por perspectiva, com progresso",
       "destaque": "com progresso",
@@ -49,18 +63,6 @@
         0.3,
         0.71,
         0.88
-      ]
-    },
-    {
-      "tipo": "solucao",
-      "kicker": "Para diretoria e empresas maiores",
-      "titulo": "Governança para quem tem muitas áreas",
-      "destaque": "muitas áreas",
-      "lista": [
-        "Permissões por perfil e por funil",
-        "Aprovação de pedidos por etapas",
-        "IA liberada por pessoa, com as permissões de cada um",
-        "Até 100 usuários no plano Enterprise"
       ]
     },
     {

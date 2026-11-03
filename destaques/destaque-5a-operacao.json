@@ -6,9 +6,9 @@
     {
       "tipo": "capa",
       "kicker": "Operação",
-      "titulo": "O que foi combinado na reunião some no dia seguinte?",
-      "destaque": "some",
-      "texto": "Tarefa sem dono e sem prazo não acontece."
+      "titulo": "Sua operação anda sozinha ou depende de alguém lembrar?",
+      "destaque": "alguém lembrar",
+      "texto": "Tarefas, projetos, procedimentos e aprovações saem da cabeça das pessoas e vão para o sistema."
     },
     {
       "tipo": "tela",

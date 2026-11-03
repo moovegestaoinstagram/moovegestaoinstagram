@@ -33,15 +33,21 @@
     {
       "tipo": "tela",
       "kicker": "IA dentro do sistema",
-      "titulo": "Gere uma matriz SWOT com IA em um clique",
-      "destaque": "com IA",
-      "texto": "Também há IA para objetivos do BSC, metas e análise de tarefas.",
-      "tela": "swot.webp",
+      "titulo": "Metas com resumo e sugestões da IA",
+      "destaque": "sugestões da IA",
+      "texto": "Também há IA no CRM, nas tarefas e no planejamento estratégico.",
+      "tela": "metas.webp",
       "recorte": [
-        0.0,
-        0.0,
+        0.6,
+        0.33,
         1.0,
-        0.65
+        0.6
+      ],
+      "foco": [
+        0.02,
+        0.05,
+        0.64,
+        0.25
       ]
     },
     {

@@ -96,6 +96,9 @@ def tela_src(nome, recorte=None):
         w, h = im.size
         x0, y0, x1, y1 = recorte
         im = im.crop((int(x0 * w), int(y0 * h), int(x1 * w), int(y1 * h)))
+        if im.size[0] < 1600:  # recorte pequeno: amplia para ocupar a largura do slide
+            f = 1600 / im.size[0]
+            im = im.resize((1600, int(im.size[1] * f)), Image.LANCZOS)
     buf = io.BytesIO(); im.save(buf, "PNG")
     return "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode(), im.size
 
