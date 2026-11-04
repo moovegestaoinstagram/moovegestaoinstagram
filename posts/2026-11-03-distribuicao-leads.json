@@ -1,64 +1,96 @@
 {
-  "slug": "2026-11-03-distribuicao-leads",
-  "formato": "reel",
-  "data": "2026-11-03T10:00:00",
-  "pilar": "Moove em ação",
-  "segundos_por_cena": 3.4,
-  "slides": [
+ "slug": "2026-11-03-distribuicao-leads",
+ "formato": "reel",
+ "data": "2026-12-02T10:00:00",
+ "pilar": "Moove em ação",
+ "perfil": "comercial",
+ "versao": "v2",
+ "segundos_por_cena": 4.4,
+ "legenda": "Lead sem resposta é venda esfriando: distribuição de leads e prazo de resposta no WhatsApp.\n\nO lead chega às 9h, todo mundo acha que alguém respondeu e, às 11h, ele já fechou com outra empresa.\n\nNo Moove, as regras de distribuição do CRM definem qual vendedor recebe cada lead, considerando a disponibilidade da equipe. No WhatsApp, cada canal tem meta de primeira resposta e o selo de SLA estourado mostra quem está esperando. E cada negócio vai para o funil com etapa, valor e responsável.\n\nTeste 7 dias grátis, sem cartão: moovesales.com.br (link na bio).\n\nMande para quem cuida do comercial aí.\n\n#crm #distribuicaodeleads #gestaocomercial #atendimentoaocliente #vendasb2b",
+ "slides": [
+  {
+   "tipo": "capa",
+   "tema": "dark",
+   "kicker": "Comercial",
+   "titulo": "O lead chegou às 9h. Às 11h, ninguém tinha respondido.",
+   "destaque": "ninguém tinha respondido."
+  },
+  {
+   "tipo": "conversa",
+   "kicker": "Soa familiar?",
+   "titulo": "No grupo da equipe",
+   "grupo": "Comercial",
+   "sub": "Ana, Bruno, você",
+   "mensagens": [
     {
-      "tipo": "capa",
-      "kicker": "Moove em ação",
-      "titulo": "Lead novo esperando resposta é venda esfriando",
-      "destaque": "venda esfriando"
+     "de": "Ana",
+     "texto": "Quem pegou o lead que chegou pelo site?",
+     "hora": "09:04"
     },
     {
-      "tipo": "tela",
-      "kicker": "O lead chega",
-      "titulo": "A conversa começa no WhatsApp",
-      "destaque": "no WhatsApp",
-      "tela": "whatsapp-m.webp",
-      "tema": "dark"
+     "de": "Bruno",
+     "cor": "#B45309",
+     "texto": "Achei que era você",
+     "hora": "09:41"
     },
     {
-      "tipo": "tela",
-      "kicker": "Prazo de resposta",
-      "titulo": "Alerta quando o cliente espera demais",
-      "destaque": "espera demais",
-      "tela": "whatsapp.webp",
-      "recorte": [
-        0.32,
-        0.0,
-        1.0,
-        0.62
-      ],
-      "foco": [
-        0.335,
-        0.085,
-        0.565,
-        0.175
-      ]
-    },
-    {
-      "tipo": "tela",
-      "kicker": "Direto para o funil",
-      "titulo": "Cada negócio com etapa, valor e responsável",
-      "destaque": "responsável",
-      "tela": "crm-pipeline.webp",
-      "recorte": [
-        0.045,
-        0.1,
-        0.74,
-        0.95
-      ]
-    },
-    {
-      "tipo": "cta",
-      "kicker": "Teste grátis",
-      "titulo": "7 dias para testar, sem cartão",
-      "destaque": "sem cartão",
-      "botao": "moovesales.com.br",
-      "rodape": "Envie para quem cuida do comercial"
+     "eu": true,
+     "texto": "Ele fechou com outra empresa.",
+     "hora": "11:12"
     }
-  ],
-  "legenda": "Lead novo esperando resposta é venda esfriando.\n\nNo Moove, as regras de distribuição definem qual vendedor recebe cada lead, considerando a disponibilidade da equipe. No WhatsApp, cada canal tem meta de primeira resposta e alerta de SLA estourado. E cada negócio vai para o funil com etapa, valor e responsável.\n\nVocê acompanha tudo no funil, sem depender do grupo do WhatsApp.\n\nTeste 7 dias grátis, sem cartão: moovesales.com.br (link na bio)\n\n#crm #vendas #gestaocomercial #atendimentoaocliente #whatsappbusiness"
+   ]
+  },
+  {
+   "tipo": "tela",
+   "tema": "light",
+   "kicker": "No WhatsApp do Moove",
+   "titulo": "Você vê quem está esperando",
+   "destaque": "esperando",
+   "tela": "whatsapp-m.webp",
+   "recorte": [
+    0.0,
+    0.12,
+    1.0,
+    0.46
+   ],
+   "pinos": [
+    [
+     0.17,
+     0.085,
+     "Cronômetro de SLA da conversa"
+    ],
+    [
+     0.56,
+     0.66,
+     "Nome de quem respondeu"
+    ]
+   ]
+  },
+  {
+   "tipo": "versus",
+   "tema": "deep",
+   "kicker": "O que muda",
+   "titulo": "Lead no grupo x lead com dono",
+   "antes_titulo": "Hoje",
+   "antes": [
+    "Lead fica com quem viu primeiro",
+    "Ninguém sabe quem respondeu",
+    "Funil montado na planilha"
+   ],
+   "depois_titulo": "Com o Moove",
+   "depois": [
+    "Regras de distribuição escolhem o vendedor",
+    "Meta de 1ª resposta por canal",
+    "Negócio no funil com etapa e valor"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "tema": "lime",
+   "kicker": "Teste grátis",
+   "titulo": "7 dias para testar, sem cartão",
+   "botao": "Link na bio",
+   "enviar": "Mande para quem cuida do comercial"
+  }
+ ]
 }

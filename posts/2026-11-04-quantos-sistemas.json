@@ -1,71 +1,124 @@
 {
-  "slug": "2026-11-04-quantos-sistemas",
-  "formato": "carrossel",
-  "data": "2026-11-04T10:00:00",
-  "pilar": "Prova e bastidores",
-  "slides": [
-    {
-      "tipo": "capa",
-      "kicker": "Bastidores do Moove",
-      "titulo": "Quantos sistemas sua empresa paga hoje?",
-      "destaque": "paga hoje?",
-      "texto": "Foi dessa pergunta que o Moove nasceu."
-    },
-    {
-      "tipo": "gancho",
-      "kicker": "Faça a conta",
-      "titulo": "Liste as ferramentas que sua equipe usa por mês",
-      "destaque": "por mês",
-      "texto": "Inclua as que só uma pessoa usa. Elas também custam, em dinheiro e em informação espalhada."
-    },
-    {
-      "tipo": "item",
-      "kicker": "Comercial",
-      "numero": 1,
-      "titulo": "CRM, propostas e WhatsApp",
-      "destaque": "WhatsApp",
-      "texto": "Funil de vendas, cotações e conversas com clientes costumam estar em três lugares diferentes."
-    },
-    {
-      "tipo": "item",
-      "kicker": "Operação",
-      "numero": 2,
-      "titulo": "Tarefas, projetos e procedimentos",
-      "destaque": "procedimentos",
-      "texto": "Quadro de tarefas num app, processo documentado em outro, arquivos num terceiro."
-    },
-    {
-      "tipo": "item",
-      "kicker": "Pessoas",
-      "numero": 3,
-      "titulo": "Admissão, ponto e avaliação",
-      "destaque": "ponto",
-      "texto": "RH costuma ser o último a sair do papel e da planilha."
-    },
-    {
-      "tipo": "item",
-      "kicker": "Gestão",
-      "numero": 4,
-      "titulo": "Metas, indicadores e planejamento",
-      "destaque": "indicadores",
-      "texto": "Quando os dados estão espalhados, o painel da diretoria vira trabalho manual toda semana."
-    },
-    {
-      "tipo": "tela",
-      "kicker": "Por isso criamos o Moove",
-      "titulo": "Tudo que estava espalhado, num só sistema",
-      "destaque": "num só sistema",
-      "texto": "Menos ferramentas para pagar, menos retrabalho.",
-      "tela": "plataforma.webp"
-    },
-    {
-      "tipo": "cta",
-      "kicker": "Teste grátis",
-      "titulo": "Compare com a sua lista: 7 dias grátis, sem cartão",
-      "destaque": "sem cartão",
-      "botao": "moovesales.com.br",
-      "rodape": "Salve para fazer a conta com seu sócio"
-    }
-  ],
-  "legenda": "Quantos sistemas sua empresa paga hoje?\n\nFoi dessa pergunta que o Moove nasceu. Comercial, operação, pessoas e gestão costumam viver em ferramentas separadas, cada uma com sua mensalidade e seus dados.\n\nFaça a lista com seu time e compare. O Moove reúne vendas, atendimento, projetos e RH em um só sistema.\n\n7 dias grátis, sem cartão: moovesales.com.br\n\n#gestaoempresarial #saas #pequenasempresas #produtividade #empreendedorismo"
+ "slug": "2026-11-04-quantos-sistemas",
+ "formato": "carrossel",
+ "data": "2026-12-04T10:00:00",
+ "pilar": "Prova e bastidores",
+ "perfil": "dono",
+ "versao": "v2",
+ "legenda": "Quantos sistemas sua empresa paga hoje? Faça a conta de ferramentas de gestão com seu sócio.\n\nFoi dessa pergunta que o Moove nasceu. Comercial, operação, pessoas e gestão costumam viver em ferramentas separadas, cada uma com sua mensalidade, seu login e seus dados.\n\nNo carrossel: a tabela para fazer a conta área por área e 4 sinais de que você paga sistema demais.\n\nO Moove reúne CRM, WhatsApp, cotações, tarefas e projetos, ponto, férias, admissão, dashboards e BSC em um só sistema. Teste 7 dias grátis, sem cartão: moovesales.com.br (link na bio).\n\nMande para seu sócio fazer a conta junto.\n\n#gestaoempresarial #sistemadegestao #donodeempresa #pme #produtividade",
+ "slides": [
+  {
+   "tipo": "capa",
+   "tema": "light",
+   "kicker": "Bastidores do Moove",
+   "titulo": "Quantos sistemas sua empresa paga hoje?",
+   "destaque": "paga hoje?",
+   "texto": "Foi dessa pergunta que o Moove nasceu."
+  },
+  {
+   "tipo": "enquete",
+   "tema": "mist",
+   "kicker": "Responda nos comentários",
+   "titulo": "Quantas ferramentas sua equipe usa por mês?",
+   "opcoes": [
+    "1 ou 2",
+    "3 a 5",
+    "6 ou mais",
+    "Nunca contei"
+   ],
+   "texto": "Responda com a letra. Se foi D, faça a conta deste post."
+  },
+  {
+   "tipo": "nota",
+   "tema": "light",
+   "kicker": "A lista que ninguém faz",
+   "titulo": "Abra o bloco de notas e liste",
+   "nota_titulo": "Ferramentas da empresa",
+   "data": "Segunda-feira, 08:12",
+   "nota_texto": "– CRM\n– WhatsApp de cada vendedor\n– planilha de propostas\n– app de tarefas\n– pasta de procedimentos\n– ponto e férias no papel"
+  },
+  {
+   "tipo": "tabela",
+   "tema": "mist",
+   "kicker": "Faça a conta",
+   "titulo": "Onde cada área vive hoje",
+   "colunas": [
+    "Área",
+    "Hoje",
+    "No Moove"
+   ],
+   "linhas": [
+    [
+     "Comercial",
+     "CRM + WhatsApp + planilha",
+     "CRM, WhatsApp e Cotações"
+    ],
+    [
+     "Operação",
+     "App de tarefas + pastas",
+     "Tarefas e Projetos, POPs"
+    ],
+    [
+     "Pessoas",
+     "Papel e planilha",
+     "Admissão, Ponto e Férias"
+    ],
+    [
+     "Gestão",
+     "Relatório feito à mão",
+     "Dashboard e BSC"
+    ]
+   ]
+  },
+  {
+   "tipo": "numero",
+   "tema": "deep",
+   "kicker": "Por isso criamos o Moove",
+   "numero": "4",
+   "unidade": "áreas",
+   "titulo": "num só sistema e num só login",
+   "chips": [
+    "Comercial",
+    "Pessoas",
+    "Operação",
+    "Estratégia"
+   ]
+  },
+  {
+   "tipo": "tela",
+   "tema": "light",
+   "kicker": "Na tela",
+   "titulo": "Tudo que estava espalhado, num só lugar",
+   "destaque": "num só lugar",
+   "tela": "plataforma.webp"
+  },
+  {
+   "tipo": "checklist",
+   "tema": "mist",
+   "kicker": "Teste rápido",
+   "titulo": "4 sinais de que você paga sistema demais",
+   "itens": [
+    "A mesma informação é digitada em dois lugares",
+    "Ninguém sabe qual planilha é a certa",
+    "Cada área tem seu login e sua mensalidade",
+    "O relatório da diretoria é montado à mão"
+   ]
+  },
+  {
+   "tipo": "frase",
+   "tema": "lime",
+   "frase": "Cada ferramenta a mais é mais um lugar para procurar.",
+   "destaque": "mais um lugar para procurar",
+   "assinatura": "Moove Gestão"
+  },
+  {
+   "tipo": "cta",
+   "tema": "dark",
+   "kicker": "Teste grátis",
+   "titulo": "Compare com a sua lista: 7 dias grátis, sem cartão",
+   "destaque": "sem cartão",
+   "botao": "Link na bio",
+   "enviar": "Mande para seu sócio fazer a conta junto"
+  }
+ ]
 }

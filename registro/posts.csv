@@ -5,10 +5,13 @@ data,slug,formato,pilar,gancho
 2026-10-29,2026-10-29-moove-em-15s,reel,Moove em ação,Tudo da sua empresa em um só sistema
 2026-10-30,2026-10-30-tirar-do-whatsapp,carrossel,Gestão na prática,5 processos para tirar do WhatsApp ainda esta semana
 2026-11-02,2026-11-02-planilha,carrossel,Gestão na prática,5 sinais de que sua empresa já passou da fase da planilha
-2026-11-03,2026-11-03-distribuicao-leads,reel,Moove em ação,Lead novo esperando resposta é venda esfriando
-2026-11-04,2026-11-04-quantos-sistemas,carrossel,Prova e bastidores,Quantos sistemas sua empresa paga hoje?
-2026-11-05,2026-11-05-funil-vendas,carrossel,Gestão na prática,4 perguntas que seu funil de vendas precisa responder
-2026-11-06,2026-11-06-ia-na-gestao,reel,Tendências e conversa,E se você pudesse perguntar à IA como está sua empresa?
+2026-12-02,2026-11-03-distribuicao-leads,reel,Moove em ação,"O lead chegou às 9h. Às 11h, ninguém tinha respondido. [v2: capa-conversa-tela-versus-cta | capa dark; remanejado de 2026-11-03]"
+2026-12-04,2026-11-04-quantos-sistemas,carrossel,Prova e bastidores,Quantos sistemas sua empresa paga hoje? [v2: capa-enquete-nota-tabela-numero-tela-checklist-frase-cta | capa light; remanejado de 2026-11-04]
+2026-12-07,2026-11-05-funil-vendas,carrossel,Gestão na prática,Seu funil responde 4 perguntas em 1 minuto? [v2: capa-conversa-checklist-item-tela-tela-frase-cta | capa lime; remanejado de 2026-11-05]
+2026-12-09,2026-11-06-ia-na-gestao,reel,Tendências e conversa,"Você pergunta ""como estão as vendas?"" e recebe uma planilha amanhã. [v2: capa-nota-tela-solucao-cta | capa dark; remanejado de 2026-11-06]"
 2026-11-02,2026-11-02-como-comecar-v2,carrossel,Moove em ação,"Como começar no Moove, seja qual for a sua área"
 2026-11-02,2026-11-02-planos-v2,carrossel,Oferta,Quanto custa o Moove?
 2026-11-02,2026-11-02-prazer-moove-v2,carrossel,Prova e bastidores,"Vendas, atendimento, projetos e RH em um só sistema"
+2026-12-11,2026-12-11-ferias-vencidas,carrossel,Gestão na prática,Dezembro chegou. Quem da equipe está com férias vencendo? [perfil RH; capa-numero-conversa-versus-tela-checklist-passos-frase-cta | capa mist]
+2026-12-03,stories/2026-12-03-1000,story,Moove em ação,Quanto tempo um lead espera resposta aí? [cta dark; chama o Reels de 02/12]
+2026-12-10,stories/2026-12-10-1000,story,Gestão na prática,Seu funil responde 4 perguntas em 1 minuto? [cta lime; chama o carrossel de 07/12]

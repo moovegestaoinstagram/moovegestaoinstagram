@@ -30,7 +30,7 @@ p{font-size:40px;line-height:1.38;font-weight:400;margin-top:32px;color:var(--mu
 .hl{background:linear-gradient(transparent 58%,rgba(157,193,41,.55) 58%,rgba(157,193,41,.55) 92%,transparent 92%);padding:0 .06em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 .dark .hl,.deep .hl{background:none;color:var(--lime)}
 .tealbg .hl{background:linear-gradient(transparent 58%,rgba(2,8,23,.25) 58%,rgba(2,8,23,.25) 92%,transparent 92%)}
-.lime .hl{background:var(--ink);color:var(--lime);padding:0 .14em;border-radius:.12em}
+.lime .hl{background:linear-gradient(transparent 18%,var(--ink) 18%,var(--ink) 88%,transparent 88%);color:var(--lime);padding:0 .12em}
 .grow{flex:1;display:flex;flex-direction:column;justify-content:center}
 .foot{display:flex;justify-content:space-between;align-items:center;gap:40px}
 .foot img{height:44px}

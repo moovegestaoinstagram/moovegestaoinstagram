@@ -1,0 +1,152 @@
+{
+ "slug": "2026-12-11-ferias-vencidas",
+ "formato": "carrossel",
+ "data": "2026-12-11T10:00:00",
+ "pilar": "Gestão na prática",
+ "perfil": "RH",
+ "versao": "v2",
+ "legenda": "Férias vencidas custam em dobro: o controle de férias que o RH precisa fechar em dezembro.\n\nPela CLT (art. 137), férias concedidas depois do período concessivo são pagas em dobro. E dezembro é quando a equipe pede férias para janeiro, o banco de horas precisa ser fechado e a planilha de períodos costuma estar desatualizada.\n\nNo carrossel: checklist de férias para fechar o ano e como organizar no Moove (Férias › Períodos Aquisitivos, solicitações e calendário da equipe).\n\nSalve para usar no fechamento. Teste 7 dias grátis, sem cartão: moovesales.com.br (link na bio).\n\nMande para quem cuida do RH aí.\n\n#controledeferias #departamentopessoal #rh #gestaodepessoas #feriasvencidas",
+ "slides": [
+  {
+   "tipo": "capa",
+   "tema": "mist",
+   "kicker": "RH e DP",
+   "titulo": "Dezembro chegou. Quem da equipe está com férias vencendo?",
+   "destaque": "férias vencendo?",
+   "texto": "Férias concedidas fora do prazo saem em dobro. Confira antes de janeiro."
+  },
+  {
+   "tipo": "numero",
+   "tema": "deep",
+   "kicker": "O custo do esquecimento",
+   "numero": "2x",
+   "titulo": "é quanto se paga pelas férias concedidas fora do prazo",
+   "texto": "CLT, art. 137: passou o período concessivo, a remuneração das férias é paga em dobro."
+  },
+  {
+   "tipo": "conversa",
+   "tema": "mist",
+   "kicker": "Soa familiar?",
+   "titulo": "No grupo, em dezembro",
+   "grupo": "RH e diretoria",
+   "sub": "Júlia, Marcos, você",
+   "mensagens": [
+    {
+     "de": "Marcos",
+     "texto": "Posso aprovar as férias do Diego em janeiro?",
+     "hora": "14:10"
+    },
+    {
+     "de": "Júlia",
+     "cor": "#7C3AED",
+     "texto": "Preciso ver na planilha quando vence o período dele",
+     "hora": "14:12"
+    },
+    {
+     "de": "Júlia",
+     "cor": "#7C3AED",
+     "texto": "A planilha não é atualizada desde agosto",
+     "hora": "15:30"
+    },
+    {
+     "eu": true,
+     "texto": "Então ninguém sabe quem vence primeiro.",
+     "hora": "15:31"
+    }
+   ]
+  },
+  {
+   "tipo": "versus",
+   "tema": "light",
+   "kicker": "O que muda",
+   "titulo": "Férias na planilha x no Moove",
+   "antes_titulo": "Hoje",
+   "antes": [
+    "Datas digitadas à mão",
+    "Ninguém vê o limite de cada período",
+    "Pedido de férias por mensagem"
+   ],
+   "depois_titulo": "Com o Moove",
+   "depois": [
+    "Período aquisitivo e limite por pessoa",
+    "Solicitações analisadas no sistema",
+    "Calendário da equipe antes de aprovar"
+   ]
+  },
+  {
+   "tipo": "tela",
+   "tema": "mist",
+   "kicker": "Na tela",
+   "titulo": "Cada período com início, fim e data limite",
+   "destaque": "data limite",
+   "tela": "ferias.webp",
+   "recorte": [
+    0.03,
+    0.39,
+    0.6,
+    0.89
+   ],
+   "pinos": [
+    [
+     0.337,
+     0.064,
+     "Períodos aquisitivos da equipe"
+    ],
+    [
+     0.57,
+     0.36,
+     "Início, fim e data limite de cada período"
+    ]
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "tema": "light",
+   "kicker": "Fechamento do ano",
+   "titulo": "Checklist de férias para dezembro",
+   "itens": [
+    "Liste quem tem período vencendo nos próximos meses",
+    "Confira o saldo de dias de cada pessoa",
+    "Cruze os pedidos com o calendário da equipe",
+    "Feche o banco de horas antes de janeiro"
+   ]
+  },
+  {
+   "tipo": "passos",
+   "tema": "mist",
+   "kicker": "No Moove",
+   "titulo": "Como organizar em 3 passos",
+   "passos": [
+    {
+     "t": "Abra Férias › Períodos Aquisitivos",
+     "d": "Cadastre ou importe os períodos de cada colaborador."
+    },
+    {
+     "t": "Filtre e confira os saldos",
+     "d": "Veja o limite de cada período e exporte o relatório."
+    },
+    {
+     "t": "Aprove olhando o calendário",
+     "d": "Em Solicitações, analise o pedido e confira o Calendário da Equipe."
+    }
+   ],
+   "salvar": false
+  },
+  {
+   "tipo": "frase",
+   "tema": "lime",
+   "frase": "Férias em dobro quase sempre começam numa planilha esquecida.",
+   "destaque": "planilha esquecida",
+   "assinatura": "Moove Gestão"
+  },
+  {
+   "tipo": "cta",
+   "tema": "dark",
+   "kicker": "Teste grátis",
+   "titulo": "Controle de férias no sistema, 7 dias grátis",
+   "destaque": "7 dias grátis",
+   "botao": "Link na bio",
+   "enviar": "Mande para quem cuida do RH"
+  }
+ ]
+}

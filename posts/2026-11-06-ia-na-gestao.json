@@ -1,56 +1,74 @@
 {
-  "slug": "2026-11-06-ia-na-gestao",
-  "formato": "reel",
-  "data": "2026-11-06T10:00:00",
-  "pilar": "Tendências e conversa",
-  "segundos_por_cena": 3.2,
-  "slides": [
-    {
-      "tipo": "capa",
-      "kicker": "Tendência",
-      "titulo": "E se você pudesse perguntar à IA como está sua empresa?",
-      "destaque": "perguntar à IA"
-    },
-    {
-      "tipo": "gancho",
-      "kicker": "Hoje",
-      "titulo": "\"Quantas propostas estão abertas?\" vira uma reunião",
-      "destaque": "vira uma reunião",
-      "texto": "Alguém precisa abrir planilha, juntar dados e montar o número."
-    },
-    {
-      "tipo": "tela",
-      "kicker": "Com IA conectada",
-      "titulo": "Você pede, a IA prepara e você confirma",
-      "destaque": "você confirma",
-      "texto": "O Moove conecta ao Claude e ao ChatGPT, sempre com as suas permissões.",
-      "tela": "feed.webp",
-      "recorte": [
-        0.365,
-        0.665,
-        0.66,
-        0.955
-      ]
-    },
-    {
-      "tipo": "solucao",
-      "kicker": "Na prática",
-      "titulo": "Peça em português, como pediria a alguém do time",
-      "destaque": "em português",
-      "lista": [
-        "Resumo do funil da semana",
-        "Tarefas atrasadas por projeto",
-        "Negócios abertos por etapa"
-      ]
-    },
-    {
-      "tipo": "cta",
-      "kicker": "Teste grátis",
-      "titulo": "Gestão com IA, sem trocar de sistema",
-      "destaque": "sem trocar de sistema",
-      "botao": "moovesales.com.br",
-      "rodape": "Envie para quem vive caçando número"
-    }
-  ],
-  "legenda": "E se a pergunta \"como estão as vendas?\" fosse respondida em segundos, direto dos dados da sua empresa?\n\nO Moove pode ser conectado a assistentes de IA, respeitando as permissões de cada usuário. Você pede em português o resumo do funil, as tarefas atrasadas ou os negócios abertos por etapa, e a resposta vem do sistema.\n\nTeste o Moove por 7 dias grátis, sem cartão: moovesales.com.br\n\n#inteligenciaartificial #gestaoempresarial #pequenasempresas #produtividade #crm"
+ "slug": "2026-11-06-ia-na-gestao",
+ "formato": "reel",
+ "data": "2026-12-09T10:00:00",
+ "pilar": "Tendências e conversa",
+ "perfil": "executivo",
+ "versao": "v2",
+ "segundos_por_cena": 4.4,
+ "legenda": "IA na gestão: e se \"como estão as vendas?\" fosse respondido em segundos, direto dos dados da empresa?\n\nHoje essa pergunta costuma virar planilha para amanhã. No Moove, você conecta o Claude ou o ChatGPT em Configurações › Integrações de IA e pede em português, como pediria a alguém do time. A IA trabalha com as suas permissões e pede a sua confirmação antes de alterar algo.\n\nTeste 7 dias grátis, sem cartão: moovesales.com.br (link na bio). Para empresas maiores, fale com o comercial: (61) 98144-3333.\n\nMande para quem vive caçando número na empresa.\n\n#inteligenciaartificial #iaparaempresas #gestaoempresarial #diretoria #crm",
+ "slides": [
+  {
+   "tipo": "capa",
+   "tema": "dark",
+   "kicker": "IA na gestão",
+   "titulo": "Você pergunta \"como estão as vendas?\" e recebe uma planilha amanhã.",
+   "destaque": "amanhã."
+  },
+  {
+   "tipo": "nota",
+   "tema": "mist",
+   "kicker": "Toda segunda",
+   "titulo": "O pedido que trava o time",
+   "nota_titulo": "Pedir para o time",
+   "data": "Segunda-feira, 08:12",
+   "nota_texto": "– total em propostas abertas\n– tarefas atrasadas por projeto\n– negócios parados por etapa\n(prazo: até quarta)"
+  },
+  {
+   "tipo": "tela",
+   "tema": "light",
+   "kicker": "Com IA conectada",
+   "titulo": "Claude ou ChatGPT, com as suas permissões",
+   "destaque": "suas permissões",
+   "tela": "ia-integracao.webp",
+   "recorte": [
+    0.15,
+    0.21,
+    0.45,
+    0.5
+   ],
+   "pinos": [
+    [
+     0.667,
+     0.507,
+     "Integração ligada na empresa"
+    ],
+    [
+     0.437,
+     0.71,
+     "Escolha o Claude ou o ChatGPT"
+    ]
+   ]
+  },
+  {
+   "tipo": "solucao",
+   "tema": "tealbg",
+   "kicker": "Na prática",
+   "titulo": "Peça em português, como pediria a alguém do time",
+   "destaque": "em português",
+   "lista": [
+    "Quais são minhas tarefas de hoje?",
+    "Quais negócios estão em proposta?",
+    "O que está atrasado nos projetos?"
+   ]
+  },
+  {
+   "tipo": "cta",
+   "tema": "lime",
+   "kicker": "Teste grátis",
+   "titulo": "Gestão com IA, sem trocar de sistema",
+   "botao": "Link na bio",
+   "enviar": "Mande para quem vive caçando número"
+  }
+ ]
 }

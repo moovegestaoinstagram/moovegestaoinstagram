@@ -1,91 +1,151 @@
 {
-  "slug": "2026-11-05-funil-vendas",
-  "formato": "carrossel",
-  "data": "2026-11-05T10:00:00",
-  "pilar": "Gestão na prática",
-  "slides": [
+ "slug": "2026-11-05-funil-vendas",
+ "formato": "carrossel",
+ "data": "2026-12-07T10:00:00",
+ "pilar": "Gestão na prática",
+ "perfil": "comercial",
+ "versao": "v2",
+ "legenda": "Funil de vendas: ele responde estas 4 perguntas em 1 minuto?\n\n1. Quantos negócios estão abertos agora\n2. Em que etapa eles mais param\n3. De onde vêm os clientes que fecham\n4. Quanto tempo leva para fechar\n\nSe não responde, o funil virou desenho, não ferramenta de decisão. No Moove, o CRM mostra os negócios por etapa com valor, responsável e filtro por origem, e o dashboard mostra o valor em negociação e o funil por etapa.\n\nSalve e faça o teste com seu time. 7 dias grátis, sem cartão: moovesales.com.br (link na bio).\n\nMande para quem cuida do comercial.\n\n#funildevendas #crm #gestaocomercial #gerentedevendas #vendasb2b",
+ "slides": [
+  {
+   "tipo": "capa",
+   "tema": "lime",
+   "kicker": "Gestão comercial",
+   "titulo": "Seu funil responde 4 perguntas em 1 minuto?",
+   "texto": "Se não responde, virou desenho, não ferramenta de decisão."
+  },
+  {
+   "tipo": "conversa",
+   "tema": "mist",
+   "kicker": "Soa familiar?",
+   "titulo": "Sexta, fim da tarde",
+   "grupo": "Diretoria",
+   "sub": "Paula, Rafael, você",
+   "mensagens": [
     {
-      "tipo": "capa",
-      "kicker": "Gestão na prática",
-      "titulo": "4 perguntas que seu funil de vendas precisa responder",
-      "destaque": "seu funil de vendas",
-      "texto": "Se você não consegue responder em 1 minuto, o funil não está ajudando."
+     "de": "Paula",
+     "texto": "Quanto temos em proposta aberta este mês?",
+     "hora": "17:02"
     },
     {
-      "tipo": "gancho",
-      "kicker": "Antes de tudo",
-      "titulo": "Funil não é desenho bonito. É ferramenta de decisão.",
-      "destaque": "ferramenta de decisão",
-      "texto": "Ele existe para mostrar onde a venda trava e onde agir primeiro."
+     "de": "Rafael",
+     "cor": "#B45309",
+     "texto": "Vou somar na planilha e te mando",
+     "hora": "17:03"
     },
     {
-      "tipo": "item",
-      "kicker": "Pergunta",
-      "numero": 1,
-      "titulo": "Quantos negócios estão abertos agora?",
-      "destaque": "abertos agora",
-      "texto": "E em qual etapa cada um está. Sem isso, a previsão de faturamento é chute."
+     "de": "Rafael",
+     "cor": "#B45309",
+     "texto": "Faltaram os negócios que estão no celular do Leo",
+     "hora": "18:40"
     },
     {
-      "tipo": "item",
-      "kicker": "Pergunta",
-      "numero": 2,
-      "titulo": "Em que etapa os negócios mais param?",
-      "destaque": "mais param",
-      "texto": "É ali que está o gargalo: proposta demorada, falta de retorno ou objeção de preço."
-    },
-    {
-      "tipo": "item",
-      "kicker": "Pergunta",
-      "numero": 3,
-      "titulo": "De onde vêm os clientes que fecham?",
-      "destaque": "clientes que fecham",
-      "texto": "Origem do lead mostra onde investir tempo e dinheiro de marketing."
-    },
-    {
-      "tipo": "item",
-      "kicker": "Pergunta",
-      "numero": 4,
-      "titulo": "Quanto tempo leva do primeiro contato ao fechamento?",
-      "destaque": "ao fechamento",
-      "texto": "Ciclo de venda longo pede acompanhamento ativo, não espera.",
-      "card": "Dica: registre o <b>motivo de perda</b> de cada negócio. Em poucas semanas o padrão aparece."
-    },
-    {
-      "tipo": "tela",
-      "kicker": "No Moove",
-      "titulo": "Negócios abertos e etapas na mesma tela",
-      "destaque": "na mesma tela",
-      "tela": "crm-pipeline.webp",
-      "recorte": [
-        0.045,
-        0.1,
-        0.74,
-        0.95
-      ]
-    },
-    {
-      "tipo": "tela",
-      "kicker": "E os números",
-      "titulo": "Valor em negociação e funil por etapa",
-      "destaque": "funil por etapa",
-      "tela": "dashboard.webp",
-      "recorte": [
-        0.16,
-        0.3,
-        0.71,
-        0.88
-      ]
-    },
-    {
-      "tipo": "cta",
-      "kicker": "Próximo passo",
-      "titulo": "Salve este post e responda com seu time",
-      "destaque": "com seu time",
-      "texto": "E teste o Moove por 7 dias grátis, sem cartão.",
-      "botao": "moovesales.com.br",
-      "rodape": "Envie para quem cuida do comercial"
+     "eu": true,
+     "texto": "Então a previsão do mês é chute.",
+     "hora": "18:41"
     }
-  ],
-  "legenda": "Seu funil de vendas responde estas 4 perguntas em 1 minuto?\n\n1. Quantos negócios estão abertos agora\n2. Em que etapa eles mais param\n3. De onde vêm os clientes que fecham\n4. Quanto tempo leva para fechar\n\nSe não responde, ele virou desenho, não ferramenta de decisão. No Moove, o funil por etapa, o valor em negociação e a origem de cada negócio ficam no CRM e no painel.\n\nSalve e responda com seu time. Teste grátis por 7 dias: moovesales.com.br\n\n#vendas #crm #gestaocomercial #funildevendas #pequenasempresas"
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "tema": "light",
+   "kicker": "Teste rápido",
+   "titulo": "Responda sem abrir planilha",
+   "itens": [
+    "Quantos negócios estão abertos agora?",
+    "Em que etapa eles mais param?",
+    "De onde vêm os clientes que fecham?",
+    "Quanto tempo leva para fechar?"
+   ]
+  },
+  {
+   "tipo": "item",
+   "tema": "mist",
+   "kicker": "A mais esquecida",
+   "numero": "2",
+   "titulo": "Em que etapa os negócios mais param?",
+   "destaque": "mais param",
+   "texto": "É ali o gargalo: proposta demorada, falta de retorno ou objeção de preço.",
+   "card": "Dica: registre o <b>motivo de perda</b> de cada negócio. Em poucas semanas o padrão aparece."
+  },
+  {
+   "tipo": "tela",
+   "tema": "light",
+   "kicker": "No CRM do Moove",
+   "titulo": "Negócios abertos por etapa, na mesma tela",
+   "destaque": "na mesma tela",
+   "tela": "crm-pipeline.webp",
+   "recorte": [
+    0.155,
+    0.15,
+    0.85,
+    0.83
+   ],
+   "pinos": [
+    [
+     0.19,
+     0.479,
+     "Valor somado em cada etapa"
+    ],
+    [
+     0.17,
+     0.751,
+     "Responsável em cada negócio"
+    ],
+    [
+     0.774,
+     0.294,
+     "Filtro por origem do lead"
+    ]
+   ]
+  },
+  {
+   "tipo": "tela",
+   "tema": "mist",
+   "kicker": "No dashboard",
+   "titulo": "E os números, sem montar relatório",
+   "destaque": "sem montar relatório",
+   "tela": "dashboard.webp",
+   "recorte": [
+    0.16,
+    0.3,
+    0.71,
+    0.88
+   ],
+   "pinos": [
+    [
+     0.14,
+     0.17,
+     "Negócios em aberto"
+    ],
+    [
+     0.8,
+     0.234,
+     "Valor em negociação"
+    ],
+    [
+     0.607,
+     0.707,
+     "Funil por etapa"
+    ]
+   ]
+  },
+  {
+   "tipo": "frase",
+   "tema": "deep",
+   "frase": "Funil que ninguém atualiza não decide nada.",
+   "destaque": "não decide nada",
+   "assinatura": "Moove Gestão"
+  },
+  {
+   "tipo": "cta",
+   "tema": "dark",
+   "kicker": "Próximo passo",
+   "titulo": "Salve e faça o teste com seu time",
+   "destaque": "com seu time",
+   "texto": "E teste o Moove por 7 dias grátis, sem cartão.",
+   "botao": "Link na bio",
+   "enviar": "Mande para quem cuida do comercial"
+  }
+ ]
 }
