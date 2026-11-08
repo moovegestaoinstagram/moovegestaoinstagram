@@ -47,6 +47,9 @@ A v1 usava um molde só (fundo chapado + título + parágrafo). Com tudo igual, 
 | `nota` | Cara nativa e humor leve | Bastidor ou rotina do gestor |
 | `frase` | Envios e posicionamento | Princípio de gestão curto (até 12 palavras) |
 | `cta` + `enviar` | Conversão e envios | "Mande para quem cuida do comercial / do RH / da operação" |
+| `icones` (v3) | Mostrar escopo de forma escaneável | 2 a 6 recursos com ícone Lucide (nomes em lucide.dev/icons), título curto e uma linha |
+| `passos` + `icone` (v3) | Sequência com ícone no lugar do número | Só sequência real |
+| `"tipografia": "condensada"` (v3) | Capa, número ou frase com mais presença | Open Sans condensada (mesma família da marca). No máximo 1 vez a cada 3 posts, para continuar sendo surpresa |
 | herdados | `gancho`, `item`, `solucao`, `plano` | Continuam válidos, mas sem repetir 3 `item` seguidos |
 
 ## Esqueleto recomendado de carrossel (8–10 slides)
@@ -60,7 +63,11 @@ A v1 usava um molde só (fundo chapado + título + parágrafo). Com tudo igual, 
 **Mínimo por carrossel:** 4 layouts diferentes, 1 slide salvável e 1 mandável.
 
 ## Reels e stories
-- **Reels:** os mesmos layouts entram em etapas. As classes `a1`/`a2` revelam o conteúdo em 3 tempos; o 1º quadro já traz o conflito. Quando houver gravação de tela real, ela tem prioridade sobre slides.
+- **Reels (desde 08/11/2026): HyperFrames.** Cada Reels é um HTML com cenas e animação GSAP (`kit/reels/base/`, exemplo em `posts/reels/2026-11-exemplo-lead-esfriando/`), renderizado por `python3 kit/reel.py`. Movimento com função: número contando, mensagem chegando, cronômetro correndo, tela entrando. Uma ideia por cena, cena nova a cada 2–4 s, 12 a 20 s no total.
+- **Faixa segura dos Reels:** texto e produto só entre y=168 e y=1330. Abaixo de 1330 a legenda e os botões do Instagram cobrem; ali só textura ou grafismo. O `kit/render.py` já aplica isso no formato `reel`.
+- **Tempo de leitura:** cada texto fica na tela pelo menos 0,5 s + 0,3 s por palavra; a última frase, ao menos 3,8 s. O `hyperframes check` mede e bloqueia.
+- **Quadro 0** é a miniatura e o gancho: o conflito já escrito, nunca tela preta ou logo.
+- Quando houver gravação de tela real do sistema, ela tem prioridade sobre cenas desenhadas.
 - **Stories:** o 1º quadro é `enquete` ou pergunta. Use as figurinhas nativas do Instagram (enquete, caixa de pergunta) ao postar manualmente. Feche com `cta` com link.
 
 ## Limites que continuam valendo

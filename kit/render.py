@@ -27,7 +27,14 @@ def b64(p):
 FONT_CSS = "".join(
     f"@font-face{{font-family:'Open Sans';font-weight:{w};src:url(data:font/woff2;base64,{b64(KIT / 'fonts' / f'open-sans-latin-{w}-normal.woff2')}) format('woff2');}}"
     for w in (400, 600, 700, 800)
-)
+) + (f"@font-face{{font-family:'Open Sans Var';font-weight:300 800;font-stretch:75% 100%;"
+     f"src:url(data:font/woff2;base64,{b64(KIT / 'fonts' / 'open-sans-latin-var-wdth.woff2')}) format('woff2');}}")
+
+
+def garantir_deps():
+    """Instala as dependências do kit (ícones Lucide, HyperFrames) se ainda não estiverem no container."""
+    if not (KIT / "node_modules" / "lucide-static").exists():
+        subprocess.run(["npm", "install", "--no-audit", "--no-fund", "--silent"], cwd=KIT, check=True)
 LOGO_COR = b64(KIT / "logo" / "logo-cor.png")
 LOGO_BRANCA = b64(KIT / "logo" / "logo-branca.png")
 LOGO_INK = b64(KIT / "logo" / "logo-ink.png")
@@ -56,14 +63,19 @@ def slide_html(s, i, n, reel, story=None, build=''):
     theme, inner, rod, extra = L.corpo(s, i, n, reel, story, tela_src)
     logo = LOGO_INK if theme == "lime" else LOGO_COR if theme in ("light", "mist") else LOGO_BRANCA
     h, pad = (1920, 260) if reel else (1350, 96)
+    # Reels: a interface do Instagram cobre o topo (168 px) e tudo abaixo de 1330 px (legenda, botões)
+    padb = 560 if (reel and story is None) else pad
+    if reel and story is None:
+        pad = 200
     if story is not None and s["tipo"] != "cta":
         rod = "<span class='tap'>Toque para continuar</span>"
     fmt = "vert" if reel else "feed"
     return (f"<!doctype html><html><head><meta charset='utf-8'><style>{FONT_CSS}{CSS}"
-            f":root{{--h:{h}px;--pad:{pad}px;--imgmax:{1000 if reel else 560}px}}</style></head><body><div class='s {theme} {fmt} {build}'>"
+            f":root{{--h:{h}px;--pad:{pad}px;--padb:{padb}px;--imgmax:{(1000 if story is not None else 640) if reel else 560}px}}</style></head><body><div class='s {theme} {fmt} {build}'>"
             f"{extra}<div class='grow'>{inner}</div><div class='foot'>{rod}<img src='data:image/png;base64,{logo}'></div></div></body></html>"), h
 
 def render(spec_path):
+    garantir_deps()
     from playwright.sync_api import sync_playwright
     spec = json.loads(pathlib.Path(spec_path).read_text())
     fmt = spec.get("formato")

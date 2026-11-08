@@ -1,0 +1,19 @@
+{
+ "slug": "amostra-v3",
+ "formato": "carrossel",
+ "pilar": "Amostra dos recursos novos de 08/11 (não publicar)",
+ "slides": [
+  {"tipo": "capa", "tipografia": "condensada", "kicker": "Gestão", "titulo": "4 áreas da empresa num só login", "destaque": "num só login", "texto": "Comercial, Pessoas, Operação e Estratégia."},
+  {"tipo": "icones", "tema": "mist", "kicker": "O que tem dentro", "titulo": "Cada área com a sua ferramenta", "itens": [
+    {"icone": "message-circle", "t": "Comercial", "d": "WhatsApp, CRM e funil"},
+    {"icone": "users", "t": "Pessoas", "d": "Ponto, admissões e férias"},
+    {"icone": "kanban", "t": "Operação", "d": "Tarefas, projetos e POPs"},
+    {"icone": "target", "t": "Estratégia", "d": "SWOT, BSC e metas"}]},
+  {"tipo": "passos", "kicker": "Por onde começar", "titulo": "Organize o atendimento em 3 passos", "passos": [
+    {"icone": "qr-code", "t": "Conecte o WhatsApp da empresa", "d": "As conversas passam a chegar numa caixa só."},
+    {"icone": "user-check", "t": "Convide sua equipe", "d": "Cada pessoa entra com o próprio acesso."},
+    {"icone": "timer", "t": "Defina quem atende o quê", "d": "Atribua as conversas e acompanhe o tempo de resposta."}]},
+  {"tipo": "numero", "tipografia": "condensada", "kicker": "Teste grátis", "numero": "7", "unidade": "dias", "titulo": "para ver sua operação num só lugar"},
+  {"tipo": "frase", "tipografia": "condensada", "frase": "Se depende de alguém lembrar, ainda não é processo.", "destaque": "não é processo", "assinatura": "Moove Gestão"}
+ ]
+}

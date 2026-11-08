@@ -5,7 +5,7 @@
       --muted:#4B5768;--bg:#FFFFFF;--soft:#F1F5F9;--ok:#22C55E;--bad:#E5484D;--wa:#075E54;--wabubble:#D9FDD3}
 *{margin:0;padding:0;box-sizing:border-box}
 body{width:1080px;height:var(--h);font-family:'Open Sans',sans-serif;overflow:hidden}
-.s{width:1080px;height:var(--h);padding:var(--pad) 88px;position:relative;display:flex;flex-direction:column;overflow:hidden}
+.s{width:1080px;height:var(--h);padding:var(--pad) 88px var(--padb,var(--pad));position:relative;display:flex;flex-direction:column;overflow:hidden}
 .s>.grow,.s>.foot{position:relative;z-index:2}
 /* temas */
 .light{background:var(--bg);color:var(--ink)}
@@ -170,5 +170,21 @@ p{font-size:40px;line-height:1.38;font-weight:400;margin-top:32px;color:var(--mu
 /* animação dos Reels: a1 entra na 2ª etapa, a2 na 3ª */
 .b0 .a1,.b0 .a2,.b1 .a2{opacity:0}
 .b0 .grow p,.b0 .device,.b0 .list,.b0 .card,.b0 .pill,.b0 .preco,.b0 .anual,.b1 .device,.b1 .list,.b1 .card,.b1 .pill{opacity:0}
+/* grade de ícones (Lucide) */
+.icgrid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:44px}
+.icgrid.n3,.icgrid.n1{grid-template-columns:1fr}
+.ic{background:#fff;border-radius:28px;padding:32px 34px;display:flex;flex-direction:column;gap:12px;color:var(--ink)}
+.light .ic{background:var(--soft)} .dark .ic,.deep .ic{background:rgba(255,255,255,.07);color:#fff}
+.icgrid.n3 .ic{flex-direction:row;align-items:center;gap:28px}
+.ic .icb{width:96px;height:96px;border-radius:24px;background:rgba(51,166,188,.14);display:flex;align-items:center;justify-content:center;flex:none}
+.dark .ic .icb,.deep .ic .icb{background:rgba(157,193,41,.14)}
+.ic b{font-size:38px;line-height:1.2;font-weight:800}
+.ic small{font-size:30px;line-height:1.35;color:var(--muted)} .dark .ic small,.deep .ic small{color:#B6C2CF}
+.icgrid.n3 .ic span.icb+b{margin:0}
+/* tipografia condensada (Open Sans largura 75%) */
+.cond h1,.cond .big,.cond .frase,.cond h2{font-family:'Open Sans Var','Open Sans',sans-serif;font-stretch:75%;font-weight:800;letter-spacing:-.01em}
+.cond h1{font-size:128px;line-height:.98}
+.cond .big{font-size:440px}
+.cond .frase{font-size:104px;line-height:1.02}
 /* formato vertical (Reels/stories): blocos maiores */
 .vert h1{font-size:104px} .vert .big{font-size:420px}

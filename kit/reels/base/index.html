@@ -1,0 +1,93 @@
+<!doctype html>
+<!--
+  MODELO DE REELS DA MOOVE (HyperFrames + GSAP) — copie esta pasta para posts/reels/AAAA-MM-DD-slug/
+  e reescreva as cenas. Render: python3 kit/reel.py posts/reels/AAAA-MM-DD-slug
+
+  Regras (kit/SISTEMA-VISUAL.md + skill hyperframes):
+  - 1080x1920. Texto e produto só entre y=168 e y=1330 (abaixo de 1330 a interface do Instagram cobre).
+  - Quadro 0 já mostra o conflito escrito (é a miniatura e o gancho). Nunca abrir com logo.
+  - Cada elemento com tempo: class="clip", data-start, data-duration (segundos).
+  - Tempo de leitura: cada texto fica na tela pelo menos 0,5 s + 0,3 s por palavra (o "check" acusa).
+  - Nada de Math.random, Date.now, timers ou fetch: tudo é função do tempo da timeline.
+  - Fonte mínima 28 px. Contraste AA (o "check" mede).
+  - Cores e fontes da marca já estão abaixo; ícones Lucide podem ser colados como SVG inline.
+  - assets/ (fontes, gsap, logos) é preenchido automaticamente pelo kit/reel.py; não versionar.
+-->
+<html lang="pt-BR" data-resolution="portrait">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080, height=1920" />
+<script src="assets/vendor/gsap.min.js"></script>
+<style>
+@font-face{font-family:'Open Sans';font-weight:400;src:url(assets/fonts/open-sans-latin-400-normal.woff2)}
+@font-face{font-family:'Open Sans';font-weight:700;src:url(assets/fonts/open-sans-latin-700-normal.woff2)}
+@font-face{font-family:'Open Sans';font-weight:800;src:url(assets/fonts/open-sans-latin-800-normal.woff2)}
+@font-face{font-family:'Open Sans Var';font-weight:300 800;font-stretch:75% 100%;src:url(assets/fonts/open-sans-latin-var-wdth.woff2)}
+:root{--ink:#020817;--teal:#33A6BC;--tealtxt:#16798C;--lime:#9DC129;--deep:#0B3B47;--mist:#E6F3F6;--muted:#4B5768}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--ink);font-family:'Open Sans',sans-serif}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden}
+.scene{position:absolute;inset:0;overflow:hidden}
+.dark{background:var(--ink);color:#fff} .deep{background:var(--deep);color:#fff}
+.mist{background:var(--mist);color:var(--ink)} .light{background:#fff;color:var(--ink)} .lime{background:var(--lime);color:var(--ink)}
+.pad{position:absolute;left:96px;right:96px;top:260px}
+.chip{display:inline-flex;align-items:center;gap:14px;font-size:34px;font-weight:700;border-radius:999px;padding:12px 30px}
+.dark .chip,.deep .chip{color:var(--lime);background:rgba(157,193,41,.14)}
+.mist .chip,.light .chip{color:var(--tealtxt);background:rgba(51,166,188,.14)}
+.lime .chip{color:var(--ink);background:rgba(2,8,23,.08)}
+h1{font-size:100px;line-height:1.02;font-weight:800;letter-spacing:-.03em;margin-top:40px}
+h1.cond{font-family:'Open Sans Var','Open Sans';font-stretch:75%;font-size:124px;letter-spacing:-.01em}
+.line{display:block;overflow:hidden;white-space:nowrap;padding-bottom:.14em;margin-bottom:-.06em}
+.line span{display:inline-block}
+.hl{color:var(--lime)} .light .hl,.mist .hl{color:var(--tealtxt)}
+h2{font-size:88px;line-height:1.05;font-weight:800;letter-spacing:-.025em;margin-top:40px}
+p{font-size:44px;line-height:1.35;margin-top:32px;color:var(--muted)} .dark p,.deep p{color:#D5DEE8}
+.pill{display:inline-block;background:var(--ink);color:#fff;font-size:46px;font-weight:800;border-radius:999px;padding:28px 56px;margin-top:56px}
+.dark .pill,.deep .pill{background:var(--lime);color:var(--ink)}
+.logo{position:absolute;left:96px;top:1190px;height:70px}
+.rings{position:absolute;left:420px;top:1080px}
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="12" data-width="1080" data-height="1920">
+
+  <!-- CENA 1: conflito (0 a 3,6 s). O texto já aparece no quadro 0. -->
+  <div id="sc1" class="scene dark clip" data-start="0" data-duration="3.6" data-track-index="0">
+    <svg class="rings" id="rings" data-layout-allow-overflow width="900" height="700" viewBox="0 0 900 700"><g fill="none" stroke="#33A6BC" stroke-width="64" opacity=".3">
+      <circle cx="330" cy="350" r="300" stroke-dasharray="1700 185" transform="rotate(-70 330 350)"/>
+      <circle cx="590" cy="350" r="300" stroke-dasharray="1700 185" transform="rotate(110 590 350)"/></g></svg>
+    <div class="pad">
+      <div class="chip">Série</div>
+      <h1><span class="line"><span id="l1">Linha um</span></span><span class="line"><span id="l2" class="hl">linha dois.</span></span></h1>
+    </div>
+  </div>
+
+  <!-- CENA 2: desenvolvimento (prova, tela, conversa ilustrativa, número) -->
+  <div id="sc2" class="scene mist clip" data-start="3.6" data-duration="4.6" data-track-index="0">
+    <div class="pad"><div class="chip">Na prática</div><h2 id="h2a">Texto da cena dois.</h2></div>
+  </div>
+
+  <!-- CENA 3: CTA (mínimo 3,8 s para ler) -->
+  <div id="sc3" class="scene lime clip" data-start="8.2" data-duration="3.8" data-track-index="0">
+    <div class="pad"><div class="chip">Teste grátis</div><h2 id="h2b">Chamada final curta.</h2><div class="pill" id="pill">Link na bio</div></div>
+    <img class="logo" id="logo" src="assets/img/logo-ink.png" />
+  </div>
+
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+// cena 1: o texto entra rápido (até 0,5 s) e fica parado para leitura
+tl.from("#rings", {scale:.7, rotation:-30, opacity:0, transformOrigin:"50% 50%", duration:1.0, ease:"power3.out"}, 0);
+tl.from(["#l1","#l2"], {yPercent:100, duration:.4, ease:"power4.out", stagger:.1}, 0);
+tl.to("#rings", {rotation:20, transformOrigin:"50% 50%", duration:2.6, ease:"none"}, 1.0);
+// cena 2
+tl.from("#h2a", {y:60, opacity:0, duration:.45, ease:"power3.out"}, 3.65);
+// cena 3
+tl.from("#h2b", {y:60, opacity:0, duration:.45, ease:"power3.out"}, 8.25);
+tl.from("#pill", {scale:.7, opacity:0, duration:.4, ease:"back.out(2.2)"}, 8.6);
+tl.from("#logo", {opacity:0, duration:.4}, 8.8);
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script>
+</body>
+</html>

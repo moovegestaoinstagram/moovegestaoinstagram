@@ -13,6 +13,10 @@ Tipos novos (v2):
   tabela    {titulo, colunas[3], linhas:[[criterio, a, b]]}       "sim"/"nao" viram ícones
   passos    {titulo, passos:[{t, d}]}                             só para sequência real
   frase     {frase, assinatura}
+  icones    {titulo, texto, itens:[{icone, t, d}]}                  grade de 2 a 6 recursos com ícone Lucide
+Ícones: nomes da biblioteca Lucide (https://lucide.dev/icons), ex.: "message-circle", "users", "kanban",
+"clock", "target", "file-check", "calendar-check", "chart-column". Também em passos[].icone.
+Tipografia: "tipografia": "condensada" em capa, numero e frase usa Open Sans condensada (mesma família da marca).
 Opções em qualquer slide: tema (light|mist|dark|deep|tealbg|lime), kicker (selo de série),
 destaque (marca-texto), grafismo (true/false), capa.estilo ("tela" + tela/recorte espia a tela),
 tela.pinos [[x,y,"texto"], ...] com legenda numerada, cta.enviar ("Mande para ...").
@@ -21,6 +25,21 @@ import html
 
 def esc(x):
     return html.escape(str(x))
+
+import pathlib, re as _re
+_ICONES = pathlib.Path(__file__).resolve().parent / "node_modules" / "lucide-static" / "icons"
+
+def icone(nome, cor="currentColor", tam=56, traco=2):
+    """SVG de um ícone Lucide (licença ISC) com cor e espessura da marca."""
+    arq = _ICONES / f"{nome}.svg"
+    if not arq.exists():
+        raise ValueError(f"ícone Lucide inexistente: {nome}")
+    svg = arq.read_text()
+    svg = _re.sub(r'width="\d+"', f'width="{tam}"', svg, 1)
+    svg = _re.sub(r'height="\d+"', f'height="{tam}"', svg, 1)
+    svg = svg.replace('stroke="currentColor"', f'stroke="{cor}"').replace('stroke-width="2"', f'stroke-width="{traco}"')
+    svg = _re.sub(r"<!--.*?-->", "", svg, flags=_re.S)
+    return svg
 
 def hl(text, word):
     t = esc(text)
@@ -96,7 +115,7 @@ def corpo(s, i, n, reel, story, tela_src):
         if s.get("recorte"):
             dev = f"<div class='zoom'><div class='fwrap' style='overflow:visible'><img src='{src}'>{sobre}</div></div>"
         elif movel:
-            ph = (1000 if story is not None else 1180) if reel else 760
+            ph = (1000 if story is not None else 760) if reel else 760
             dev = f"<div class='phone'><img src='{src}' style='height:{ph}px'></div>"
         else:
             dev = f"<div class='notebook'><div class='screen' style='position:relative'><img src='{src}'>{sobre}</div><div class='base'></div></div>"
@@ -158,15 +177,25 @@ def corpo(s, i, n, reel, story, tela_src):
         rows += "".join(f"<div class='r'><div>{esc(a)}</div><div>{cel(b)}</div><div>{cel(c)}</div></div>" for a, b, c in s["linhas"])
         inner = f"{k}<h2 style='margin-top:24px;font-size:64px'>{tit}</h2><div class='tab a1'>{rows}</div>{texto.replace('a1', 'a2')}"
     elif tipo == "passos":
-        st = "".join(f"<div class='{'a1' if j < 1 else 'a2'}'><b>{j + 1}</b><span><strong>{esc(p['t'])}</strong>"
+        icor = "#020817" if escuro else "#FFFFFF"
+        st = "".join(f"<div class='{'a1' if j < 1 else 'a2'}'><b>{icone(p['icone'], icor, 44) if p.get('icone') else j + 1}</b><span><strong>{esc(p['t'])}</strong>"
                      + (f"<small>{esc(p['d'])}</small>" if p.get("d") else "") + "</span></div>"
                      for j, p in enumerate(s["passos"]))
         inner = f"{k}<h2 style='margin-top:24px;font-size:64px'>{tit}</h2><div class='steps'>{st}</div>"
     elif tipo == "frase":
         ass = f"<div class='assin a2'>{esc(s['assinatura'])}</div>" if s.get("assinatura") else ""
         inner = f"{k}<div class='aspas'>“</div><div class='frase'>{hl(s['frase'], s.get('destaque'))}</div>{ass}"
+    elif tipo == "icones":
+        cor = "#9DC129" if escuro else "#16798C"
+        it = "".join(f"<div class='ic {'a1' if j < 2 else 'a2'}'><span class='icb'>{icone(x['icone'], cor, 60)}</span>"
+                     f"<b>{esc(x['t'])}</b>" + (f"<small>{esc(x['d'])}</small>" if x.get('d') else "") + "</div>"
+                     for j, x in enumerate(s["itens"]))
+        inner = f"{k}<h2 style='margin-top:24px;font-size:64px'>{tit}</h2>{texto}<div class='icgrid n{len(s['itens'])}'>{it}</div>"
     else:
         raise ValueError(f"tipo desconhecido: {tipo}")
+
+    if s.get("tipografia") == "condensada":
+        inner = f"<div class='cond'>{inner}</div>"
 
     if not reel and tipo in ("checklist", "tabela", "passos") and s.get("salvar", True):
         rod = f"<span class='send' style='margin-top:0;font-size:28px'>{SAVE}<span>Salve para consultar</span></span>"

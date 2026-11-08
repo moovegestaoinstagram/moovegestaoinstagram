@@ -1,0 +1,9 @@
+{
+  "name": "moove-kit",
+  "private": true,
+  "description": "Dependências do kit de artes (instaladas sob demanda por render.py e reel.py)",
+  "dependencies": {
+    "lucide-static": "1.70.0",
+    "hyperframes": "0.9.23"
+  }
+}
