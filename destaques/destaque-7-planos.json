@@ -8,7 +8,7 @@
       "kicker": "Planos",
       "titulo": "Quanto custa o Moove?",
       "destaque": "custa",
-      "texto": "A partir de R$ 159/mês no plano anual (R$ 1.909/ano). Sem fidelidade, com 7 dias grátis e sem cartão."
+      "texto": "A partir de R$ 159/mês no plano anual (R$ 1.908/ano). Sem fidelidade, com 7 dias grátis e sem cartão."
     },
     {
       "tipo": "plano",
@@ -16,7 +16,7 @@
       "titulo": "Starter",
       "mensal": "R$ 199",
       "anual": "R$ 159",
-      "anual_total": "R$ 1.909",
+      "anual_total": "R$ 1.908",
       "lista": [
         "Até 5 usuários",
         "50 interações de IA por mês"
@@ -30,7 +30,7 @@
       "selo": "Mais popular",
       "mensal": "R$ 429",
       "anual": "R$ 349",
-      "anual_total": "R$ 4.199",
+      "anual_total": "R$ 4.188",
       "lista": [
         "Até 15 usuários",
         "300 interações de IA por mês",
@@ -44,7 +44,7 @@
       "titulo": "Business",
       "mensal": "R$ 749",
       "anual": "R$ 599",
-      "anual_total": "R$ 7.199",
+      "anual_total": "R$ 7.188",
       "lista": [
         "Até 40 usuários",
         "800 interações de IA por mês",
@@ -58,7 +58,7 @@
       "titulo": "Enterprise",
       "mensal": "R$ 1.499",
       "anual": "R$ 1.199",
-      "anual_total": "R$ 14.399",
+      "anual_total": "R$ 14.388",
       "lista": [
         "Até 100 usuários",
         "IA ilimitada",

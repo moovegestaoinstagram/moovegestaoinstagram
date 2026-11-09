@@ -10,7 +10,7 @@
       "kicker": "Planos e preços",
       "titulo": "Quanto custa o Moove?",
       "destaque": "custa",
-      "texto": "A partir de R$ 159/mês no plano anual (R$ 1.909/ano). 7 dias grátis, sem cartão."
+      "texto": "A partir de R$ 159/mês no plano anual (R$ 1.908/ano). 7 dias grátis, sem cartão."
     },
     {
       "tipo": "gancho",
@@ -25,7 +25,7 @@
       "titulo": "Starter",
       "mensal": "R$ 199",
       "anual": "R$ 159",
-      "anual_total": "R$ 1.909",
+      "anual_total": "R$ 1.908",
       "lista": [
         "Até 5 usuários",
         "15 GB de armazenamento",
@@ -41,7 +41,7 @@
       "selo": "Mais popular",
       "mensal": "R$ 429",
       "anual": "R$ 349",
-      "anual_total": "R$ 4.199",
+      "anual_total": "R$ 4.188",
       "lista": [
         "Até 15 usuários",
         "50 GB de armazenamento",
@@ -56,7 +56,7 @@
       "titulo": "Business",
       "mensal": "R$ 749",
       "anual": "R$ 599",
-      "anual_total": "R$ 7.199",
+      "anual_total": "R$ 7.188",
       "lista": [
         "Até 40 usuários",
         "250 GB de armazenamento",
@@ -71,7 +71,7 @@
       "titulo": "Enterprise",
       "mensal": "R$ 1.499",
       "anual": "R$ 1.199",
-      "anual_total": "R$ 14.399",
+      "anual_total": "R$ 14.388",
       "lista": [
         "Até 100 usuários",
         "1 TB de armazenamento",
@@ -102,5 +102,5 @@
       "rodape": "Salve para comparar com o que você paga hoje"
     }
   ],
-  "legenda": "Quanto custa o Moove? Preço claro, sem surpresa.\n\nStarter (até 5 usuários): R$ 199/mês no mensal ou R$ 159/mês no plano anual (R$ 1.909/ano).\nGrowth (até 15), o mais popular: R$ 429/mês no mensal ou R$ 349/mês no anual (R$ 4.199/ano).\nBusiness (até 40): R$ 749/mês no mensal ou R$ 599/mês no anual (R$ 7.199/ano).\nEnterprise (até 100): R$ 1.499/mês no mensal ou R$ 1.199/mês no anual (R$ 14.399/ano).\n\nTodos com 7 dias grátis, sem cartão e sem fidelidade. Dúvidas ou empresa grande? Fale com o comercial pelo WhatsApp (61) 98144-3333.\n\nTeste grátis: link na bio.\n\n#sistemadegestao #gestaoempresarial #crm #pequenasempresas #saas"
+  "legenda": "Quanto custa o Moove? Preço claro, sem surpresa.\n\nStarter (até 5 usuários): R$ 199/mês no mensal ou R$ 159/mês no plano anual (R$ 1.908/ano).\nGrowth (até 15), o mais popular: R$ 429/mês no mensal ou R$ 349/mês no anual (R$ 4.188/ano).\nBusiness (até 40): R$ 749/mês no mensal ou R$ 599/mês no anual (R$ 7.188/ano).\nEnterprise (até 100): R$ 1.499/mês no mensal ou R$ 1.199/mês no anual (R$ 14.388/ano).\n\nTodos com 7 dias grátis, sem cartão e sem fidelidade. Dúvidas ou empresa grande? Fale com o comercial pelo WhatsApp (61) 98144-3333.\n\nTeste grátis: link na bio.\n\n#sistemadegestao #gestaoempresarial #crm #pequenasempresas #saas"
 }
