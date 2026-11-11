@@ -6,7 +6,7 @@
  "perfil": "executivo",
  "versao": "v2",
  "segundos_por_cena": 4.4,
- "legenda": "IA na gestão: e se \"como estão as vendas?\" fosse respondido em segundos, direto dos dados da empresa?\n\nHoje essa pergunta costuma virar planilha para amanhã. No Moove, você conecta o Claude ou o ChatGPT em Configurações › Integrações de IA e pede em português, como pediria a alguém do time. A IA trabalha com as suas permissões e pede a sua confirmação antes de alterar algo.\n\nTeste 7 dias grátis, sem cartão: moovesales.com.br (link na bio). Para empresas maiores, fale com o comercial: (61) 98144-3333.\n\nMande para quem vive caçando número na empresa.\n\n#inteligenciaartificial #iaparaempresas #gestaoempresarial #diretoria #crm",
+ "legenda": "IA na gestão: e se \"como estão as vendas?\" tivesse resposta direto dos dados da empresa?\n\nHoje essa pergunta costuma virar planilha para amanhã. No Moove, você conecta o Claude ou o ChatGPT em Configurações › Integrações de IA e pede em português, como pediria a alguém do time. A IA trabalha com as suas permissões e pede a sua confirmação antes de alterar algo.\n\nTeste 7 dias grátis, sem cartão: moovesales.com.br (link na bio). Para empresas maiores, fale com o comercial: (61) 98144-3333.\n\nMande para quem vive caçando número na empresa.\n\n#inteligenciaartificial #iaparaempresas #gestaoempresarial #diretoria #crm",
  "slides": [
   {
    "tipo": "capa",
@@ -70,5 +70,6 @@
    "botao": "Link na bio",
    "enviar": "Mande para quem vive caçando número"
   }
- ]
+ ],
+ "hyperframes": "posts/reels/2026-12-09-ia-na-gestao-hf (refeito em 11/11/2026)"
 }

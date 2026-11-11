@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt-BR" data-resolution="portrait">
+<head>
+<!-- Reels da Moove em HyperFrames. Modelo: kit/reels/base/index.html. Render: python3 kit/reel.py posts/reels/<pasta> -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080, height=1920" />
+<script src="assets/vendor/gsap.min.js"></script>
+<style>
+@font-face{font-family:'Open Sans';font-weight:400;src:url(assets/fonts/open-sans-latin-400-normal.woff2)}
+@font-face{font-family:'Open Sans';font-weight:700;src:url(assets/fonts/open-sans-latin-700-normal.woff2)}
+@font-face{font-family:'Open Sans';font-weight:800;src:url(assets/fonts/open-sans-latin-800-normal.woff2)}
+@font-face{font-family:'Open Sans Var';font-weight:300 800;font-stretch:75% 100%;src:url(assets/fonts/open-sans-latin-var-wdth.woff2)}
+:root{--ink:#020817;--teal:#33A6BC;--tealtxt:#16798C;--lime:#9DC129;--deep:#0B3B47;--mist:#E6F3F6;--muted:#4B5768}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--ink);font-family:'Open Sans',sans-serif}
+#root{position:relative;width:1080px;height:1920px;overflow:hidden}
+.scene{position:absolute;inset:0;overflow:hidden}
+.dark{background:var(--ink);color:#fff} .deep{background:var(--deep);color:#fff}
+.mist{background:var(--mist);color:var(--ink)} .light{background:#fff;color:var(--ink)} .lime{background:var(--lime);color:var(--ink)}
+.pad{position:absolute;left:96px;right:96px;top:250px}
+.chip{display:inline-flex;align-items:center;gap:14px;font-size:34px;font-weight:700;border-radius:999px;padding:12px 30px}
+.dark .chip,.deep .chip{color:var(--lime);background:rgba(157,193,41,.14)}
+.mist .chip,.light .chip{color:var(--tealtxt);background:rgba(51,166,188,.14)}
+.lime .chip{color:var(--ink);background:rgba(2,8,23,.08)}
+h1{font-size:100px;line-height:1.02;font-weight:800;letter-spacing:-.03em;margin-top:40px}
+.line{display:block;overflow:hidden;white-space:nowrap;padding-top:.08em;margin-top:-.08em;padding-bottom:.2em;margin-bottom:-.1em}
+.line span{display:inline-block}
+.hl{color:var(--lime)} .light .hl,.mist .hl{color:var(--tealtxt)}
+h2{font-size:84px;line-height:1.06;font-weight:800;letter-spacing:-.025em;margin-top:36px}
+p.sub{font-size:42px;line-height:1.3;margin-top:28px;color:var(--muted)} .dark p.sub,.deep p.sub{color:#D5DEE8}
+.pill{display:inline-block;background:var(--ink);color:#fff;font-size:46px;font-weight:800;border-radius:999px;padding:28px 56px;margin-top:56px}
+.dark .pill,.deep .pill{background:var(--lime);color:var(--ink)}
+.send{display:flex;align-items:center;gap:18px;font-size:40px;font-weight:700;margin-top:40px}
+.send svg{width:46px;height:46px}
+.logo{position:absolute;left:96px;top:1210px;height:66px}
+.rings{position:absolute;left:420px;top:1080px}
+.chat{margin-top:40px;background:#EFEAE2;border-radius:40px;overflow:hidden;box-shadow:0 30px 60px rgba(2,8,23,.18)}
+.ctop{background:#075E54;color:#fff;padding:26px 40px;display:flex;justify-content:space-between;align-items:center;font-size:36px;font-weight:700}
+.ctop small{display:block;font-size:28px;font-weight:400;opacity:.85}
+.cbody{padding:30px;display:flex;flex-direction:column;gap:18px}
+.msg{max-width:86%;background:#fff;border-radius:24px;padding:18px 28px;font-size:40px;line-height:1.28;color:#111B21}
+.msg em{display:block;font-style:normal;font-size:28px;font-weight:700;color:var(--tealtxt);margin-bottom:4px}
+.msg.me{align-self:flex-end;background:#D9FDD3}
+.msg small{display:block;text-align:right;font-size:28px;color:#4B5768;margin-top:4px}
+.ilus{font-size:28px;color:#4B5768;margin-top:16px;text-align:right}
+.shot{margin-top:48px;border-radius:32px;overflow:hidden;border:4px solid var(--teal);box-shadow:0 30px 60px rgba(2,8,23,.18);position:relative;background:#fff}
+.shot img{display:block;width:100%}
+.ring{position:absolute;border:8px solid var(--lime);border-radius:24px}
+.cap{display:flex;gap:20px;align-items:center;font-size:38px;font-weight:700;margin-top:34px}
+.cap b{flex:none;width:60px;height:60px;border-radius:50%;background:var(--lime);color:var(--ink);display:flex;align-items:center;justify-content:center;font-size:34px}
+.rows{margin-top:40px;display:flex;flex-direction:column;gap:22px}
+.row{display:flex;gap:24px;align-items:center;font-size:42px;line-height:1.2;font-weight:700}
+.row svg{flex:none;width:48px;height:48px}
+.box{border-radius:32px;padding:34px 40px;margin-top:34px}
+.box h3{font-size:34px;font-weight:800;margin-bottom:18px}
+.boxa{background:#fff;color:var(--ink)} .boxa h3{color:#C2333A}
+.boxb{background:var(--teal);color:var(--ink)}
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="20" data-width="1080" data-height="1920">
+
+  <div id="sc1" class="scene lime clip" data-start="0" data-duration="3.4" data-track-index="0">
+    <svg class="rings" id="rings" data-layout-allow-overflow width="900" height="700" viewBox="0 0 900 700"><g fill="none" stroke="#020817" stroke-width="64" opacity=".08">
+      <circle cx="330" cy="350" r="300" stroke-dasharray="1700 185" transform="rotate(-70 330 350)"/>
+      <circle cx="590" cy="350" r="300" stroke-dasharray="1700 185" transform="rotate(110 590 350)"/></g></svg>
+    <div class="pad">
+      <div class="chip" id="k1">RH e DP</div>
+      <h1><span class="line"><span id="l1">Admissão pelo</span></span><span class="line"><span id="l2">WhatsApp é</span></span><span class="line"><span id="l3">foto de RG</span></span><span class="line"><span id="l4">cortada.</span></span></h1>
+    </div>
+  </div>
+
+  <div id="sc2" class="scene mist clip" data-start="3.4" data-duration="4.6" data-track-index="0">
+    <div class="pad" style="top:230px">
+      <div class="chip">No WhatsApp do RH</div>
+      <div class="chat" id="chat">
+        <div class="ctop"><span>Candidato novo<small>Admissão de janeiro</small></span></div>
+        <div class="cbody">
+          <div class="msg" id="m1"><em>Diego</em>Mandei o RG, serve?<small>08:47</small></div>
+          <div class="msg me" id="m2">Saiu cortado. Manda de novo?<small>09:30</small></div>
+          <div class="msg" id="m3"><em>Diego</em>E qual comprovante de endereço vale?<small>11:05</small></div>
+        </div>
+      </div>
+      <div class="ilus">Conversa ilustrativa</div>
+    </div>
+  </div>
+
+  <div id="sc3" class="scene light clip" data-start="8" data-duration="3.8" data-track-index="0">
+    <div class="pad" style="top:230px">
+      <div class="chip">No Moove</div>
+      <h2 id="h3">Você envia um link. O candidato <span class="hl">preenche a ficha.</span></h2>
+      <div class="shot" id="shot" style="padding:24px"><img src="img/convite.png" /><div class="ring" id="foco" style="left:43%;top:12%;width:50%;height:76%"></div></div>
+      <div class="cap" id="cap3"><b>1</b><span>Convite por link, direto da admissão</span></div>
+    </div>
+  </div>
+
+  <div id="sc4" class="scene deep clip" data-start="11.8" data-duration="4.4" data-track-index="0">
+    <div class="pad" style="top:230px">
+      <div class="chip">Admissão</div>
+      <h2 id="h4" style="font-size:80px">Cada candidato numa etapa</h2>
+      <div class="rows" id="etapas" style="margin-top:50px;gap:26px">
+        <div class="row" id="e1"><span class="dot" style="width:40px;height:40px;border-radius:50%;background:#94A3B8;flex:none"></span>Rascunho</div>
+        <div class="row" id="e2"><span class="dot" style="width:40px;height:40px;border-radius:50%;background:#3B82F6;flex:none"></span>Convite enviado</div>
+        <div class="row" id="e3"><span class="dot" style="width:40px;height:40px;border-radius:50%;background:#F59E0B;flex:none"></span>Em preenchimento</div>
+        <div class="row" id="e4"><span class="dot" style="width:40px;height:40px;border-radius:50%;background:#A855F7;flex:none"></span>Em análise</div>
+      </div>
+      <p class="sub" id="p4" style="margin-top:44px">Ficha, documentos e aprovação no mesmo processo.</p>
+    </div>
+  </div>
+
+  <div id="sc5" class="scene deep clip" data-start="16.2" data-duration="3.8" data-track-index="0">
+    <div class="pad" style="top:300px">
+      <div class="chip">Teste grátis</div>
+      <h2 id="h5">Admissão digital: teste 7&nbsp;dias grátis</h2>
+      <div class="pill" id="pill">Link na bio</div>
+      <div class="send" id="send"><svg viewBox="0 0 24 24"><path d="M3 11.5L21 3l-8.5 18-2.2-7.3z" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/></svg><span>Mande para quem cuida do RH</span></div>
+    </div>
+    <img class="logo" id="logo" src="assets/img/logo-branca.png" />
+  </div>
+
+</div>
+<script>
+const tl = gsap.timeline({ paused: true });
+tl.from("#rings", {scale:.6, rotation:-40, opacity:0, transformOrigin:"50% 50%", duration:1.2, ease:"power3.out"}, 0);
+tl.fromTo("#l4", {x:0}, {x:14, duration:.06, repeat:5, yoyo:true, ease:"none"}, 0.9);
+tl.to("#rings", {rotation:25, transformOrigin:"50% 50%", duration:2.2, ease:"none"}, 1.2);
+tl.from("#chat", {y:80, opacity:0, duration:.4, ease:"power3.out"}, 3.45);
+tl.from("#m1", {scale:.8, opacity:0, transformOrigin:"0% 100%", duration:.3, ease:"back.out(2)"}, 3.7);
+tl.from("#m2", {scale:.8, opacity:0, transformOrigin:"100% 100%", duration:.3, ease:"back.out(2)"}, 4.7);
+tl.from("#m3", {scale:.8, opacity:0, transformOrigin:"0% 100%", duration:.3, ease:"back.out(2)"}, 5.7);
+tl.from("#h3", {y:50, opacity:0, duration:.4, ease:"power3.out"}, 8.05);
+tl.from("#shot", {y:90, opacity:0, duration:.45, ease:"power3.out"}, 8.3);
+tl.from("#foco", {scale:1.3, opacity:0, transformOrigin:"50% 50%", duration:.4, ease:"back.out(2)"}, 8.9);
+tl.from("#cap3", {y:30, opacity:0, duration:.35, ease:"power2.out"}, 9.0);
+tl.from("#h4", {y:50, opacity:0, duration:.4, ease:"power3.out"}, 11.85);
+tl.from(["#e1","#e2","#e3","#e4"], {x:40, opacity:0, duration:.3, ease:"power2.out", stagger:.2}, 12.0);
+tl.to("#e1", {color:"#9DC129", scale:1.06, transformOrigin:"0% 50%", duration:.2}, 13.0);
+tl.to("#e1", {color:"#FFFFFF", scale:1, duration:.2}, 13.6);
+tl.to("#e2", {color:"#9DC129", scale:1.06, transformOrigin:"0% 50%", duration:.2}, 13.6);
+tl.to("#e2", {color:"#FFFFFF", scale:1, duration:.2}, 14.2);
+tl.to("#e3", {color:"#9DC129", scale:1.06, transformOrigin:"0% 50%", duration:.2}, 14.2);
+tl.to("#e3", {color:"#FFFFFF", scale:1, duration:.2}, 14.8);
+tl.to("#e4", {color:"#9DC129", scale:1.06, transformOrigin:"0% 50%", duration:.2}, 14.8);
+tl.from("#p4", {y:30, opacity:0, duration:.35}, 13.4);
+tl.from("#h5", {y:60, opacity:0, duration:.45, ease:"power3.out"}, 16.25);
+tl.from("#pill", {scale:.7, opacity:0, duration:.4, ease:"back.out(2.2)"}, 16.6);
+tl.from("#send", {y:30, opacity:0, duration:.35}, 16.8);
+tl.from("#logo", {opacity:0, duration:.4}, 16.9);
+window.__timelines["main"] = tl;
+tl.seek(0);
+</script>
+</body>
+</html>

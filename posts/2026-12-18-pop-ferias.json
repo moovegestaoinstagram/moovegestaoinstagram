@@ -1,0 +1,174 @@
+{
+ "slug": "2026-12-18-pop-ferias",
+ "formato": "carrossel",
+ "data": "2026-12-18T10:00:00",
+ "pilar": "Gestão na prática",
+ "perfil": "operação",
+ "versao": "v2",
+ "teste_ab": "gancho em pergunta (x número em 14/12)",
+ "legenda": "Procedimento operacional padrão (POP): se você tirar férias em janeiro, a empresa sabe fazer o que só você faz?\n\nFaça o teste: liste as tarefas em que a resposta da equipe é \"pergunta pro fulano\". Cada uma delas para quando essa pessoa viaja.\n\nNo carrossel: 3 sinais de processo que mora na cabeça de alguém, como escrever o primeiro POP em 4 passos e onde guardar. No Moove, cada POP tem status (rascunho, em revisão, publicado) e versão, passa por revisão e aprovação antes de virar orientação oficial, e a equipe acha o procedimento pela busca com IA.\n\nTeste 7 dias grátis, sem cartão: moovesales.com.br (link na bio).\n\nMande para quem toca a operação aí.\n\n#pop #procedimentooperacionalpadrao #gestaodeprocessos #operacoes #gestaoempresarial",
+ "slides": [
+  {
+   "tipo": "capa",
+   "tema": "dark",
+   "kicker": "Operação",
+   "titulo": "Se você tirar férias em janeiro, a empresa sabe o que fazer?",
+   "destaque": "sabe o que fazer?",
+   "texto": "Faça o teste antes de viajar."
+  },
+  {
+   "tipo": "conversa",
+   "tema": "mist",
+   "kicker": "Janeiro na operação",
+   "titulo": "Segunda semana de janeiro",
+   "grupo": "Operação",
+   "sub": "Rafael, Carla, você",
+   "mensagens": [
+    {
+     "de": "Rafael",
+     "texto": "Cliente pediu a renovação do contrato. Onde fica o modelo?",
+     "hora": "09:12"
+    },
+    {
+     "de": "Carla",
+     "cor": "#7C3AED",
+     "texto": "Quem fazia isso era o Paulo. Ele já voltou?",
+     "hora": "09:20"
+    },
+    {
+     "de": "Rafael",
+     "texto": "Só dia 20",
+     "hora": "09:21"
+    },
+    {
+     "eu": true,
+     "texto": "Então o cliente vai esperar o Paulo.",
+     "hora": "09:23"
+    }
+   ]
+  },
+  {
+   "tipo": "gancho",
+   "tema": "light",
+   "kicker": "Teste rápido",
+   "titulo": "3 sinais de que o processo mora na cabeça de alguém",
+   "destaque": "na cabeça de alguém",
+   "lista": [
+    "A resposta padrão é \"pergunta pro fulano\"",
+    "Cada pessoa faz a mesma tarefa de um jeito",
+    "Quem entra aprende olhando o colega"
+   ]
+  },
+  {
+   "tipo": "versus",
+   "tema": "deep",
+   "kicker": "O que muda",
+   "titulo": "Processo na cabeça x processo escrito",
+   "antes_titulo": "Na cabeça",
+   "antes": [
+    "Para quando a pessoa falta",
+    "O erro aparece no cliente",
+    "Treinar depende de quem sabe"
+   ],
+   "depois_titulo": "Num POP",
+   "depois": [
+    "Passo a passo escrito",
+    "Versão aprovada para todos",
+    "Consulta com busca por IA"
+   ]
+  },
+  {
+   "tipo": "icones",
+   "tema": "mist",
+   "kicker": "Por onde começar",
+   "titulo": "Comece pelo que trava a empresa quando alguém falta",
+   "itens": [
+    {
+     "icone": "file-signature",
+     "t": "Proposta e contrato",
+     "d": "O que trava venda"
+    },
+    {
+     "icone": "user-plus",
+     "t": "Chegada de alguém novo",
+     "d": "Acessos e primeiros dias"
+    },
+    {
+     "icone": "shopping-cart",
+     "t": "Pedido de compra",
+     "d": "Quem pede e quem aprova"
+    },
+    {
+     "icone": "calendar-check",
+     "t": "Fechamento do mês",
+     "d": "O que não pode atrasar"
+    }
+   ]
+  },
+  {
+   "tipo": "passos",
+   "tema": "light",
+   "kicker": "Seu primeiro POP",
+   "titulo": "Escreva o primeiro POP em 4 passos",
+   "passos": [
+    {
+     "icone": "user-check",
+     "t": "Escolha a tarefa que só uma pessoa sabe fazer",
+     "d": "Comece por uma só."
+    },
+    {
+     "icone": "pencil-line",
+     "t": "Peça para ela fazer e anote cada passo",
+     "d": "Com prints e links de apoio."
+    },
+    {
+     "icone": "users",
+     "t": "Alguém de fora testa seguindo só o texto",
+     "d": "Onde travar, reescreva."
+    },
+    {
+     "icone": "badge-check",
+     "t": "Publique a versão aprovada",
+     "d": "E avise a equipe onde está."
+    }
+   ]
+  },
+  {
+   "tipo": "tela",
+   "tema": "mist",
+   "kicker": "No Moove",
+   "titulo": "Cada POP com seu status",
+   "destaque": "status",
+   "tela": "pops.webp",
+   "recorte": [
+    0.1,
+    0.59,
+    0.55,
+    1.0
+   ],
+   "pinos": [
+    [
+     0.6,
+     0.08,
+     "Publicado, em revisão ou rascunho"
+    ]
+   ]
+  },
+  {
+   "tipo": "frase",
+   "tema": "lime",
+   "frase": "Processo que só existe na cabeça de alguém tira férias junto.",
+   "destaque": "tira férias junto",
+   "assinatura": "Moove Gestão"
+  },
+  {
+   "tipo": "cta",
+   "tema": "deep",
+   "kicker": "Teste grátis",
+   "titulo": "POPs, tarefas e base de conhecimento no Moove",
+   "destaque": "no Moove",
+   "botao": "Link na bio",
+   "enviar": "Mande para quem toca a operação"
+  }
+ ]
+}
