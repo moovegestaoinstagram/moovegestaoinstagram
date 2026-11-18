@@ -76,6 +76,7 @@ p{font-size:40px;line-height:1.38;font-weight:400;margin-top:32px;color:var(--mu
 .zoom img{display:block;max-width:100%;max-height:var(--imgmax);width:auto;height:auto;border-radius:16px}
 .fwrap{position:relative;overflow:hidden;border-radius:16px}
 .foco{position:absolute;border:7px solid var(--lime);border-radius:18px;box-shadow:0 0 0 9999px rgba(2,8,23,.28)}
+.zoom .foco{box-shadow:none}
 .dark .zoom,.deep .zoom{border-color:var(--lime)}
 /* pinos de anotação na tela */
 .pin{position:absolute;width:64px;height:64px;margin:-32px 0 0 -32px;border-radius:50%;background:var(--lime);color:var(--ink);font-size:34px;font-weight:800;
@@ -108,12 +109,12 @@ p{font-size:40px;line-height:1.38;font-weight:400;margin-top:32px;color:var(--mu
 .chat{margin-top:40px;background:#EFEAE2;border-radius:36px;overflow:hidden;box-shadow:0 30px 60px rgba(2,8,23,.18)}
 .chat .top{background:var(--wa);color:#fff;padding:26px 36px;display:flex;align-items:center;gap:22px}
 .chat .top i{width:64px;height:64px;border-radius:50%;background:rgba(255,255,255,.25);display:flex;align-items:center;justify-content:center;font-style:normal;font-weight:800;font-size:28px}
-.chat .top b{font-size:34px;display:block} .chat .top span{font-size:24px;opacity:.85}
+.chat .top b{font-size:34px;display:block} .chat .top span{font-size:30px;opacity:.85}
 .chat .body{padding:24px 28px 28px;display:flex;flex-direction:column;gap:12px}
 .msg{max-width:82%;background:#fff;color:#111B21;border-radius:22px;padding:14px 24px 10px;font-size:31px;line-height:1.32;box-shadow:0 2px 2px rgba(0,0,0,.06)}
 .msg.me{align-self:flex-end;background:var(--wabubble)}
-.msg em{display:block;font-style:normal;font-size:24px;font-weight:700;margin-bottom:4px}
-.msg small{display:block;text-align:right;font-size:26px;color:#667781;margin-top:4px}
+.msg em{display:block;font-style:normal;font-size:30px;font-weight:700;margin-bottom:4px}
+.msg small{display:block;text-align:right;font-size:30px;color:#667781;margin-top:4px}
 .ilus{font-size:30px;color:var(--muted);margin-top:16px;text-align:right} .dark .ilus,.deep .ilus{color:#94A3B8}
 /* checklist */
 .check{margin-top:40px;display:flex;flex-direction:column;gap:22px}

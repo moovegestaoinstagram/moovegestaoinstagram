@@ -1,0 +1,176 @@
+{
+ "slug": "2026-12-21-recesso-atendimento",
+ "formato": "carrossel",
+ "data": "2026-12-21T10:00:00",
+ "pilar": "Gestão na prática",
+ "perfil": "comercial/atendimento",
+ "versao": "v2",
+ "mecanica": "conta que surpreende (11 dias) + cena do dia a dia (curiosidade da semana)",
+ "legenda": "Mensagem automática de recesso no WhatsApp: quem vai responder o cliente entre 24/12 e 03/01?\n\nDe 24/12 a 03/01 são 11 dias, com dois feriados e dois fins de semana no meio. Se a empresa para sem avisar, o cliente manda mensagem, espera e, na volta, às vezes já resolveu com outra empresa.\n\nNo carrossel: o checklist para fechar o recesso e por onde a equipe começa na volta. No Moove, o WhatsApp da equipe tem chatbots com blocos de mensagem e transferência, campanhas com agendamento, automações com expediente e respostas rápidas. Na volta, o filtro Não atribuídas mostra as conversas que ainda estão sem responsável.\n\nSalve para usar antes de quinta. Teste 7 dias grátis, sem cartão: moovesales.com.br (link na bio).\n\nMande para quem cuida do atendimento aí.\n\n#atendimentoaocliente #whatsappparaempresas #recesso #gestaocomercial #pme",
+ "slides": [
+  {
+   "tipo": "capa",
+   "tema": "light",
+   "kicker": "Atendimento",
+   "titulo": "O cliente mandou mensagem no dia 26/12. Quem vai responder?",
+   "destaque": "Quem vai responder?",
+   "texto": "O plano de atendimento para o recesso de fim de ano."
+  },
+  {
+   "tipo": "numero",
+   "tema": "deep",
+   "kicker": "Faça a conta",
+   "numero": "11",
+   "unidade": "dias",
+   "titulo": "de recesso, de 24/12 a 03/01",
+   "texto": "Se a empresa para sem avisar, cada mensagem que chega nesse período espera até 04/01.",
+   "chips": [
+    "2 feriados",
+    "2 fins de semana"
+   ]
+  },
+  {
+   "tipo": "conversa",
+   "tema": "mist",
+   "kicker": "Do outro lado",
+   "titulo": "O que o cliente vê enquanto a empresa está fechada",
+   "grupo": "Mariana Souza",
+   "sub": "cliente",
+   "mensagens": [
+    {
+     "de": "Mariana",
+     "texto": "Oi! Vocês estão funcionando? Preciso do orçamento até dia 5.",
+     "hora": "26/12 10:14"
+    },
+    {
+     "de": "Mariana",
+     "texto": "Alguém por aí?",
+     "hora": "28/12 16:02"
+    },
+    {
+     "eu": true,
+     "texto": "Oi, Mariana! Voltamos hoje. Ainda precisa do orçamento?",
+     "hora": "04/01 09:05"
+    },
+    {
+     "de": "Mariana",
+     "texto": "Já fechei com outra empresa, obrigada.",
+     "hora": "04/01 09:40"
+    }
+   ]
+  },
+  {
+   "tipo": "versus",
+   "tema": "light",
+   "kicker": "O que muda",
+   "titulo": "Recesso sem plano x recesso com plano",
+   "antes_titulo": "Sem plano",
+   "antes": [
+    "Mensagem sem resposta por dias",
+    "Cliente sem saber quando vocês voltam",
+    "Na volta, ninguém sabe quem atende"
+   ],
+   "depois_titulo": "Com plano",
+   "depois": [
+    "Resposta com a data de volta",
+    "Plantão para o que é urgente",
+    "Cada conversa com um responsável"
+   ]
+  },
+  {
+   "tipo": "checklist",
+   "tema": "mist",
+   "kicker": "Para salvar",
+   "titulo": "Antes de fechar para o recesso",
+   "itens": [
+    "Avise os clientes ativos da data de volta",
+    "Deixe uma resposta automática com essa data",
+    "Escolha quem fica de plantão e para quê",
+    "Responda tudo o que entrou até o último dia",
+    "Combine por onde a equipe começa na volta"
+   ]
+  },
+  {
+   "tipo": "icones",
+   "tema": "deep",
+   "kicker": "No WhatsApp do Moove",
+   "titulo": "O que dá para deixar pronto antes de sair",
+   "itens": [
+    {
+     "icone": "bot",
+     "t": "Chatbot",
+     "d": "Mensagem do recesso e transferência para o plantão"
+    },
+    {
+     "icone": "megaphone",
+     "t": "Campanha",
+     "d": "Aviso agendado para os clientes"
+    },
+    {
+     "icone": "zap",
+     "t": "Resp. Rápidas",
+     "d": "Texto pronto para a volta"
+    },
+    {
+     "icone": "workflow",
+     "t": "Automações",
+     "d": "Regras com expediente e janela de envio"
+    }
+   ]
+  },
+  {
+   "tipo": "tela",
+   "tema": "light",
+   "kicker": "Na volta",
+   "titulo": "Comece pelas conversas sem responsável",
+   "destaque": "sem responsável",
+   "tela": "whatsapp.webp",
+   "recorte": [
+    0.0,
+    0.215,
+    0.29,
+    0.54
+   ],
+   "pinos": [
+    [
+     0.72,
+     0.235,
+     "Filtro Não atribuídas, no Inbox do WhatsApp"
+    ]
+   ],
+   "foco": [
+    0.437,
+    0.025,
+    0.79,
+    0.145
+   ]
+  },
+  {
+   "tipo": "frase",
+   "tema": "lime",
+   "frase": "O cliente aceita esperar. Ele só precisa saber até quando.",
+   "destaque": "até quando",
+   "assinatura": "Moove Gestão"
+  },
+  {
+   "tipo": "cta",
+   "tema": "dark",
+   "kicker": "Teste grátis",
+   "titulo": "Chatbot, campanhas e automações no WhatsApp da equipe",
+   "destaque": "WhatsApp da equipe",
+   "botao": "Link na bio",
+   "enviar": "Mande para quem cuida do atendimento"
+  }
+ ],
+ "alt": [
+  "Capa: o cliente mandou mensagem no dia 26/12, quem vai responder? Plano de atendimento no WhatsApp para o recesso de fim de ano",
+  "11 dias de recesso, de 24/12 a 03/01, com 2 feriados e 2 fins de semana: cada mensagem espera até 04/01",
+  "Conversa ilustrativa com nome fictício: cliente pede orçamento em 26/12, ninguém responde e na volta ela já fechou com outra empresa",
+  "Comparação: recesso sem plano x recesso com plano no atendimento",
+  "Checklist para salvar: antes de fechar para o recesso",
+  "No WhatsApp do Moove: chatbot, campanha agendada, respostas rápidas e automações com expediente",
+  "Tela real do Inbox do WhatsApp no Moove com o filtro Não atribuídas em destaque",
+  "Frase: o cliente aceita esperar, ele só precisa saber até quando",
+  "Chatbot, campanhas e automações no WhatsApp da equipe: teste grátis, link na bio"
+ ]
+}
