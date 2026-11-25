@@ -1,0 +1,178 @@
+{
+ "slug": "2026-12-28-reuniao-de-segunda",
+ "formato": "carrossel",
+ "data": "2026-12-28T10:00:00",
+ "pilar": "Gestão na prática",
+ "perfil": "dono",
+ "versao": "v2",
+ "mecanica": "conta que surpreende com a conta aberta (curiosidade da semana)",
+ "legenda": "Reunião semanal de equipe: quanto custa 1 hora toda segunda com 6 pessoas? Faça a conta antes da primeira de 2027.\n\nSão 288 horas por ano (6 pessoas × 1 hora × 48 semanas). Multiplique pelo custo da hora do seu time e veja quanto essa reunião custa por ano.\n\nNo carrossel: a conta para preencher com os seus números e um roteiro de 30 minutos para a segunda, 04/01. No Moove, o dashboard tem modo apresentação para abrir os números na reunião, e cada decisão vira uma tarefa em Tarefas e Projetos, com responsável e prazo. Na semana seguinte, o indicador de atrasadas mostra o que não andou.\n\nSalve o roteiro para segunda. Teste 7 dias grátis, sem cartão: moovesales.com.br (link na bio).\n\nMande para quem conduz a reunião de segunda aí.\n\n#reuniaodeequipe #gestaodeequipes #gestaoempresarial #donodeempresa #produtividade",
+ "slides": [
+  {
+   "tipo": "capa",
+   "tema": "dark",
+   "kicker": "Gestão",
+   "titulo": "Quanto custa a sua reunião de segunda?",
+   "destaque": "reunião de segunda?",
+   "texto": "6 pessoas, 1 hora por semana. Faça a conta antes da 1ª reunião de 2027."
+  },
+  {
+   "tipo": "numero",
+   "tema": "deep",
+   "kicker": "Faça a conta",
+   "numero": "288",
+   "unidade": "horas",
+   "titulo": "por ano numa reunião de 1 hora com 6 pessoas",
+   "chips": [
+    "6 pessoas",
+    "1 hora por semana",
+    "48 semanas"
+   ]
+  },
+  {
+   "tipo": "nota",
+   "tema": "light",
+   "kicker": "Agora a sua",
+   "titulo": "Troque pelos números da sua equipe",
+   "nota_titulo": "Reunião de segunda",
+   "data": "Segunda-feira, 08:12",
+   "nota_texto": "Pessoas na sala: ___\nHoras por reunião: ___\nSemanas no ano: 48 (tirando férias e feriados)\nCusto médio da hora por pessoa: R$ ___\n\nPessoas × horas × 48 × custo = R$ ___ por ano"
+  },
+  {
+   "tipo": "conversa",
+   "tema": "mist",
+   "kicker": "Onde a hora vai",
+   "titulo": "18 minutos para achar um número",
+   "grupo": "Reunião de segunda",
+   "sub": "6 participantes",
+   "mensagens": [
+    {
+     "de": "Carla",
+     "texto": "Alguém trouxe o número de vendas da semana?",
+     "hora": "09:02"
+    },
+    {
+     "de": "Renato",
+     "texto": "Achei a planilha, peraí",
+     "hora": "09:20",
+     "cor": "#B4540A"
+    },
+    {
+     "de": "Carla",
+     "texto": "E o cliente da semana passada, quem ligou?",
+     "hora": "09:21"
+    },
+    {
+     "eu": true,
+     "texto": "Achei que tinha ficado com você",
+     "hora": "09:22"
+    }
+   ]
+  },
+  {
+   "tipo": "versus",
+   "tema": "light",
+   "kicker": "O que muda",
+   "titulo": "Reunião de status x reunião de decisão",
+   "antes_titulo": "Status",
+   "antes": [
+    "Cada um conta o que fez",
+    "Número caçado na planilha",
+    "Sai sem responsável por nada"
+   ],
+   "depois_titulo": "Decisão",
+   "depois": [
+    "Números na tela antes de começar",
+    "Na pauta, só o que travou",
+    "Cada decisão com dono e prazo"
+   ]
+  },
+  {
+   "tipo": "passos",
+   "tema": "deep",
+   "kicker": "Para salvar",
+   "titulo": "Roteiro de 30 minutos para segunda",
+   "passos": [
+    {
+     "icone": "chart-column",
+     "t": "Números da semana (5 min)",
+     "d": "Painel aberto na tela. Ninguém lê planilha em voz alta."
+    },
+    {
+     "icone": "triangle-alert",
+     "t": "O que travou (10 min)",
+     "d": "Só o que precisa de ajuda ou de decisão."
+    },
+    {
+     "icone": "circle-check",
+     "t": "Decisões (10 min)",
+     "d": "Uma por vez, até fechar."
+    },
+    {
+     "icone": "user-check",
+     "t": "Quem faz o quê (5 min)",
+     "d": "Cada decisão sai com responsável e prazo."
+    }
+   ]
+  },
+  {
+   "tipo": "tela",
+   "tema": "light",
+   "kicker": "Na semana seguinte",
+   "titulo": "Comece pelas tarefas atrasadas",
+   "destaque": "atrasadas",
+   "tela": "tarefas.webp",
+   "recorte": [
+    0.0,
+    0.17,
+    0.425,
+    0.6
+   ],
+   "foco": [
+    0.62,
+    0.035,
+    0.88,
+    0.41
+   ],
+   "pinos": [
+    [
+     0.9,
+     0.06,
+     "Tarefas atrasadas, no topo de Tarefas e Projetos"
+    ],
+    [
+     0.625,
+     0.9,
+     "Filtro por responsável"
+    ]
+   ]
+  },
+  {
+   "tipo": "frase",
+   "tema": "lime",
+   "frase": "Decisão sem dono e sem prazo volta na próxima reunião.",
+   "destaque": "volta na próxima reunião",
+   "assinatura": "Moove Gestão"
+  },
+  {
+   "tipo": "cta",
+   "tema": "deep",
+   "kicker": "Teste grátis",
+   "titulo": "Painel e tarefas com prazo no mesmo sistema",
+   "destaque": "no mesmo sistema",
+   "botao": "Link na bio",
+   "enviar": "Mande para quem conduz a reunião de segunda"
+  }
+ ],
+ "alt": [
+  "Capa: quanto custa a sua reunião de segunda? A conta para fazer antes da primeira reunião de 2027",
+  "288 horas por ano numa reunião de 1 hora com 6 pessoas: 6 pessoas, 1 hora por semana, 48 semanas",
+  "Nota de celular para preencher: pessoas na sala, horas por reunião, 48 semanas no ano e custo médio da hora; pessoas × horas × 48 × custo = total por ano",
+  "Conversa ilustrativa com nomes fictícios: na reunião de segunda, 18 minutos para achar o número de vendas na planilha e ninguém sabe quem ligou para o cliente",
+  "Comparação: reunião de status x reunião de decisão",
+  "Roteiro de 30 minutos para salvar: números da semana, o que travou, decisões e quem faz o quê",
+  "Tela real de Tarefas e Projetos do Moove com o indicador de tarefas atrasadas em destaque e o filtro por responsável",
+  "Frase: decisão sem dono e sem prazo volta na próxima reunião",
+  "Painel e tarefas com prazo no mesmo sistema: teste grátis, link na bio"
+ ]
+}

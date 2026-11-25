@@ -131,10 +131,10 @@ p{font-size:40px;line-height:1.38;font-weight:400;margin-top:32px;color:var(--mu
 .lime .quiz div{background:rgba(255,255,255,.55);border-color:transparent}
 /* nota de celular (lo-fi) */
 .nota{margin-top:36px;background:#fff;border-radius:40px;padding:40px 52px 56px;box-shadow:0 30px 60px rgba(2,8,23,.16);color:#1C1C1E}
-.nota .sb{display:flex;justify-content:space-between;font-size:26px;font-weight:700;margin-bottom:26px}
-.nota .nv{font-size:32px;color:#D99A00;font-weight:600;margin-bottom:22px}
+.nota .sb{display:flex;justify-content:space-between;font-size:30px;font-weight:700;margin-bottom:26px}
+.nota .nv{font-size:32px;color:#8A6A00;font-weight:600;margin-bottom:22px}
 .nota h4{font-size:52px;font-weight:800;line-height:1.15;margin-bottom:20px}
-.nota .d{font-size:24px;color:#8E8E93;margin-bottom:26px}
+.nota .d{font-size:30px;color:#595959;margin-bottom:26px}
 .nota .t{font-size:36px;line-height:1.5;white-space:pre-line}
 /* tabela */
 .tab{margin-top:40px;border-radius:28px;overflow:hidden;font-size:31px;background:#fff;box-shadow:0 20px 50px rgba(2,8,23,.10)}
